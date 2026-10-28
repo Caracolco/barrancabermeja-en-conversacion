@@ -1,4 +1,4 @@
-import { fmt, fmtDate, fmtPct } from './format';
+import { fmt, fmtPct } from './format';
 import type { Story } from '../report/story';
 
 export interface Conclusion {
@@ -10,6 +10,7 @@ export interface Conclusion {
 }
 
 const pct = (a: number, b: number) => (b ? (a / b) * 100 : 0);
+const listJoin = (xs: string[]) => (xs.length > 1 ? `${xs.slice(0, -1).join(', ')} y ${xs[xs.length - 1]}` : (xs[0] ?? ''));
 const plural = (n: number, one: string, many: string) => `${fmt(n)} ${n === 1 ? one : many}`;
 
 /**
@@ -27,12 +28,14 @@ export function buildConclusions(s: Omit<Story, 'conclusions'>): Conclusion[] {
 
   out.push({
     id: 'visibilidad',
-    title: 'Ciro Fernández ocupa un lugar pequeño en la conversación registrada',
+    title: 'Ciro Fernández ocupa un lugar pequeño y el tablero 2027 apenas asoma',
     figure: `${fmt(c.direct)} de ${fmt(s.analyzed)}`,
-    figureLabel: `registros lo mencionan o salen de sus cuentas (${fmtPct(c.share, 1)})`,
+    figureLabel: `registros de la escucha lo mencionan o salen de sus cuentas (${fmtPct(c.share, 1)})`,
     text:
-      `Los otros ${fmt(c.otherRecords)} registros hablan de Barrancabermeja sin nombrarlo y no se le atribuyen. ` +
-      `Su presencia se concentra desde el ${fmtDate(c.firstOwn)}, cuando empiezan sus publicaciones en la muestra.`,
+      `Los otros ${fmt(c.otherRecords)} hablan de la ciudad sin nombrarlo; ${s.web.ciro === 0 ? 'ninguna' : fmt(s.web.ciro)} de las ${fmt(s.web.total)} notas web lo menciona. ` +
+      `De los ${fmt(s.figures.alcaldia.length)} nombres que suenan para la Alcaldía, ${listJoin(s.figures.soloWeb.map((f) => f.nombre))} solo aparecen en una nota web` +
+      (s.figures.funcionarios.length ? ` y ${listJoin(s.figures.funcionarios.map((f) => f.nombre))} figura en la escucha como funcionario` : '') +
+      '. Ninguna candidatura está confirmada.',
   });
 
   out.push({
@@ -71,7 +74,8 @@ export function buildConclusions(s: Omit<Story, 'conclusions'>): Conclusion[] {
     figure: fmtPct(pct(s.conversation.voices.medio, s.analyzed)),
     figureLabel: 'de los registros provienen de medios y portales',
     text:
-      `Solo ${fmt(st.citizens.total)} son de personas. La depuración preliminar excluyó ${fmt(r.excluidosSinTexto.total)} registros cuyo texto no se entregó, ` +
+      `Solo ${fmt(st.citizens.total)} son de personas. Las ${fmt(s.web.total)} notas web (${fmt(s.web.medios.length)} medios) no traen texto completo ni interacciones: complementan la escucha, no son comparables. ` +
+      `La depuración preliminar excluyó ${fmt(r.excluidosSinTexto.total)} registros cuyo texto no se entregó, ` +
       `entre ellos ${fmt(r.excluidosSinTexto.comentariosFacebook)} comentarios de Facebook. Sentione no clasificó el sentimiento del ${fmtPct(pct(r.sentione.sinClasificar, s.analyzed))}. ` +
       'El volumen de conversación no equivale a intención de voto.',
   });

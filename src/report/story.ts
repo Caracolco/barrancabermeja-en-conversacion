@@ -4,13 +4,15 @@
  */
 import { TOPIC_LABEL } from '../lib/config';
 import { buildConclusions, type Conclusion } from '../lib/conclusions';
-import type { CiroRel, Format, Platform, Registro, Resumen, Sentiment, Target, TopicId, Voice } from '../lib/types';
+import type { CiroRel, Figura, Format, Platform, Registro, Resumen, Sentiment, Target, TopicId, Voice } from '../lib/types';
 import registrosData from '../data/registros.json';
 import resumenData from '../data/resumen.json';
 import curated from '../data/evidencias.json';
+import figurasData from '../data/figuras.json';
 
 export const REGISTROS = registrosData as Registro[];
 export const RESUMEN = resumenData as Resumen;
+export const FIGURAS = figurasData as Figura[];
 
 export const pct = (a: number, b: number) => (b ? (a / b) * 100 : 0);
 
@@ -89,6 +91,29 @@ export interface TopicRow {
   negativo: number;
   negRate: number;
   share: number;
+  /** Notas de investigación web sobre el tema (no se suman al volumen de la escucha). */
+  web: number;
+}
+
+export interface WebStory {
+  total: number;
+  rows: number;
+  excluded: number;
+  medios: { medio: string; n: number }[];
+  counts: Record<Sentiment, number>;
+  ciro: number;
+  /** Nota que reporta posibles aspiraciones a la Alcaldía 2027. */
+  tablero?: Registro;
+}
+
+export interface FigureStory {
+  alcaldia: Figura[];
+  concejo: Figura[];
+  otros: Figura[];
+  /** Posibles aspirantes a la Alcaldía que la escucha nunca nombra. */
+  soloWeb: Figura[];
+  /** Posibles aspirantes que la escucha nombra solo como funcionarios. */
+  funcionarios: Figura[];
 }
 
 export interface Story {
@@ -99,7 +124,7 @@ export interface Story {
   replicas: number;
   resumen: Resumen;
   conversation: {
-    months: { month: string; total: number; ciro: number }[];
+    months: { month: string; total: number; ciro: number; web: number }[];
     weekly: { week: string; total: number; ciro: number }[];
     peak: { week: string; total: number; topic: string; topicCount: number };
     recent: { months: string[]; total: number; share: number };
@@ -136,6 +161,8 @@ export interface Story {
     positiveFrom: Record<Voice, number>;
   };
   evidence: { ciudad: CuratedGroup & { list: Evidence[] }; ciro: CuratedGroup & { list: Evidence[] }; temas: Evidence[] };
+  web: WebStory;
+  figures: FigureStory;
   conclusions: Conclusion[];
 }
 
@@ -164,7 +191,15 @@ function monthsBetween(from: string, to: string): string[] {
 
 export const MIN_FOR_CRITICAL = 15;
 
-export function buildStory(rs: Registro[] = REGISTROS, resumen: Resumen = RESUMEN, groups = curated as Record<'ciudad' | 'ciro' | 'temas', CuratedGroup>): Story {
+export function buildStory(
+  all: Registro[] = REGISTROS,
+  resumen: Resumen = RESUMEN,
+  groups = curated as Record<'ciudad' | 'ciro' | 'temas', CuratedGroup>,
+  figuras: Figura[] = FIGURAS,
+): Story {
+  // La escucha de Sentione es el universo comparable; la investigación web se analiza aparte.
+  const rs = all.filter((r) => r.fuente === 'sentione');
+  const webRs = all.filter((r) => r.fuente === 'web');
   const total = rs.length;
   const period = { from: resumen.fuente.ventana.desde, to: resumen.fuente.ventana.hasta, dataFrom: resumen.rango.desde, dataTo: resumen.rango.hasta };
   const isCiro = (r: Registro) => r.ciro !== null;
@@ -172,7 +207,7 @@ export function buildStory(rs: Registro[] = REGISTROS, resumen: Resumen = RESUME
   // La conversación
   const months = monthsBetween(period.from, period.to).map((mo) => {
     const inMonth = rs.filter((r) => month(r.fecha) === mo);
-    return { month: mo, total: inMonth.length, ciro: inMonth.filter(isCiro).length };
+    return { month: mo, total: inMonth.length, ciro: inMonth.filter(isCiro).length, web: webRs.filter((r) => month(r.fecha) === mo).length };
   });
   const weeks: string[] = [];
   for (let w = weekStart(period.dataFrom); w <= weekStart(period.dataTo); ) {
@@ -207,7 +242,7 @@ export function buildStory(rs: Registro[] = REGISTROS, resumen: Resumen = RESUME
   const rows: TopicRow[] = [...count(rs, (r) => r.tema).entries()]
     .map(([id, n]) => {
       const neg = rs.filter((r) => r.tema === id && r.sentimiento === 'negativo').length;
-      return { id, label: TOPIC_LABEL[id], total: n, negativo: neg, negRate: pct(neg, n), share: pct(n, total) };
+      return { id, label: TOPIC_LABEL[id], total: n, negativo: neg, negRate: pct(neg, n), share: pct(n, total), web: webRs.filter((r) => r.tema === id).length };
     })
     .sort((a, b) => b.total - a.total || a.label.localeCompare(b.label));
   const critical = rows.filter((t) => t.total >= MIN_FOR_CRITICAL).sort((a, b) => b.negRate - a.negRate || b.total - a.total);
@@ -220,6 +255,12 @@ export function buildStory(rs: Registro[] = REGISTROS, resumen: Resumen = RESUME
   const citizens = rs.filter((r) => r.voz === 'ciudadano');
   const positiveFrom = zeroVoice();
   for (const r of rs) if (r.sentimiento === 'positivo') positiveFrom[r.voz]++;
+
+  // Investigación web
+  const webCounts = zeroSent();
+  for (const r of webRs) webCounts[r.sentimiento]++;
+  const medios = [...count(webRs, (r) => r.autor ?? 'Sin medio').entries()].map(([medio, n]) => ({ medio, n })).sort((a, b) => b.n - a.n || a.medio.localeCompare(b.medio));
+  const tableroUrl = figuras.find((f) => f.id === 'carrillo')?.url;
 
   const story: Omit<Story, 'conclusions'> = {
     period,
@@ -277,6 +318,22 @@ export function buildStory(rs: Registro[] = REGISTROS, resumen: Resumen = RESUME
       ciudad: { ...groups.ciudad, list: pickEvidence(groups.ciudad.items, rs) },
       ciro: { ...groups.ciro, list: evCiro },
       temas: pickEvidence(groups.temas.items, rs),
+    },
+    web: {
+      total: webRs.length,
+      rows: resumen.web.filas,
+      excluded: resumen.web.excluidos,
+      medios,
+      counts: webCounts,
+      ciro: webRs.filter((r) => r.ciro !== null).length,
+      tablero: webRs.find((r) => r.url === tableroUrl),
+    },
+    figures: {
+      alcaldia: figuras.filter((f) => f.grupo === 'alcaldia'),
+      concejo: figuras.filter((f) => f.grupo === 'concejo'),
+      otros: figuras.filter((f) => f.grupo === 'otro_municipio' || f.grupo === 'organizacion'),
+      soloWeb: figuras.filter((f) => f.grupo === 'alcaldia' && f.sentione === 0 && f.web > 0),
+      funcionarios: figuras.filter((f) => f.grupo === 'alcaldia' && f.sentione > 0 && f.comoFuncionario / f.sentione >= 0.8),
     },
   };
   return { ...story, conclusions: buildConclusions(story) };

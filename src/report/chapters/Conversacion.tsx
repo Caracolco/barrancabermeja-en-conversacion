@@ -140,7 +140,7 @@ export default function Conversacion({ s }: { s: Story }) {
           El {fmtPct(c.recent.share)} de la conversación llegó entre {monthLong(m1)} y {monthLong(m3 ?? m1)}
         </>
       }
-      lead={`De ${fmt(s.rawRows)} registros capturados, ${fmt(s.analyzed)} hablan de verdad de Barrancabermeja, sus problemas o su política. Es una conversación de medios: ${fmtPct(medios)} la producen portales y noticieros.`}
+      lead={`De ${fmt(s.rawRows)} registros que capturó Sentione, ${fmt(s.analyzed)} hablan de verdad de Barrancabermeja, sus problemas o su política. Es una conversación de medios: ${fmtPct(medios)} la producen portales y noticieros. Las ${fmt(s.web.total)} notas de la investigación web se analizan aparte.`}
     >
       <div className="grid min-h-0 flex-1 gap-8 lg:grid-cols-[minmax(230px,0.8fr)_2.2fr] lg:gap-12">
         <div className="grid grid-cols-2 content-start gap-x-6 gap-y-7 sm:grid-cols-3 lg:grid-cols-1">
@@ -188,6 +188,11 @@ export default function Conversacion({ s }: { s: Story }) {
         <p className="rounded-lg bg-navy-50 p-3 text-[14px] text-ink-muted">
           Los {fmt(r.excluidosSinTexto.total)} excluidos preliminarmente no traen texto en los archivos entregados ({fmt(r.excluidosSinTexto.comentariosFacebook)} son
           comentarios de Facebook): no se pudieron volver a leer. Todas las decisiones están en la auditoría descargable.
+        </p>
+        <p>
+          <b>Investigación web.</b> Se añadieron {fmt(s.web.rows)} notas de medios encontradas por búsqueda pública. Quedan {fmt(s.web.total)}: {fmt(s.web.excluded)} salieron
+          (elecciones comunales y un tema laboral nacional). No traen texto completo ni interacciones, así que no se mezclan con la escucha: no entran en la curva
+          ni en las plataformas, y su sentimiento se lee solo en el titular.
         </p>
         <p className="text-[13.5px] text-ink-muted">Voces: {Object.entries(c.voices).map(([k, v]) => `${VOICE_LABEL[k as keyof typeof VOICE_LABEL]} ${fmt(v)}`).join(' · ')}.</p>
       </Dialog>

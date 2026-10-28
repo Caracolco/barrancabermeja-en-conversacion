@@ -7,6 +7,7 @@ import { AUDIT_URL, EASE } from './ui';
 import Portada from './chapters/Portada';
 import Conversacion from './chapters/Conversacion';
 import Ciro from './chapters/Ciro';
+import Tablero from './chapters/Tablero';
 import Ciudad from './chapters/Ciudad';
 import Voces from './chapters/Voces';
 import Conclusiones from './chapters/Conclusiones';
@@ -22,7 +23,7 @@ interface Chapter {
 export const CHAPTERS: Chapter[] = [
   { id: 'portada', label: 'Portada', steps: [''], render: (s, _, go) => <Portada s={s} onStart={() => go(1)} /> },
   { id: 'conversacion', label: 'La conversación', steps: [''], render: (s) => <Conversacion s={s} /> },
-  { id: 'ciro', label: 'Ciro Fernández', steps: [''], render: (s) => <Ciro s={s} /> },
+  { id: 'ciro', label: 'Ciro Fernández', steps: ['Su presencia', 'Tablero 2027'], render: (s, step) => (step === 1 ? <Tablero s={s} /> : <Ciro s={s} />) },
   { id: 'ciudad', label: '¿De qué habla Barrancabermeja?', steps: [''], render: (s) => <Ciudad s={s} /> },
   {
     id: 'voces',

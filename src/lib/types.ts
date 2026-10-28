@@ -28,7 +28,43 @@ export interface SourceRow {
   keyword: string;
   sentione: string;
   interacciones: number;
-  hoja: 'base' | 'pendiente';
+  hoja: 'base' | 'pendiente' | 'web';
+}
+
+/** Nota encontrada por investigación web: sin texto original ni interacciones, con un resumen editorial aparte. */
+export interface WebRow extends SourceRow {
+  /** Resumen de quien investigó; no es texto del medio y nunca se cita como evidencia. */
+  resumen: string;
+  actores: string[];
+  estadoPolitico: string;
+}
+
+/** Fila de la hoja «Figuras y verificación». */
+export interface FiguraFuente {
+  figura: string;
+  ambito: string;
+  referencia: string;
+  situacion: string;
+  fecha: string;
+  url: string;
+  tratamiento: string;
+}
+
+export type FiguraGrupo = 'alcaldia' | 'concejo' | 'otro_municipio' | 'organizacion';
+
+export interface Figura extends FiguraFuente {
+  id: string;
+  nombre: string;
+  grupo: FiguraGrupo;
+  /** Registros de Sentione que nombran a la figura. */
+  sentione: number;
+  /** De ellos, los que la nombran como funcionaria de la administración. */
+  comoFuncionario: number;
+  /** Notas web que la citan (titular o actores citados). */
+  web: number;
+  /** Solo Ciro Fernández: publicaciones de sus cuentas en la escucha. */
+  propias?: number;
+  nota: string;
 }
 
 /** Fila de la hoja «Auditoría»: una por cada registro de la exportación original. */
@@ -57,9 +93,13 @@ export interface ReviewEntry {
   revisar?: string;
 }
 
+export type Fuente = 'sentione' | 'web';
+
 /** Registro pertinente que entra en el informe. */
 export interface Registro {
   id: string;
+  /** Escucha de Sentione o investigación web; se analizan por separado. */
+  fuente: Fuente;
   fecha: string;
   plataforma: Platform;
   formato: Format;
@@ -71,8 +111,11 @@ export interface Registro {
   objetivo: Target;
   voz: Voice;
   ciro: CiroRel;
-  sentione: Sentiment | 'sin_clasificar';
+  sentione: Sentiment | 'sin_clasificar' | 'no_aplica';
   extracto: string;
+  /** Solo notas web: resumen editorial de la investigación (no es texto del medio). */
+  resumen?: string;
+  actores?: string[];
   /** Texto completo depurado de entidades HTML; solo en las evidencias. */
   texto?: string;
   revisar?: string;
@@ -113,6 +156,24 @@ export interface Resumen {
   excluidosSinTexto: { total: number; facebook: number; comentariosFacebook: number };
   sentione: { sinClasificar: number; coincidencia: number; comparables: number };
   motor: { temaCoincide: number; sentimientoCoincide: number; total: number };
+  web: ResumenWeb;
+}
+
+export interface ResumenWeb {
+  validacion: Check[];
+  archivo: string;
+  filas: number;
+  incluidos: number;
+  excluidos: number;
+  porMotivo: Record<string, number>;
+  duplicadosConSentione: string[];
+  fechasDiscrepantes: { id: string; fecha: string; enlace: string }[];
+  fuera: { id: string; fecha: string }[];
+  urlsAtipicas: { id: string; url: string }[];
+  sinTextoOriginal: number;
+  sinInteracciones: number;
+  medios: Record<string, number>;
+  hallazgoPorValidar: { cuenta: string; estado: string; enSentione: { id: string; fecha: string; url: string } | null };
 }
 
 export interface AuditoriaFila {

@@ -1,0 +1,289 @@
+{
+ "descripcion": "Revisión de las 26 notas de investigación web. No tienen texto original: el sentimiento se lee solo en el titular del medio; el resumen editorial de la investigación sirve de contexto y nunca se trata como texto del medio ni como comentario ciudadano. Ninguna tiene interacciones.",
+ "motivos": {
+  "comunal": "Elección de Juntas de Acción Comunal, fuera de la contienda municipal",
+  "fuera": "Tema nacional o regional con mención secundaria de la ciudad",
+  "duplicada": "Ya estaba en la escucha de Sentione"
+ },
+ "registros": [
+  {
+   "id": "WEB26_0effc9b466cc2d",
+   "fecha": "2026-10-26",
+   "ref": "Renuncias mueven el tablero político de Barrancabermeja",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "neutral",
+   "objetivo": "sin_objetivo",
+   "voz": "medio",
+   "nota": "Reporta posibles aspiraciones a la Alcaldía 2027 (Carrillo, Baeza, Arias, Granados) sin confirmación formal."
+  },
+  {
+   "id": "WEB26_ad5d19b69877e6",
+   "fecha": "2026-10-08",
+   "ref": "Alexis Guerrero deja la Secretaría de Cultura",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "neutral",
+   "objetivo": "sin_objetivo",
+   "voz": "medio",
+   "nota": "Renuncia en la administración vinculada a una eventual aspiración al Concejo, no confirmada."
+  },
+  {
+   "id": "WEB26_e728d00552b59e",
+   "fecha": "2026-03-06",
+   "ref": "Barrancabermeja busca mayor representación en el Congreso",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "neutral",
+   "objetivo": "sin_objetivo",
+   "voz": "medio",
+   "nota": "Elecciones legislativas 2026; no se refiere a la Alcaldía 2027."
+  },
+  {
+   "id": "WEB26_f14353ca32207f",
+   "fecha": "2026-07-15",
+   "ref": "Barrancabermeja tendrá dos voces en el Senado de la República",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "neutral",
+   "objetivo": "sin_objetivo",
+   "voz": "medio",
+   "nota": "Representación en el Senado; no implica aspiración a la Alcaldía."
+  },
+  {
+   "id": "WEB26_b89f5dee2fd9c0",
+   "fecha": "2026-01-19",
+   "ref": "Procuraduría anuncia vigilancia estricta a campañas en 2026",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "neutral",
+   "objetivo": "sin_objetivo",
+   "voz": "medio",
+   "nota": "Vigilancia del proceso electoral 2026, criterio igual al de la escucha (logística electoral)."
+  },
+  {
+   "id": "WEB26_9b2fd002c2ceff",
+   "fecha": "2026-05-27",
+   "ref": "Inspeccionan 67 puestos de votación en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "neutral",
+   "objetivo": "sin_objetivo",
+   "voz": "medio",
+   "nota": "Logística electoral 2026."
+  },
+  {
+   "id": "WEB26_9c3b61f52c1425",
+   "fecha": "2026-09-18",
+   "ref": "La Virgen volverá a votar por su Junta de Acción Comunal",
+   "decision": "excluir",
+   "motivo": "comunal",
+   "nota": "Elección de Junta de Acción Comunal, distinta de la contienda municipal."
+  },
+  {
+   "id": "WEB26_2affdf4779e60c",
+   "fecha": "2026-03-25",
+   "ref": "Inician capacitaciones para elecciones comunales en Barrancabermeja",
+   "decision": "excluir",
+   "motivo": "comunal",
+   "nota": "Capacitación para elecciones comunales."
+  },
+  {
+   "id": "WEB26_819361708df2f4",
+   "fecha": "2026-09-21",
+   "ref": "Vecinos de La Península piden atención a sus necesidades",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio",
+   "nota": "El titular presenta un reclamo vecinal; según la ficha, señalan compromisos pendientes de la administración."
+  },
+  {
+   "id": "WEB26_553d5aba4da64f",
+   "fecha": "2026-10-19",
+   "ref": "¿Qué pasa con el puente elevado de Barrancabermeja?",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "nota": "Pregunta pública sobre las obras del puente elevado."
+  },
+  {
+   "id": "WEB26_d266c683172856",
+   "fecha": "2026-10-05",
+   "ref": "Cierre del puente elevado se mantendrá hasta el 17 de octubre",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "nota": "Cierre temporal del puente elevado."
+  },
+  {
+   "id": "WEB26_25946633668dd3",
+   "fecha": "2026-10-27",
+   "ref": "Ciénaga del Opón recibirá agua potable y ayudas alimentarias",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "nota": "Atención por sequía en la Ciénaga del Opón."
+  },
+  {
+   "id": "WEB26_c5f5866dbf4654",
+   "fecha": "2026-10-26",
+   "ref": "Dos homicidios en menos de tres horas en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "nota": "Reporte judicial."
+  },
+  {
+   "id": "WEB26_3e81c4c30bb7e2",
+   "fecha": "2026-10-11",
+   "ref": "Una tubería averiada tiene sin agua a barrios de Barrancabermeja desde hace más de 60 hora",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "nota": "Mismo episodio que la nota de Vanguardia del 10 oct; otro medio, se conservan ambas."
+  },
+  {
+   "id": "WEB26_9a4d16fd1b92c5",
+   "fecha": "2026-10-08",
+   "ref": "Más de 1.000 familias afectadas por falta de agua en zona rural de Barrancabermeja, Santan",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "nota": "Mismo hecho que una publicación de Instagram de la escucha (9 oct); otro medio, se conserva."
+  },
+  {
+   "id": "WEB26_43da3044e6bfa6",
+   "fecha": "2026-09-07",
+   "ref": "Comunidades rurales protestaron por el mal estado de las vías terciarias en Barrancabermej",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "nota": "El titular reporta una protesta ciudadana."
+  },
+  {
+   "id": "WEB26_5050648f44fba0",
+   "fecha": "2026-08-26",
+   "ref": "Procuraduría media para superar emergencia sanitaria y ambiental en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "institucional",
+   "nota": "Comunicado institucional sobre la protesta de Patio Bonito."
+  },
+  {
+   "id": "WEB26_2168a11994b017",
+   "fecha": "2026-08-25",
+   "ref": "Alerta por cobros irregulares para acceder a citas en el Hospital Regional del Magdalena M",
+   "decision": "incluir",
+   "tema": "salud",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "nota": "Denuncia de presuntos cobros irregulares, sujeta a verificación."
+  },
+  {
+   "id": "WEB26_e4d9ef91985f69",
+   "fecha": "2026-02-23",
+   "ref": "Lluvias dejan viviendas destechadas y familias afectadas en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "riesgo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "nota": "Emergencia por lluvias."
+  },
+  {
+   "id": "WEB26_215cef64784dfc",
+   "fecha": "2026-10-13",
+   "ref": "Denuncian amenazas contra defensores ambientales en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "nota": "El titular reporta una denuncia de amenazas; no verificada judicialmente."
+  },
+  {
+   "id": "WEB26_4b8ecb2a593a1b",
+   "fecha": "2026-07-26",
+   "ref": "Comunidad exige acciones urgentes frente a problemática de habitantes en condición de call",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "nota": "El titular reporta una exigencia comunitaria."
+  },
+  {
+   "id": "WEB26_4aa1e92188d57b",
+   "fecha": "2026-06-02",
+   "ref": "USO declara paro de 24 horas en Ecopetrol y denuncia estancamiento en negociación laboral",
+   "decision": "excluir",
+   "motivo": "fuera",
+   "nota": "Conflicto laboral nacional de Ecopetrol; la mención a Barrancabermeja es secundaria.",
+   "revisar": "Dominio atípico (www.com.elcolombiano.com): abrir el enlace antes de citar."
+  },
+  {
+   "id": "WEB26_a0f953d331d83f",
+   "fecha": "2026-04-22",
+   "ref": "Juez falla demanda sobre el Malecón del Río en Barrancabermeja; 'violó derechos fundamenta",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio",
+   "nota": "Fallo judicial: el titular cita que se violaron derechos fundamentales. Menciona una actuación pasada de Leonardo Granados, no una aspiración 2027."
+  },
+  {
+   "id": "WEB26_403f264aff79fe",
+   "fecha": "2026-09-04",
+   "ref": "Policía Nacional frena extorsión en Barrancabermeja: dos capturados y 4 millones de pesos ",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "positivo",
+   "objetivo": "ciudad",
+   "voz": "institucional",
+   "nota": "Comunicado policial que celebra capturas; voz institucional, no queja espontánea.",
+   "revisar": "Subdominio atípico (chat.policia.gov.co): abrir el enlace antes de citar."
+  },
+  {
+   "id": "WEB26_dfdee080303f59",
+   "fecha": "2026-10-06",
+   "ref": "Consejo de Seguridad analizará violencia en el Magdalena Medio",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "nota": "Contexto regional de seguridad."
+  },
+  {
+   "id": "WEB26_d6880fba7d8c38",
+   "fecha": "2026-10-10",
+   "ref": "Daño en una tubería dejó sin agua a barrios de las comunas 4 y 7 de Barrancabermeja",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "nota": "Mismo episodio que la nota de Blu Radio del 11 oct; otro medio, se conservan ambas."
+  }
+ ]
+}

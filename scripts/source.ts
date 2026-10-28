@@ -2,12 +2,15 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import type { Declared } from '../src/lib/pipeline';
-import type { AuditRow, ReviewEntry, SourceRow } from '../src/lib/types';
+import type { AuditRow, FiguraFuente, ReviewEntry, SourceRow, WebRow } from '../src/lib/types';
 import { readXlsx, records } from './xlsx';
 
 export const ROOT = fileURLToPath(new URL('..', import.meta.url));
 export const SOURCE_XLSX = 'data/fuente/Ciro_Fernandez_escucha_depurada.xlsx';
 export const SOURCE_CSV = 'data/fuente/Ciro_Fernandez_base_depurada.csv';
+export const SOURCE_WEB_XLSX = 'data/fuente/Ciro_Fernandez_escucha_ampliada_fuentes_publicas.xlsx';
+export const SOURCE_WEB_CSV = 'data/fuente/Ciro_Fernandez_solo_nuevas_fuentes_web.csv';
+export const SOURCE_AMPLIADA_CSV = 'data/fuente/Ciro_Fernandez_base_ampliada_para_Claude.csv';
 export const REVIEW = 'data/revision/revision.json';
 export const EVIDENCE = 'src/data/evidencias.json';
 
@@ -88,4 +91,55 @@ export function readReview(): ReviewEntry[] {
 export function readEvidenceIds(): string[] {
   const ev = JSON.parse(readFileSync(`${ROOT}${EVIDENCE}`, 'utf8')) as Record<string, { items: { id: string }[] }>;
   return Object.values(ev).flatMap((g) => g.items.map((i) => i.id));
+}
+
+export interface WebSource {
+  /** Filas de Sentione dentro del libro ampliado: deben ser idénticas a la exportación original. */
+  sentione: SourceRow[];
+  web: WebRow[];
+  figuras: FiguraFuente[];
+  hallazgo: { cuenta: string; estado: string; descripcion: string; url: string };
+  metodologia: Record<string, string>;
+}
+
+/** Libro ampliado: hoja «Base depurada» (220 de Sentione + notas web) y hojas de la investigación. */
+export function readWebSource(path = `${ROOT}${SOURCE_WEB_XLSX}`): WebSource {
+  const wb = readXlsx(readFileSync(path));
+  const sheet = (name: string) => {
+    const s = wb[name];
+    if (!s) throw new Error(`Falta la hoja «${name}» en ${path}`);
+    return s;
+  };
+  const base = records(sheet('Base depurada'));
+  const fichas = new Map(records(sheet('Fuentes web nuevas')).map((r) => [r['ID'], r]));
+  const split = (s: string) => s.split(';').map((x) => x.trim()).filter(Boolean);
+  const web: WebRow[] = base
+    .filter((r) => r['Fuente'] !== 'Sentione')
+    .map((r) => {
+      const f = fichas.get(r['ID']);
+      if (!f) throw new Error(`Nota web sin ficha en «Fuentes web nuevas»: ${r['ID']}`);
+      return {
+        ...toSource(r, 'web'),
+        resumen: f['Resumen editorial (NO transcripción)'] ?? '',
+        actores: split(f['Figuras mencionadas'] ?? ''),
+        estadoPolitico: f['Estado candidatura'] ?? '',
+      };
+    });
+  const [h] = records(sheet('Hallazgo social por validar'));
+  const meta = sheet('Ampliación y metodología').slice(2);
+  return {
+    sentione: base.filter((r) => r['Fuente'] === 'Sentione').map((r) => toSource(r, 'base')),
+    web,
+    figuras: records(sheet('Figuras y verificación')).map((r) => ({
+      figura: r['Figura'],
+      ambito: r['Municipio/ámbito'],
+      referencia: r['Tipo referencia'],
+      situacion: r['Situación comprobada'],
+      fecha: r['Fecha fuente'],
+      url: r['URL de respaldo'],
+      tratamiento: r['Tratamiento en el informe'],
+    })),
+    hallazgo: { cuenta: h['Cuenta'], estado: h['Estado'], descripcion: h['Descripción verificada'], url: h['URL hallazgo'] },
+    metodologia: Object.fromEntries(meta.map((r) => [r[0], r[1]])),
+  };
 }

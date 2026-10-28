@@ -1,6 +1,7 @@
 [
  {
   "id": "f445532a3471b02ccdb13ee5ee3e0b99",
+  "fuente": "sentione",
   "fecha": "2026-01-05",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -16,6 +17,7 @@
  },
  {
   "id": "54e4b6057cc8ecae2d3248914cad19ff",
+  "fuente": "sentione",
   "fecha": "2026-01-06",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -31,6 +33,7 @@
  },
  {
   "id": "d418733c7b02581b03c2c5e004affa45",
+  "fuente": "sentione",
   "fecha": "2026-01-06",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -46,6 +49,7 @@
  },
  {
   "id": "twitter_2009637809108475916",
+  "fuente": "sentione",
   "fecha": "2026-01-09",
   "plataforma": "X",
   "formato": "Publicación",
@@ -61,6 +65,7 @@
  },
  {
   "id": "111361870319031_1476609011136481",
+  "fuente": "sentione",
   "fecha": "2026-01-10",
   "plataforma": "Facebook",
   "formato": "Publicación",
@@ -76,6 +81,7 @@
  },
  {
   "id": "111361870319031_1477828654347850",
+  "fuente": "sentione",
   "fecha": "2026-01-12",
   "plataforma": "Facebook",
   "formato": "Publicación",
@@ -91,6 +97,7 @@
  },
  {
   "id": "e865a45664a344213d7934ace58fbfd2",
+  "fuente": "sentione",
   "fecha": "2026-01-13",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -106,6 +113,7 @@
  },
  {
   "id": "975180cc3d3e38c871fcf4ada593d8ec",
+  "fuente": "sentione",
   "fecha": "2026-01-14",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -120,7 +128,26 @@
   "extracto": "Alerta ambiental por presencia de hidrocarburos en ciénaga El Llanito en Barrancabermeja. En la ciénaga El Llanito, específicamente en el…"
  },
  {
+  "id": "WEB26_b89f5dee2fd9c0",
+  "fuente": "web",
+  "fecha": "2026-01-19",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Enlace Televisión",
+  "url": "https://enlacetelevision.com/2026/01/19/procuraduria-anuncia-vigilancia-estricta-a-campanas-en-2026/",
+  "tema": "pol",
+  "sentimiento": "neutral",
+  "objetivo": "sin_objetivo",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Procuraduría anuncia vigilancia estricta a campañas en 2026",
+  "resumen": "La Procuraduría anuncia seguimiento preventivo a campañas electorales de 2026 en el municipio.",
+  "actores": []
+ },
+ {
   "id": "1f204fc2656498d4235bf004fb417213",
+  "fuente": "sentione",
   "fecha": "2026-01-20",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -136,6 +163,7 @@
  },
  {
   "id": "4b3b6f98f3e9d80b058972090311b888",
+  "fuente": "sentione",
   "fecha": "2026-01-20",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -151,6 +179,7 @@
  },
  {
   "id": "c075580083cea42058ccb184cb0f2985",
+  "fuente": "sentione",
   "fecha": "2026-01-20",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -166,6 +195,7 @@
  },
  {
   "id": "ig_18102673543761689",
+  "fuente": "sentione",
   "fecha": "2026-01-20",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -181,6 +211,7 @@
  },
  {
   "id": "ig_18073310684103664",
+  "fuente": "sentione",
   "fecha": "2026-01-23",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -196,6 +227,7 @@
  },
  {
   "id": "twitter_2014758476157714720",
+  "fuente": "sentione",
   "fecha": "2026-01-23",
   "plataforma": "X",
   "formato": "Publicación",
@@ -211,6 +243,7 @@
  },
  {
   "id": "twitter_2015052080998707498",
+  "fuente": "sentione",
   "fecha": "2026-01-24",
   "plataforma": "X",
   "formato": "Publicación",
@@ -226,6 +259,7 @@
  },
  {
   "id": "977a45f7f4ff9cf112087036676c9d91",
+  "fuente": "sentione",
   "fecha": "2026-01-26",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -241,6 +275,7 @@
  },
  {
   "id": "fbgen_1435448434612930_7cc87588f02448b177b5297c0b8d7fb499a79565788eb264a6db2549151907b0",
+  "fuente": "sentione",
   "fecha": "2026-01-26",
   "plataforma": "Facebook",
   "formato": "Comentario",
@@ -257,6 +292,7 @@
  },
  {
   "id": "twitter_2015893788800020543",
+  "fuente": "sentione",
   "fecha": "2026-01-26",
   "plataforma": "X",
   "formato": "Publicación",
@@ -272,6 +308,7 @@
  },
  {
   "id": "cc1779e23569838e67ea849dd947db1",
+  "fuente": "sentione",
   "fecha": "2026-01-28",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -287,6 +324,7 @@
  },
  {
   "id": "ig_17891245437407894",
+  "fuente": "sentione",
   "fecha": "2026-01-29",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -302,6 +340,7 @@
  },
  {
   "id": "fbgen_1311537694339137_b1c391d415b20851db18fccf02558971e42cab0e06a29224f3f5473a283e5f66",
+  "fuente": "sentione",
   "fecha": "2026-01-30",
   "plataforma": "Facebook",
   "formato": "Comentario",
@@ -317,6 +356,7 @@
  },
  {
   "id": "fbgen_1457097292447837_da1d3a3929720d60acea589186e1dd2b004237aa9401e948756a24a9d1db650a",
+  "fuente": "sentione",
   "fecha": "2026-01-30",
   "plataforma": "Facebook",
   "formato": "Comentario",
@@ -333,6 +373,7 @@
  },
  {
   "id": "fbgen_1311537694339137_b27ff77f113cf6d68b57f02141701c4f35cba7a3cdfa604a41f1dbaadd0e160a",
+  "fuente": "sentione",
   "fecha": "2026-01-31",
   "plataforma": "Facebook",
   "formato": "Comentario",
@@ -349,6 +390,7 @@
  },
  {
   "id": "ig_18141468202473080",
+  "fuente": "sentione",
   "fecha": "2026-01-31",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -364,6 +406,7 @@
  },
  {
   "id": "twitter_2017742413062717899",
+  "fuente": "sentione",
   "fecha": "2026-01-31",
   "plataforma": "X",
   "formato": "Publicación",
@@ -379,6 +422,7 @@
  },
  {
   "id": "9487de2c740fe937f6c18d0e0e8aed9",
+  "fuente": "sentione",
   "fecha": "2026-02-02",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -394,6 +438,7 @@
  },
  {
   "id": "ig_18166205191402942",
+  "fuente": "sentione",
   "fecha": "2026-02-02",
   "plataforma": "Instagram",
   "formato": "Video",
@@ -409,6 +454,7 @@
  },
  {
   "id": "twitter_2018482424305381380",
+  "fuente": "sentione",
   "fecha": "2026-02-02",
   "plataforma": "X",
   "formato": "Publicación",
@@ -424,6 +470,7 @@
  },
  {
   "id": "c6a1091ebbd30da88d1d2df040c9bbe8",
+  "fuente": "sentione",
   "fecha": "2026-02-04",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -439,6 +486,7 @@
  },
  {
   "id": "fbgen_900672646189108_d3ceb38885211cc706d23a9fbc82cf6f6a1dfa53c68b5158efc29c30b909050d",
+  "fuente": "sentione",
   "fecha": "2026-02-10",
   "plataforma": "Facebook",
   "formato": "Comentario",
@@ -454,6 +502,7 @@
  },
  {
   "id": "fbgen_1221569933398871_fb4d7a7d639a9831a8313cb0c07b524ebf5d465756cb614be4c7f14c5d92cabb",
+  "fuente": "sentione",
   "fecha": "2026-02-16",
   "plataforma": "Facebook",
   "formato": "Comentario",
@@ -469,6 +518,7 @@
  },
  {
   "id": "15ef03fa577c10ad9e8a807567a3ae4c",
+  "fuente": "sentione",
   "fecha": "2026-02-17",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -484,6 +534,7 @@
  },
  {
   "id": "twitter_2025660412251754807",
+  "fuente": "sentione",
   "fecha": "2026-02-22",
   "plataforma": "X",
   "formato": "Publicación",
@@ -499,6 +550,7 @@
  },
  {
   "id": "twitter_2025718241297830085",
+  "fuente": "sentione",
   "fecha": "2026-02-22",
   "plataforma": "X",
   "formato": "Publicación",
@@ -514,6 +566,7 @@
  },
  {
   "id": "twitter_2026029087316177132",
+  "fuente": "sentione",
   "fecha": "2026-02-23",
   "plataforma": "X",
   "formato": "Publicación",
@@ -528,7 +581,26 @@
   "extracto": "🚕 #Seguridad | La Alcaldía de Barrancabermeja inició la instalación de 70 botones de pánico en taxis. El sistema cuenta con GPS y envía…"
  },
  {
+  "id": "WEB26_e4d9ef91985f69",
+  "fuente": "web",
+  "fecha": "2026-02-23",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Vanguardia",
+  "url": "https://www.vanguardia.com/santander/barrancabermeja/2026/02/23/lluvias-dejan-viviendas-destechadas-y-familias-afectadas-en-barrancabermeja/",
+  "tema": "riesgo",
+  "sentimiento": "neutral",
+  "objetivo": "ciudad",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Lluvias dejan viviendas destechadas y familias afectadas en Barrancabermeja",
+  "resumen": "Emergencias por lluvias e inundaciones afectaron viviendas y familias de comunas 3 y 7 y corregimiento El Centro.",
+  "actores": []
+ },
+ {
   "id": "twitter_2028255763013980278",
+  "fuente": "sentione",
   "fecha": "2026-03-01",
   "plataforma": "X",
   "formato": "Publicación",
@@ -544,6 +616,7 @@
  },
  {
   "id": "ig_18079577951062128",
+  "fuente": "sentione",
   "fecha": "2026-03-03",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -559,6 +632,7 @@
  },
  {
   "id": "fbgen_1403785048457697_8cb3a87d4a056f6b69b6d33666a715b0f90e2ff20fbe1b6b9f5537ce57f68bda",
+  "fuente": "sentione",
   "fecha": "2026-03-05",
   "plataforma": "Facebook",
   "formato": "Comentario",
@@ -574,6 +648,7 @@
  },
  {
   "id": "22148ccde9c4f975bf46eff86ba4b8fb",
+  "fuente": "sentione",
   "fecha": "2026-03-06",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -589,6 +664,7 @@
  },
  {
   "id": "4095428d37e4b906a11f5bbd27373eb7",
+  "fuente": "sentione",
   "fecha": "2026-03-06",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -604,6 +680,7 @@
  },
  {
   "id": "fbgen_1403785048457697_7069fccc7e13a5b41eb82a88670741d1be0bff1d2adaebea03684359b401fcfd",
+  "fuente": "sentione",
   "fecha": "2026-03-06",
   "plataforma": "Facebook",
   "formato": "Comentario",
@@ -620,6 +697,7 @@
  },
  {
   "id": "twitter_2030033178229101044",
+  "fuente": "sentione",
   "fecha": "2026-03-06",
   "plataforma": "X",
   "formato": "Publicación",
@@ -634,7 +712,37 @@
   "extracto": "Con el propósito de garantizar un proceso electoral transparente y seguro, la Alcaldía de Barrancabermeja, desplegó un operativo de…"
  },
  {
+  "id": "WEB26_e728d00552b59e",
+  "fuente": "web",
+  "fecha": "2026-03-06",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Enlace Televisión",
+  "url": "https://enlacetelevision.com/2026/03/06/barrancabermeja-busca-mayor-representacion-en-el-congreso/",
+  "tema": "pol",
+  "sentimiento": "neutral",
+  "objetivo": "sin_objetivo",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Barrancabermeja busca mayor representación en el Congreso",
+  "resumen": "Medio regional describe candidaturas de origen barranqueño al Senado y Cámara de 2026; corresponde a elecciones legislativas, no a Alcaldía 2027.",
+  "actores": [
+   "Camilo Torres",
+   "Cristian Argüello",
+   "Aleida Noguera",
+   "Erwin Jiménez",
+   "Francis Elena Álvarez",
+   "Roberto Cruz",
+   "Laura Ahumada",
+   "Gustavo Moreno",
+   "Horacio José Cerpa",
+   "Elkin David Bueno"
+  ]
+ },
+ {
   "id": "d4f23a6b4e349046dc4dc8211ac6782",
+  "fuente": "sentione",
   "fecha": "2026-03-07",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -650,6 +758,7 @@
  },
  {
   "id": "ig_18060486431343869",
+  "fuente": "sentione",
   "fecha": "2026-03-07",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -665,6 +774,7 @@
  },
  {
   "id": "twitter_2031341651327619478",
+  "fuente": "sentione",
   "fecha": "2026-03-10",
   "plataforma": "X",
   "formato": "Publicación",
@@ -680,6 +790,7 @@
  },
  {
   "id": "ig_18158939314429839",
+  "fuente": "sentione",
   "fecha": "2026-03-16",
   "plataforma": "Instagram",
   "formato": "Video",
@@ -695,6 +806,7 @@
  },
  {
   "id": "351413539f3ea67f547b57c63f54e0b1",
+  "fuente": "sentione",
   "fecha": "2026-03-17",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -710,6 +822,7 @@
  },
  {
   "id": "cee36d9d52988f32b621f3f11e756f0",
+  "fuente": "sentione",
   "fecha": "2026-03-17",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -725,6 +838,7 @@
  },
  {
   "id": "97a0ff5d9d2772a90aa5a780a9ae7ff7",
+  "fuente": "sentione",
   "fecha": "2026-03-23",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -740,6 +854,7 @@
  },
  {
   "id": "496a9a57780e9ca7dbd61be47e0df3eb",
+  "fuente": "sentione",
   "fecha": "2026-03-28",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -755,6 +870,7 @@
  },
  {
   "id": "4eaf26885e7956c1d5acb44b374e259a",
+  "fuente": "sentione",
   "fecha": "2026-03-30",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -770,6 +886,7 @@
  },
  {
   "id": "twitter_2038608431616340302",
+  "fuente": "sentione",
   "fecha": "2026-03-30",
   "plataforma": "X",
   "formato": "Publicación",
@@ -785,6 +902,7 @@
  },
  {
   "id": "8f8bb9625d214818f2c273e88e09e687",
+  "fuente": "sentione",
   "fecha": "2026-03-31",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -800,6 +918,7 @@
  },
  {
   "id": "a4761d321c6d9093b67bf21100ef5f94",
+  "fuente": "sentione",
   "fecha": "2026-03-31",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -815,6 +934,7 @@
  },
  {
   "id": "b335bf78333a9e43f863c088af0edced",
+  "fuente": "sentione",
   "fecha": "2026-03-31",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -830,6 +950,7 @@
  },
  {
   "id": "twitter_2039295458460197011",
+  "fuente": "sentione",
   "fecha": "2026-04-01",
   "plataforma": "X",
   "formato": "Publicación",
@@ -845,6 +966,7 @@
  },
  {
   "id": "111361870319031_1551998196930895",
+  "fuente": "sentione",
   "fecha": "2026-04-02",
   "plataforma": "Facebook",
   "formato": "Publicación",
@@ -860,6 +982,7 @@
  },
  {
   "id": "8f99c103cdefa77bf41021d9d29436de",
+  "fuente": "sentione",
   "fecha": "2026-04-02",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -875,6 +998,7 @@
  },
  {
   "id": "a5990480acdc200be778bf0716f883d2",
+  "fuente": "sentione",
   "fecha": "2026-04-02",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -890,6 +1014,7 @@
  },
  {
   "id": "e07ad55b4dce094c155d0fd54ce579c7",
+  "fuente": "sentione",
   "fecha": "2026-04-02",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -905,6 +1030,7 @@
  },
  {
   "id": "209619682408567_1428537365983027",
+  "fuente": "sentione",
   "fecha": "2026-04-03",
   "plataforma": "Facebook",
   "formato": "Publicación",
@@ -920,6 +1046,7 @@
  },
  {
   "id": "659540120848131_1523714302455396",
+  "fuente": "sentione",
   "fecha": "2026-04-03",
   "plataforma": "Facebook",
   "formato": "Publicación",
@@ -935,6 +1062,7 @@
  },
  {
   "id": "twitter_2040344755528503759",
+  "fuente": "sentione",
   "fecha": "2026-04-04",
   "plataforma": "X",
   "formato": "Publicación",
@@ -950,6 +1078,7 @@
  },
  {
   "id": "twitter_2040515888617578678",
+  "fuente": "sentione",
   "fecha": "2026-04-04",
   "plataforma": "X",
   "formato": "Publicación",
@@ -965,6 +1094,7 @@
  },
  {
   "id": "6393b993b6f5e37ab50cbb9a25ab3053",
+  "fuente": "sentione",
   "fecha": "2026-04-10",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -980,6 +1110,7 @@
  },
  {
   "id": "fbgen_1526689325487052_fe5a25e4d27433d5ef5965cfe874fcfab1341972f93fa1a841f4a736d54ac5ed",
+  "fuente": "sentione",
   "fecha": "2026-04-10",
   "plataforma": "Facebook",
   "formato": "Comentario",
@@ -996,6 +1127,7 @@
  },
  {
   "id": "fbgen_1571749964955883_02187a1b3f27ed35130d22042424b2f1ef12df2c7498b48a7fb0c437ecff7668",
+  "fuente": "sentione",
   "fecha": "2026-04-10",
   "plataforma": "Facebook",
   "formato": "Comentario",
@@ -1011,6 +1143,7 @@
  },
  {
   "id": "b18d95e85a308ad5d880b7e7880e1b10",
+  "fuente": "sentione",
   "fecha": "2026-04-13",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1026,6 +1159,7 @@
  },
  {
   "id": "8e997066887fbf1422ac0c9b7b2f86df",
+  "fuente": "sentione",
   "fecha": "2026-04-14",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1041,6 +1175,7 @@
  },
  {
   "id": "fbgen_1545877246910304_d5a7b4b8abeb082f56dda8253b5a1faafc397239b2e21cf11ae76d88e357cb68",
+  "fuente": "sentione",
   "fecha": "2026-04-14",
   "plataforma": "Facebook",
   "formato": "Comentario",
@@ -1056,6 +1191,7 @@
  },
  {
   "id": "7b73df6875a529dd1963d101c44e25ca",
+  "fuente": "sentione",
   "fecha": "2026-04-20",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1071,6 +1207,7 @@
  },
  {
   "id": "c356e883bd1dda196e572b5392c294d",
+  "fuente": "sentione",
   "fecha": "2026-04-22",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1086,7 +1223,28 @@
   "revisar": "Confirmar a quién dirige la comunidad el reclamo educativo."
  },
  {
+  "id": "WEB26_a0f953d331d83f",
+  "fuente": "web",
+  "fecha": "2026-04-22",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Caracol Radio",
+  "url": "https://caracol.com.co/2026/04/22/juez-falla-demanda-sobre-el-malecon-del-rio-en-barrancabermeja-violo-derechos-fundamentales/?outputType=amp",
+  "tema": "obras",
+  "sentimiento": "negativo",
+  "objetivo": "alcaldia",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Juez falla demanda sobre el Malecón del Río en Barrancabermeja; 'violó derechos fundamentales'",
+  "resumen": "Noticia sobre una decisión judicial referente a protecciones patrimoniales en el entorno del Malecón; menciona la participación previa de Leonardo Granados en la demanda.",
+  "actores": [
+   "Leonardo Granados"
+  ]
+ },
+ {
   "id": "363e631180511c6b918747dbedf033b3",
+  "fuente": "sentione",
   "fecha": "2026-04-23",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1102,6 +1260,7 @@
  },
  {
   "id": "ab20815245fc843cd500f575f403830",
+  "fuente": "sentione",
   "fecha": "2026-04-25",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1117,6 +1276,7 @@
  },
  {
   "id": "bb7865ebb11cce33ad0ab278ef980812",
+  "fuente": "sentione",
   "fecha": "2026-04-25",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1132,6 +1292,7 @@
  },
  {
   "id": "239d465c4c90386f8a1071c4567541b",
+  "fuente": "sentione",
   "fecha": "2026-04-26",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1147,6 +1308,7 @@
  },
  {
   "id": "twitter_2048519757406589111",
+  "fuente": "sentione",
   "fecha": "2026-04-26",
   "plataforma": "X",
   "formato": "Publicación",
@@ -1162,6 +1324,7 @@
  },
  {
   "id": "be8c249fa34ed5c61ed65ce8df539555",
+  "fuente": "sentione",
   "fecha": "2026-04-27",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1177,6 +1340,7 @@
  },
  {
   "id": "16769d6783990fc08e3b3f9bb924386f",
+  "fuente": "sentione",
   "fecha": "2026-04-29",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1192,6 +1356,7 @@
  },
  {
   "id": "2cf07103d00e4dc049e78d666a29b1d",
+  "fuente": "sentione",
   "fecha": "2026-04-29",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1207,6 +1372,7 @@
  },
  {
   "id": "twitter_2052062899062112571",
+  "fuente": "sentione",
   "fecha": "2026-05-06",
   "plataforma": "X",
   "formato": "Publicación",
@@ -1222,6 +1388,7 @@
  },
  {
   "id": "3905eca733241335401d3a18de14007c",
+  "fuente": "sentione",
   "fecha": "2026-05-07",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1237,6 +1404,7 @@
  },
  {
   "id": "5738dcb8dd1c5e947bdd70f2a05d421d",
+  "fuente": "sentione",
   "fecha": "2026-05-07",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1252,6 +1420,7 @@
  },
  {
   "id": "7e52077169477251486e8c1c5c5d3789",
+  "fuente": "sentione",
   "fecha": "2026-05-07",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1267,6 +1436,7 @@
  },
  {
   "id": "7f135b367eca82a60258f3843837b530",
+  "fuente": "sentione",
   "fecha": "2026-05-07",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1282,6 +1452,7 @@
  },
  {
   "id": "111361870319031_1584597813670933",
+  "fuente": "sentione",
   "fecha": "2026-05-08",
   "plataforma": "Facebook",
   "formato": "Publicación",
@@ -1297,6 +1468,7 @@
  },
  {
   "id": "258cb39d723161cff02b598d872463e",
+  "fuente": "sentione",
   "fecha": "2026-05-08",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1312,6 +1484,7 @@
  },
  {
   "id": "2cbb27a9643b85bfb3e4a63e549e6852",
+  "fuente": "sentione",
   "fecha": "2026-05-08",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1327,6 +1500,7 @@
  },
  {
   "id": "e99a0ff2dd4b15124fa69a27996644a0",
+  "fuente": "sentione",
   "fecha": "2026-05-08",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1342,6 +1516,7 @@
  },
  {
   "id": "f223b84d7be9a495d0ad5910d79d126d",
+  "fuente": "sentione",
   "fecha": "2026-05-08",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1357,6 +1532,7 @@
  },
  {
   "id": "ig_18435453127187795",
+  "fuente": "sentione",
   "fecha": "2026-05-08",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -1372,6 +1548,7 @@
  },
  {
   "id": "888152376c9ef4f71ce35f534e153941",
+  "fuente": "sentione",
   "fecha": "2026-05-13",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1387,6 +1564,7 @@
  },
  {
   "id": "a34709d45828fbfe6c78842848703c2c",
+  "fuente": "sentione",
   "fecha": "2026-05-13",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1402,6 +1580,7 @@
  },
  {
   "id": "ccea2f4ef28c4ef69f74d395579f2512",
+  "fuente": "sentione",
   "fecha": "2026-05-14",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1417,6 +1596,7 @@
  },
  {
   "id": "f5833fdbbab6b0c89057624e6660bad",
+  "fuente": "sentione",
   "fecha": "2026-05-15",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1432,6 +1612,7 @@
  },
  {
   "id": "f5ac05be8928035805de6cc4b3a62258",
+  "fuente": "sentione",
   "fecha": "2026-05-15",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1447,6 +1628,7 @@
  },
  {
   "id": "6eeb3ae7b680fe00614b6cd8eeff7e45",
+  "fuente": "sentione",
   "fecha": "2026-05-16",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1462,6 +1644,7 @@
  },
  {
   "id": "b95257b078a45d9256cb105ca3377daf",
+  "fuente": "sentione",
   "fecha": "2026-05-19",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1477,6 +1660,7 @@
  },
  {
   "id": "cfcc67372f21d190107150fe921152e5",
+  "fuente": "sentione",
   "fecha": "2026-05-20",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1492,6 +1676,7 @@
  },
  {
   "id": "86365241a1ecd6ffd3ef3374bb96aa93",
+  "fuente": "sentione",
   "fecha": "2026-05-21",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1507,6 +1692,7 @@
  },
  {
   "id": "twitter_2057786702362493132",
+  "fuente": "sentione",
   "fecha": "2026-05-22",
   "plataforma": "X",
   "formato": "Publicación",
@@ -1522,6 +1708,7 @@
  },
  {
   "id": "twitter_2057803929291784438",
+  "fuente": "sentione",
   "fecha": "2026-05-22",
   "plataforma": "X",
   "formato": "Publicación",
@@ -1537,6 +1724,7 @@
  },
  {
   "id": "twitter_2057954262362054991",
+  "fuente": "sentione",
   "fecha": "2026-05-22",
   "plataforma": "X",
   "formato": "Publicación",
@@ -1552,6 +1740,7 @@
  },
  {
   "id": "8cd80ae53545c9ddbbe267ce55d7bdb1",
+  "fuente": "sentione",
   "fecha": "2026-05-23",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1566,7 +1755,26 @@
   "extracto": "Buscan frenar ingreso de armas y drogas en colegios de Barrancabermeja: conozca cómo es la estrategia. Las autoridades de Barrancabermeja…"
  },
  {
+  "id": "WEB26_9b2fd002c2ceff",
+  "fuente": "web",
+  "fecha": "2026-05-27",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Enlace Televisión",
+  "url": "https://enlacetelevision.com/2026/05/27/inspeccionan-67-puestos-de-votacion-en-barrancabermeja/",
+  "tema": "pol",
+  "sentimiento": "neutral",
+  "objetivo": "sin_objetivo",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Inspeccionan 67 puestos de votación en Barrancabermeja",
+  "resumen": "Nota sobre verificación de infraestructura y accesibilidad en puestos de votación del distrito.",
+  "actores": []
+ },
+ {
   "id": "9c1abb139efc5f9903fa863fc17b1343",
+  "fuente": "sentione",
   "fecha": "2026-05-28",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1582,6 +1790,7 @@
  },
  {
   "id": "14f3ca0762b0ab470ffca0d351ab39b0",
+  "fuente": "sentione",
   "fecha": "2026-05-29",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1597,6 +1806,7 @@
  },
  {
   "id": "twitter_2060719178227601909",
+  "fuente": "sentione",
   "fecha": "2026-05-30",
   "plataforma": "X",
   "formato": "Publicación",
@@ -1612,6 +1822,7 @@
  },
  {
   "id": "2dc8d873116db96bfebcbca440770f6a",
+  "fuente": "sentione",
   "fecha": "2026-06-01",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1627,6 +1838,7 @@
  },
  {
   "id": "eed7b1603a82712f5569e8b2dbccec9b",
+  "fuente": "sentione",
   "fecha": "2026-06-02",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1642,6 +1854,7 @@
  },
  {
   "id": "9765c6eb79e9c3a350092f87030ed9e4",
+  "fuente": "sentione",
   "fecha": "2026-06-10",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1658,6 +1871,7 @@
  },
  {
   "id": "9fa0765e0038be2073dc6b917e8f955c",
+  "fuente": "sentione",
   "fecha": "2026-06-11",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1673,6 +1887,7 @@
  },
  {
   "id": "ig_18107354518993756",
+  "fuente": "sentione",
   "fecha": "2026-06-17",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -1688,6 +1903,7 @@
  },
  {
   "id": "twitter_2067396091046183213",
+  "fuente": "sentione",
   "fecha": "2026-06-17",
   "plataforma": "X",
   "formato": "Publicación",
@@ -1703,6 +1919,7 @@
  },
  {
   "id": "twitter_2068041120677065108",
+  "fuente": "sentione",
   "fecha": "2026-06-19",
   "plataforma": "X",
   "formato": "Publicación",
@@ -1718,6 +1935,7 @@
  },
  {
   "id": "twitter_2068069424783929427",
+  "fuente": "sentione",
   "fecha": "2026-06-19",
   "plataforma": "X",
   "formato": "Publicación",
@@ -1733,6 +1951,7 @@
  },
  {
   "id": "be3f1ee0416dd16b3d226793b5c681ba",
+  "fuente": "sentione",
   "fecha": "2026-06-23",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1748,6 +1967,7 @@
  },
  {
   "id": "twitter_2069499480320188761",
+  "fuente": "sentione",
   "fecha": "2026-06-23",
   "plataforma": "X",
   "formato": "Publicación",
@@ -1763,6 +1983,7 @@
  },
  {
   "id": "ig_18027013682839042",
+  "fuente": "sentione",
   "fecha": "2026-06-24",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -1778,6 +1999,7 @@
  },
  {
   "id": "63d02602169605a10c1ad15f344b95d4",
+  "fuente": "sentione",
   "fecha": "2026-07-02",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1793,6 +2015,7 @@
  },
  {
   "id": "78066bd668a1d389e3d040309b863672",
+  "fuente": "sentione",
   "fecha": "2026-07-07",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1808,6 +2031,7 @@
  },
  {
   "id": "77e2ad1a0c8e8dec5cdc098d0ebcb898",
+  "fuente": "sentione",
   "fecha": "2026-07-10",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1823,6 +2047,7 @@
  },
  {
   "id": "fbgen_1518302006991975_fb25004e7b764ecb0a64febe220e6569f9dfef43c7448e95ce72ef8ebdb37a82",
+  "fuente": "sentione",
   "fecha": "2026-07-11",
   "plataforma": "Facebook",
   "formato": "Comentario",
@@ -1839,6 +2064,7 @@
  },
  {
   "id": "186504284744469_1482047673969559",
+  "fuente": "sentione",
   "fecha": "2026-07-13",
   "plataforma": "Facebook",
   "formato": "Publicación",
@@ -1854,6 +2080,7 @@
  },
  {
   "id": "twitter_2076724588659282159",
+  "fuente": "sentione",
   "fecha": "2026-07-13",
   "plataforma": "X",
   "formato": "Publicación",
@@ -1869,6 +2096,7 @@
  },
  {
   "id": "twitter_2076775290450137275",
+  "fuente": "sentione",
   "fecha": "2026-07-13",
   "plataforma": "X",
   "formato": "Publicación",
@@ -1884,6 +2112,7 @@
  },
  {
   "id": "104632211417011_1662804545844586",
+  "fuente": "sentione",
   "fecha": "2026-07-14",
   "plataforma": "Facebook",
   "formato": "Video",
@@ -1899,6 +2128,7 @@
  },
  {
   "id": "681c27669e52c966cac574cc35785ddd",
+  "fuente": "sentione",
   "fecha": "2026-07-14",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1914,6 +2144,7 @@
  },
  {
   "id": "15c771ea8964973cd4361070dd6116cd",
+  "fuente": "sentione",
   "fecha": "2026-07-15",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1928,7 +2159,29 @@
   "extracto": "Alcaldía de Barrancabermeja pide investigar daño ambiental tras permiso de la CAS. El secretario Distrital de Ambiente y Transición…"
  },
  {
+  "id": "WEB26_f14353ca32207f",
+  "fuente": "web",
+  "fecha": "2026-07-15",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Enlace Televisión",
+  "url": "https://enlacetelevision.com/2026/07/15/barrancabermeja-tendra-dos-voces-en-el-senado-de-la-republica/",
+  "tema": "pol",
+  "sentimiento": "neutral",
+  "objetivo": "sin_objetivo",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Barrancabermeja tendrá dos voces en el Senado de la República",
+  "resumen": "El medio informa de la acreditación de Laura Ahumada y Gustavo Moreno para el Senado; antecedente de representación política regional.",
+  "actores": [
+   "Laura Ahumada",
+   "Gustavo Moreno"
+  ]
+ },
+ {
   "id": "eb485671e2c6e3b3695416ee35269646",
+  "fuente": "sentione",
   "fecha": "2026-07-16",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1944,6 +2197,7 @@
  },
  {
   "id": "104632211417011_1665707385554302",
+  "fuente": "sentione",
   "fecha": "2026-07-17",
   "plataforma": "Facebook",
   "formato": "Video",
@@ -1959,6 +2213,7 @@
  },
  {
   "id": "fbgen_1665707385554302_d99a231297a721fd5085460b9839f3ba50c0bf69a513dda074752ac458d7a148",
+  "fuente": "sentione",
   "fecha": "2026-07-18",
   "plataforma": "Facebook",
   "formato": "Comentario",
@@ -1974,6 +2229,7 @@
  },
  {
   "id": "3bc5c55a2c11aa11071744230bb46768",
+  "fuente": "sentione",
   "fecha": "2026-07-20",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -1989,6 +2245,7 @@
  },
  {
   "id": "40b3b2411f2dfa06cadf3f1cb0ef37c9",
+  "fuente": "sentione",
   "fecha": "2026-07-23",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2004,6 +2261,7 @@
  },
  {
   "id": "8be0934fe7b5b632f89ddd08d06d8a4c",
+  "fuente": "sentione",
   "fecha": "2026-07-25",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2019,6 +2277,7 @@
  },
  {
   "id": "ig_18060574085738644",
+  "fuente": "sentione",
   "fecha": "2026-07-25",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -2034,6 +2293,7 @@
  },
  {
   "id": "twitter_2081530858180075703",
+  "fuente": "sentione",
   "fecha": "2026-07-26",
   "plataforma": "X",
   "formato": "Publicación",
@@ -2048,7 +2308,26 @@
   "extracto": "La Alcaldía de Barrancabermeja anunció medidas contra Ecopetrol tras una presunta afectación ambiental por contaminación con hidrocarburos y…"
  },
  {
+  "id": "WEB26_4b8ecb2a593a1b",
+  "fuente": "web",
+  "fecha": "2026-07-26",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Yariguíes Stereo",
+  "url": "https://yariguies.com/comunidad-exige-acciones-urgentes-frente-a-problematica-de-habitantes-en-condicion-de-calle-en-la-avenida-36-de-barrancabermeja/",
+  "tema": "seg",
+  "sentimiento": "negativo",
+  "objetivo": "ciudad",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Comunidad exige acciones urgentes frente a problemática de habitantes en condición de calle en la avenida 36 de Barrancabermeja",
+  "resumen": "Residentes, autoridades y concejales dialogan sobre convivencia, seguridad y atención social en el entorno de la carrera 36.",
+  "actores": []
+ },
+ {
   "id": "73bbbbd80f1b37d3263d1d2e995aa840",
+  "fuente": "sentione",
   "fecha": "2026-07-27",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2064,6 +2343,7 @@
  },
  {
   "id": "twitter_2081743912603906332",
+  "fuente": "sentione",
   "fecha": "2026-07-27",
   "plataforma": "X",
   "formato": "Publicación",
@@ -2079,6 +2359,7 @@
  },
  {
   "id": "3328ebb25ec3b55acc3cd67b2d5e6f22",
+  "fuente": "sentione",
   "fecha": "2026-07-29",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2094,6 +2375,7 @@
  },
  {
   "id": "43b5eef16f477521bba67f3ba0f64e33",
+  "fuente": "sentione",
   "fecha": "2026-07-29",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2109,6 +2391,7 @@
  },
  {
   "id": "twitter_2082594517342101763",
+  "fuente": "sentione",
   "fecha": "2026-07-29",
   "plataforma": "X",
   "formato": "Publicación",
@@ -2124,6 +2407,7 @@
  },
  {
   "id": "twitter_2082911666421780716",
+  "fuente": "sentione",
   "fecha": "2026-07-30",
   "plataforma": "X",
   "formato": "Publicación",
@@ -2139,6 +2423,7 @@
  },
  {
   "id": "726ce6fa88c4ccf93ad028599c944ebc",
+  "fuente": "sentione",
   "fecha": "2026-07-31",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2154,6 +2439,7 @@
  },
  {
   "id": "d7b657ee54bf0e766134b26cbd52ce29",
+  "fuente": "sentione",
   "fecha": "2026-07-31",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2169,6 +2455,7 @@
  },
  {
   "id": "d8982051f6ad0d9ecb8e56738e87c7f5",
+  "fuente": "sentione",
   "fecha": "2026-07-31",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2184,6 +2471,7 @@
  },
  {
   "id": "a9b922a6bb017dd26dcbb16ba932c813",
+  "fuente": "sentione",
   "fecha": "2026-08-01",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2199,6 +2487,7 @@
  },
  {
   "id": "b580f4f1749ab00962abd1b6b206a324",
+  "fuente": "sentione",
   "fecha": "2026-08-01",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2214,6 +2503,7 @@
  },
  {
   "id": "209619682408567_1538447351658694",
+  "fuente": "sentione",
   "fecha": "2026-08-02",
   "plataforma": "Facebook",
   "formato": "Publicación",
@@ -2229,6 +2519,7 @@
  },
  {
   "id": "ig_18123406384727963",
+  "fuente": "sentione",
   "fecha": "2026-08-02",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -2244,6 +2535,7 @@
  },
  {
   "id": "7ce49d3faca39bb0c092b5ecccf7b8bc",
+  "fuente": "sentione",
   "fecha": "2026-08-03",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2259,6 +2551,7 @@
  },
  {
   "id": "975de92f5fd3f12de40f855c46d5f00b",
+  "fuente": "sentione",
   "fecha": "2026-08-03",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2274,6 +2567,7 @@
  },
  {
   "id": "ig_18117993706932603",
+  "fuente": "sentione",
   "fecha": "2026-08-03",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -2289,6 +2583,7 @@
  },
  {
   "id": "twitter_2084406456149745909",
+  "fuente": "sentione",
   "fecha": "2026-08-03",
   "plataforma": "X",
   "formato": "Publicación",
@@ -2304,6 +2599,7 @@
  },
  {
   "id": "104632211417011_1682833143841726",
+  "fuente": "sentione",
   "fecha": "2026-08-04",
   "plataforma": "Facebook",
   "formato": "Video",
@@ -2319,6 +2615,7 @@
  },
  {
   "id": "57f4eedd388cba37ea3de961acb75e5e",
+  "fuente": "sentione",
   "fecha": "2026-08-04",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2335,6 +2632,7 @@
  },
  {
   "id": "f4f75857db26f690c84a83d4b0c2fa8b",
+  "fuente": "sentione",
   "fecha": "2026-08-07",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2350,6 +2648,7 @@
  },
  {
   "id": "9786b727edef89dbabefd6d2cbb49daa",
+  "fuente": "sentione",
   "fecha": "2026-08-08",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2365,6 +2664,7 @@
  },
  {
   "id": "twitter_2086472542668128651",
+  "fuente": "sentione",
   "fecha": "2026-08-09",
   "plataforma": "X",
   "formato": "Publicación",
@@ -2380,6 +2680,7 @@
  },
  {
   "id": "367eec4b13309dbfd19c0a82284dab52",
+  "fuente": "sentione",
   "fecha": "2026-08-10",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2395,6 +2696,7 @@
  },
  {
   "id": "8a49209b847d62d49c7d1c9af200edf7",
+  "fuente": "sentione",
   "fecha": "2026-08-10",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2410,6 +2712,7 @@
  },
  {
   "id": "8ac6b8edc9ae358e31d74dbfbd54375",
+  "fuente": "sentione",
   "fecha": "2026-08-10",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2425,6 +2728,7 @@
  },
  {
   "id": "ig_18409753174155575",
+  "fuente": "sentione",
   "fecha": "2026-08-10",
   "plataforma": "Instagram",
   "formato": "Video",
@@ -2440,6 +2744,7 @@
  },
  {
   "id": "twitter_2086979713063379052",
+  "fuente": "sentione",
   "fecha": "2026-08-10",
   "plataforma": "X",
   "formato": "Publicación",
@@ -2455,6 +2760,7 @@
  },
  {
   "id": "twitter_2087002138807316608",
+  "fuente": "sentione",
   "fecha": "2026-08-10",
   "plataforma": "X",
   "formato": "Publicación",
@@ -2470,6 +2776,7 @@
  },
  {
   "id": "7917e8aaa3966ceba5e595a6eafcedae",
+  "fuente": "sentione",
   "fecha": "2026-08-11",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2485,6 +2792,7 @@
  },
  {
   "id": "8aebf9bb42ea0afb1cb2782657b873df",
+  "fuente": "sentione",
   "fecha": "2026-08-11",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2501,6 +2809,7 @@
  },
  {
   "id": "ig_18144839206529839",
+  "fuente": "sentione",
   "fecha": "2026-08-11",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -2516,6 +2825,7 @@
  },
  {
   "id": "1e866a00be384d71fe233955833a8a1d",
+  "fuente": "sentione",
   "fecha": "2026-08-12",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2531,6 +2841,7 @@
  },
  {
   "id": "4edd53bd0e9c9c7d2606393175408b1e",
+  "fuente": "sentione",
   "fecha": "2026-08-13",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2546,6 +2857,7 @@
  },
  {
   "id": "83eea74a58a68825cf6b8b73734b08bf",
+  "fuente": "sentione",
   "fecha": "2026-08-13",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2561,6 +2873,7 @@
  },
  {
   "id": "d7a61d24ac45bfa7f2b8d4894b77a2c1",
+  "fuente": "sentione",
   "fecha": "2026-08-13",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2576,6 +2889,7 @@
  },
  {
   "id": "52fa28920ad29543a6fb5c031d506a4d",
+  "fuente": "sentione",
   "fecha": "2026-08-14",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2591,6 +2905,7 @@
  },
  {
   "id": "f3635389d953b1bf5e7c6536fd7d066e",
+  "fuente": "sentione",
   "fecha": "2026-08-14",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2606,6 +2921,7 @@
  },
  {
   "id": "ig_17929544160381801",
+  "fuente": "sentione",
   "fecha": "2026-08-14",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -2621,6 +2937,7 @@
  },
  {
   "id": "ig_17956010708996271",
+  "fuente": "sentione",
   "fecha": "2026-08-14",
   "plataforma": "Instagram",
   "formato": "Video",
@@ -2636,6 +2953,7 @@
  },
  {
   "id": "ig_18607122748050889",
+  "fuente": "sentione",
   "fecha": "2026-08-14",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -2651,6 +2969,7 @@
  },
  {
   "id": "twitter_2088296413482344689",
+  "fuente": "sentione",
   "fecha": "2026-08-14",
   "plataforma": "X",
   "formato": "Publicación",
@@ -2666,6 +2985,7 @@
  },
  {
   "id": "ca304e86b1fcc10b4ac909dd2adc5af8",
+  "fuente": "sentione",
   "fecha": "2026-08-15",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2681,6 +3001,7 @@
  },
  {
   "id": "a90e55ebc8eb08b62153668639e4cde3",
+  "fuente": "sentione",
   "fecha": "2026-08-17",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2696,6 +3017,7 @@
  },
  {
   "id": "c59fea5c473035c3e96b67d8ca4df603",
+  "fuente": "sentione",
   "fecha": "2026-08-18",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2711,6 +3033,7 @@
  },
  {
   "id": "ig_17968452743947901",
+  "fuente": "sentione",
   "fecha": "2026-08-18",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -2726,6 +3049,7 @@
  },
  {
   "id": "twitter_2089814120627310640",
+  "fuente": "sentione",
   "fecha": "2026-08-18",
   "plataforma": "X",
   "formato": "Publicación",
@@ -2741,6 +3065,7 @@
  },
  {
   "id": "ae6417181772d10acd58640e1dd29d35",
+  "fuente": "sentione",
   "fecha": "2026-08-20",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2755,7 +3080,26 @@
   "extracto": "Bloquean relleno sanitario en Barrancabermeja: comunidad de Patio Bonito reclama suministro de agua. Habitantes de la vereda Patio Bonito de…"
  },
  {
+  "id": "WEB26_2168a11994b017",
+  "fuente": "web",
+  "fecha": "2026-08-25",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Vanguardia",
+  "url": "https://www.vanguardia.com/santander/barrancabermeja/2026/08/25/alerta-por-cobros-irregulares-para-acceder-a-citas-en-el-hospital-regional-del-magdalena-medio/",
+  "tema": "salud",
+  "sentimiento": "negativo",
+  "objetivo": "ciudad",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Alerta por cobros irregulares para acceder a citas en el Hospital Regional del Magdalena Medio",
+  "resumen": "Directivas hospitalarias reportan denuncias de supuestos cobros indebidos por fichos para citas médicas; hechos señalados están sujetos a verificación.",
+  "actores": []
+ },
+ {
   "id": "6ab29b0044d440e550438fb71a574cef",
+  "fuente": "sentione",
   "fecha": "2026-08-26",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2770,7 +3114,26 @@
   "extracto": "Con nuevo decreto buscan frenar la mala disposición de basuras en Barrancabermeja. La Alcaldía de Barrancabermeja expidió el Decreto 443 de…"
  },
  {
+  "id": "WEB26_5050648f44fba0",
+  "fuente": "web",
+  "fecha": "2026-08-26",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Procuraduría General",
+  "url": "https://www.procuraduria.gov.co/Pages/procuraduria-media-para-superar-emergencia-sanitaria-ambiental-barrancabermeja.aspx",
+  "tema": "agua",
+  "sentimiento": "neutral",
+  "objetivo": "ciudad",
+  "voz": "institucional",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Procuraduría media para superar emergencia sanitaria y ambiental en Barrancabermeja",
+  "resumen": "La Procuraduría interviene ante protesta de Patio Bonito por acceso al agua, bloqueo del relleno y problemas de recolección de residuos.",
+  "actores": []
+ },
+ {
   "id": "twitter_2093054579092918312",
+  "fuente": "sentione",
   "fecha": "2026-08-27",
   "plataforma": "X",
   "formato": "Publicación",
@@ -2786,6 +3149,7 @@
  },
  {
   "id": "twitter_2093500765025321014",
+  "fuente": "sentione",
   "fecha": "2026-08-28",
   "plataforma": "X",
   "formato": "Publicación",
@@ -2801,6 +3165,7 @@
  },
  {
   "id": "104632211417011_1707677611357279",
+  "fuente": "sentione",
   "fecha": "2026-08-29",
   "plataforma": "Facebook",
   "formato": "Video",
@@ -2816,6 +3181,7 @@
  },
  {
   "id": "86bd2deae938607794f58e02418e6486",
+  "fuente": "sentione",
   "fecha": "2026-08-29",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2831,6 +3197,7 @@
  },
  {
   "id": "a8c7bd5b7593bf4d713da2e55b205788",
+  "fuente": "sentione",
   "fecha": "2026-08-29",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2846,6 +3213,7 @@
  },
  {
   "id": "dfd424481d5beb9554dac7a18a2ec15",
+  "fuente": "sentione",
   "fecha": "2026-08-29",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2861,6 +3229,7 @@
  },
  {
   "id": "twitter_2093663762498695528",
+  "fuente": "sentione",
   "fecha": "2026-08-29",
   "plataforma": "X",
   "formato": "Publicación",
@@ -2876,6 +3245,7 @@
  },
  {
   "id": "youtube_9UZahTyatpo",
+  "fuente": "sentione",
   "fecha": "2026-08-29",
   "plataforma": "YouTube",
   "formato": "Video",
@@ -2891,6 +3261,7 @@
  },
  {
   "id": "768f365a50387a4458fc87c8f9a7efad",
+  "fuente": "sentione",
   "fecha": "2026-08-31",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2906,6 +3277,7 @@
  },
  {
   "id": "ig_18014841170739018",
+  "fuente": "sentione",
   "fecha": "2026-08-31",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -2921,6 +3293,7 @@
  },
  {
   "id": "twitter_2094533784443953376",
+  "fuente": "sentione",
   "fecha": "2026-08-31",
   "plataforma": "X",
   "formato": "Publicación",
@@ -2936,6 +3309,7 @@
  },
  {
   "id": "4638e0dea17cbd91b5bcb99899b51668",
+  "fuente": "sentione",
   "fecha": "2026-09-01",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2951,6 +3325,7 @@
  },
  {
   "id": "7abe37009f1ff64797cb8b4d095af14d",
+  "fuente": "sentione",
   "fecha": "2026-09-01",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -2966,6 +3341,7 @@
  },
  {
   "id": "twitter_2094845159653433373",
+  "fuente": "sentione",
   "fecha": "2026-09-01",
   "plataforma": "X",
   "formato": "Publicación",
@@ -2981,6 +3357,7 @@
  },
  {
   "id": "ig_18091809803533933",
+  "fuente": "sentione",
   "fecha": "2026-09-02",
   "plataforma": "Instagram",
   "formato": "Video",
@@ -2996,6 +3373,7 @@
  },
  {
   "id": "57637bff199446c08213eef937092bdb",
+  "fuente": "sentione",
   "fecha": "2026-09-03",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3011,6 +3389,7 @@
  },
  {
   "id": "ig_17921598330429866",
+  "fuente": "sentione",
   "fecha": "2026-09-03",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -3026,6 +3405,7 @@
  },
  {
   "id": "7fdb5b34dffdcf5270e820de349c4ad3",
+  "fuente": "sentione",
   "fecha": "2026-09-04",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3041,6 +3421,7 @@
  },
  {
   "id": "8c3ea8207b6e96bd66be5cc4c0f1fdc2",
+  "fuente": "sentione",
   "fecha": "2026-09-04",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3056,6 +3437,7 @@
  },
  {
   "id": "ig_17936205225364728",
+  "fuente": "sentione",
   "fecha": "2026-09-04",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -3071,6 +3453,7 @@
  },
  {
   "id": "twitter_2095965122221252612",
+  "fuente": "sentione",
   "fecha": "2026-09-04",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3085,7 +3468,27 @@
   "extracto": "Alcaldía de Barrancabermeja retrasa obras del Malecón del río Magdalena por errores de gestión #VocesySonidos https://t.co/IjU6pOWa7E"
  },
  {
+  "id": "WEB26_403f264aff79fe",
+  "fuente": "web",
+  "fecha": "2026-09-04",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Policía Nacional",
+  "url": "https://chat.policia.gov.co/noticia/policia-nacional-frena-extorsion-en-barrancabermeja-dos-capturados-4-millones-pesos",
+  "tema": "seg",
+  "sentimiento": "positivo",
+  "objetivo": "ciudad",
+  "voz": "institucional",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Policía Nacional frena extorsión en Barrancabermeja: dos capturados y 4 millones de pesos incautados",
+  "resumen": "Comunicado policial sobre captura de dos presuntos extorsionistas; aporta contexto sobre seguridad y extorsión a residentes.",
+  "actores": [],
+  "revisar": "Subdominio atípico (chat.policia.gov.co): abrir el enlace antes de citar."
+ },
+ {
   "id": "youtube_hyg9CAc2Kyg",
+  "fuente": "sentione",
   "fecha": "2026-09-04",
   "plataforma": "YouTube",
   "formato": "Video",
@@ -3101,6 +3504,7 @@
  },
  {
   "id": "daca4243037d64faf41c729589ca8291",
+  "fuente": "sentione",
   "fecha": "2026-09-05",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3116,6 +3520,7 @@
  },
  {
   "id": "twitter_2096279357983461666",
+  "fuente": "sentione",
   "fecha": "2026-09-05",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3131,6 +3536,7 @@
  },
  {
   "id": "twitter_2096645007209845074",
+  "fuente": "sentione",
   "fecha": "2026-09-06",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3145,7 +3551,26 @@
   "extracto": "Una obra de salud solo cumple su propósito cuando está al servicio de la comunidad. Barrancabermeja necesita que la infraestructura…"
  },
  {
+  "id": "WEB26_43da3044e6bfa6",
+  "fuente": "web",
+  "fecha": "2026-09-07",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Vanguardia",
+  "url": "https://www.vanguardia.com/santander/barrancabermeja/2026/09/07/comunidades-rurales-protestaron-por-el-mal-estado-de-las-vias-terciarias-en-barrancabermeja/",
+  "tema": "obras",
+  "sentimiento": "negativo",
+  "objetivo": "ciudad",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Comunidades rurales protestaron por el mal estado de las vías terciarias en Barrancabermeja",
+  "resumen": "Habitantes rurales protestan por vías deterioradas que dificultan transporte de cosechas y acceso a servicios; la administración responde sobre compromisos.",
+  "actores": []
+ },
+ {
   "id": "twitter_2097351218314023334",
+  "fuente": "sentione",
   "fecha": "2026-09-08",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3161,6 +3586,7 @@
  },
  {
   "id": "1cd04595b9130158a28edf20f8f5d2cc",
+  "fuente": "sentione",
   "fecha": "2026-09-09",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3176,6 +3602,7 @@
  },
  {
   "id": "445051e340bff397f9f7edd3147cfad1",
+  "fuente": "sentione",
   "fecha": "2026-09-10",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3191,6 +3618,7 @@
  },
  {
   "id": "twitter_2098195613489717346",
+  "fuente": "sentione",
   "fecha": "2026-09-10",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3206,6 +3634,7 @@
  },
  {
   "id": "186504284744469_1535997081907951",
+  "fuente": "sentione",
   "fecha": "2026-09-11",
   "plataforma": "Facebook",
   "formato": "Video",
@@ -3221,6 +3650,7 @@
  },
  {
   "id": "twitter_2098479185241026631",
+  "fuente": "sentione",
   "fecha": "2026-09-11",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3236,6 +3666,7 @@
  },
  {
   "id": "twitter_2098604896094204092",
+  "fuente": "sentione",
   "fecha": "2026-09-11",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3251,6 +3682,7 @@
  },
  {
   "id": "68c3b315e625bb974c3b1fd29c470332",
+  "fuente": "sentione",
   "fecha": "2026-09-12",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3266,6 +3698,7 @@
  },
  {
   "id": "efca21557b4d856df3ea04768bccd033",
+  "fuente": "sentione",
   "fecha": "2026-09-13",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3281,6 +3714,7 @@
  },
  {
   "id": "ig_17966003915964578",
+  "fuente": "sentione",
   "fecha": "2026-09-14",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -3296,6 +3730,7 @@
  },
  {
   "id": "5965cbc3654e18cc034110a9f2e747d2",
+  "fuente": "sentione",
   "fecha": "2026-09-15",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3311,6 +3746,7 @@
  },
  {
   "id": "twitter_2099848070871625899",
+  "fuente": "sentione",
   "fecha": "2026-09-15",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3327,6 +3763,7 @@
  },
  {
   "id": "f94335a6d9e7930f8ebe1063eebd5a4",
+  "fuente": "sentione",
   "fecha": "2026-09-16",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3342,6 +3779,7 @@
  },
  {
   "id": "ig_18105690146247560",
+  "fuente": "sentione",
   "fecha": "2026-09-16",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -3357,6 +3795,7 @@
  },
  {
   "id": "youtube_vHZJtdPktPM",
+  "fuente": "sentione",
   "fecha": "2026-09-16",
   "plataforma": "YouTube",
   "formato": "Video",
@@ -3372,6 +3811,7 @@
  },
  {
   "id": "f99a2433f809758f759fe8f6e9068aca",
+  "fuente": "sentione",
   "fecha": "2026-09-17",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3387,6 +3827,7 @@
  },
  {
   "id": "twitter_2100593151064838604",
+  "fuente": "sentione",
   "fecha": "2026-09-17",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3402,6 +3843,7 @@
  },
  {
   "id": "twitter_2100787471927714074",
+  "fuente": "sentione",
   "fecha": "2026-09-17",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3417,6 +3859,7 @@
  },
  {
   "id": "twitter_2100800682714386765",
+  "fuente": "sentione",
   "fecha": "2026-09-17",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3432,6 +3875,7 @@
  },
  {
   "id": "cf3347cc284a68be10f4071035198cbe",
+  "fuente": "sentione",
   "fecha": "2026-09-18",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3447,6 +3891,7 @@
  },
  {
   "id": "twitter_2100892587519603111",
+  "fuente": "sentione",
   "fecha": "2026-09-18",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3462,6 +3907,7 @@
  },
  {
   "id": "twitter_2101322141358514685",
+  "fuente": "sentione",
   "fecha": "2026-09-19",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3477,6 +3923,7 @@
  },
  {
   "id": "3b962b5c42dd3bf5ea14c1fc44f93d0c",
+  "fuente": "sentione",
   "fecha": "2026-09-21",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3492,6 +3939,7 @@
  },
  {
   "id": "twitter_2102198082393797118",
+  "fuente": "sentione",
   "fecha": "2026-09-21",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3507,7 +3955,26 @@
   "texto": "76 homicidios en lo corrido del año no pueden convertirse en una cifra más. Barrancabermeja necesita resultados en seguridad, prevención, investigación y acciones contundentes. No podemos acostumbrarnos a contar muertos. #Barrancabermeja #Seguridad https://t.co/fhL3Dno3oK"
  },
  {
+  "id": "WEB26_819361708df2f4",
+  "fuente": "web",
+  "fecha": "2026-09-21",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Enlace Televisión",
+  "url": "https://enlacetelevision.com/2026/09/21/vecinos-de-la-peninsula-piden-atencion-a-sus-necesidades/",
+  "tema": "obras",
+  "sentimiento": "negativo",
+  "objetivo": "alcaldia",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Vecinos de La Península piden atención a sus necesidades",
+  "resumen": "Residentes reclaman intervención de una cancha, un gavión, una vía y espacios comunitarios deteriorados; mencionan compromisos pendientes con la administración.",
+  "actores": []
+ },
+ {
   "id": "e1c300b1ce09d874628d19676e97bc7",
+  "fuente": "sentione",
   "fecha": "2026-09-22",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3523,6 +3990,7 @@
  },
  {
   "id": "bf42503bb60c9fcfb5d72aca37eaf06",
+  "fuente": "sentione",
   "fecha": "2026-09-23",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3538,6 +4006,7 @@
  },
  {
   "id": "d77e35d9e47938bf476a11d37b8278f3",
+  "fuente": "sentione",
   "fecha": "2026-09-23",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3553,6 +4022,7 @@
  },
  {
   "id": "ig_17908031205510134",
+  "fuente": "sentione",
   "fecha": "2026-09-23",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -3568,6 +4038,7 @@
  },
  {
   "id": "ig_18110068436332624",
+  "fuente": "sentione",
   "fecha": "2026-09-23",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -3583,6 +4054,7 @@
  },
  {
   "id": "ig_18159047290494805",
+  "fuente": "sentione",
   "fecha": "2026-09-23",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -3598,6 +4070,7 @@
  },
  {
   "id": "youtube_826U4qO__Xg",
+  "fuente": "sentione",
   "fecha": "2026-09-23",
   "plataforma": "YouTube",
   "formato": "Video",
@@ -3613,6 +4086,7 @@
  },
  {
   "id": "d5ccfdbbffc3026e2d1b1c05e6600a6e",
+  "fuente": "sentione",
   "fecha": "2026-09-24",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3629,6 +4103,7 @@
  },
  {
   "id": "810301545696609_1676287447191564",
+  "fuente": "sentione",
   "fecha": "2026-09-25",
   "plataforma": "Facebook",
   "formato": "Publicación",
@@ -3644,6 +4119,7 @@
  },
  {
   "id": "twitter_2103862100476985494",
+  "fuente": "sentione",
   "fecha": "2026-09-26",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3659,6 +4135,7 @@
  },
  {
   "id": "c1290434e2dd8beeec61f5fa3f6bc3a6",
+  "fuente": "sentione",
   "fecha": "2026-09-27",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3674,6 +4151,7 @@
  },
  {
   "id": "twitter_2104261303296778272",
+  "fuente": "sentione",
   "fecha": "2026-09-27",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3689,6 +4167,7 @@
  },
  {
   "id": "twitter_2104578731582881809",
+  "fuente": "sentione",
   "fecha": "2026-09-28",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3704,6 +4183,7 @@
  },
  {
   "id": "c266ee6cb4a8e740fd62c0925e6391fe",
+  "fuente": "sentione",
   "fecha": "2026-09-29",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3719,6 +4199,7 @@
  },
  {
   "id": "15153ce6ff5f53ea1b005c2ae0f0aad0",
+  "fuente": "sentione",
   "fecha": "2026-10-01",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3734,6 +4215,7 @@
  },
  {
   "id": "bf71ae3458917258190b015d6fe27cac",
+  "fuente": "sentione",
   "fecha": "2026-10-01",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3749,6 +4231,7 @@
  },
  {
   "id": "twitter_2105684928419512449",
+  "fuente": "sentione",
   "fecha": "2026-10-01",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3764,6 +4247,7 @@
  },
  {
   "id": "316faf836db0d231feb2b08aeb8ebf27",
+  "fuente": "sentione",
   "fecha": "2026-10-03",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3779,6 +4263,7 @@
  },
  {
   "id": "153430631190164_122255930498099572",
+  "fuente": "sentione",
   "fecha": "2026-10-04",
   "plataforma": "Facebook",
   "formato": "Publicación",
@@ -3794,6 +4279,7 @@
  },
  {
   "id": "f30d819778e0b6f5cd25b3f79f8aa44c",
+  "fuente": "sentione",
   "fecha": "2026-10-04",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3809,6 +4295,7 @@
  },
  {
   "id": "24f9a4b4ca81cd37b59a245f7227fa82",
+  "fuente": "sentione",
   "fecha": "2026-10-05",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3824,6 +4311,7 @@
  },
  {
   "id": "2bf072bca8583cb86be4cddfc39f7029",
+  "fuente": "sentione",
   "fecha": "2026-10-05",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3839,6 +4327,7 @@
  },
  {
   "id": "60b9973c5e8d2eb1fad9502bc97a8860",
+  "fuente": "sentione",
   "fecha": "2026-10-05",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3854,6 +4343,7 @@
  },
  {
   "id": "9bd52a9d97bffd49bc046a2d2dbd0f9",
+  "fuente": "sentione",
   "fecha": "2026-10-05",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3869,6 +4359,7 @@
  },
  {
   "id": "c27fd24c32341cf0d67d7fa2115d5f15",
+  "fuente": "sentione",
   "fecha": "2026-10-05",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3884,6 +4375,7 @@
  },
  {
   "id": "f88b3a2fe6c8b34849e1de488d73ae8e",
+  "fuente": "sentione",
   "fecha": "2026-10-05",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3899,6 +4391,7 @@
  },
  {
   "id": "twitter_2107112721435033877",
+  "fuente": "sentione",
   "fecha": "2026-10-05",
   "plataforma": "X",
   "formato": "Publicación",
@@ -3913,7 +4406,26 @@
   "extracto": "#Santander l Procuraduría verifica respuesta institucional tras muerte de cuatro manatíes en Barrancabermeja La muerte de cuatro manatíes en…"
  },
  {
+  "id": "WEB26_d266c683172856",
+  "fuente": "web",
+  "fecha": "2026-10-05",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Enlace Televisión",
+  "url": "https://enlacetelevision.com/2026/10/05/cierre-del-puente-elevado-se-mantendra-hasta-el-17-de-octubre/",
+  "tema": "obras",
+  "sentimiento": "neutral",
+  "objetivo": "ciudad",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Cierre del puente elevado se mantendrá hasta el 17 de octubre",
+  "resumen": "Cierre temporal del puente elevado por trabajos en la vía y cambios de movilidad; autoridades informan rutas alternas y programación.",
+  "actores": []
+ },
+ {
   "id": "bc99a0ec0aae71b97ea0c1029847393c",
+  "fuente": "sentione",
   "fecha": "2026-10-06",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3929,6 +4441,7 @@
  },
  {
   "id": "eb062bf056e8d66a9ea273535ecd5f60",
+  "fuente": "sentione",
   "fecha": "2026-10-06",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3943,7 +4456,26 @@
   "extracto": "Yuly Velásquez, lideresa ambiental: tres atentados por defender el río Magdalena. Yuly Velásquez, lideresa ambiental en Colombia, sobrevivió…"
  },
  {
+  "id": "WEB26_dfdee080303f59",
+  "fuente": "web",
+  "fecha": "2026-10-06",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Enlace Televisión",
+  "url": "https://enlacetelevision.com/2026/10/06/consejo-de-seguridad-analizara-violencia-en-el-magdalena-medio/",
+  "tema": "seg",
+  "sentimiento": "neutral",
+  "objetivo": "ciudad",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Consejo de Seguridad analizará violencia en el Magdalena Medio",
+  "resumen": "Balance sobre violencia y medidas de protección a líderes sociales de la región con referencia a Barrancabermeja.",
+  "actores": []
+ },
+ {
   "id": "319ac5216357ef23c5296acabee7930e",
+  "fuente": "sentione",
   "fecha": "2026-10-07",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3959,6 +4491,7 @@
  },
  {
   "id": "8a17e324e3fd5053f809493c859e2222",
+  "fuente": "sentione",
   "fecha": "2026-10-07",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3974,6 +4507,7 @@
  },
  {
   "id": "1647df97b754f1b0928c8ada5493b6d",
+  "fuente": "sentione",
   "fecha": "2026-10-08",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -3988,7 +4522,46 @@
   "extracto": "Gobernación anuncia $1.000 millones para reforzar la seguridad en Barrancabermeja. La Gobernación de Santander anunció la destinación de…"
  },
  {
+  "id": "WEB26_9a4d16fd1b92c5",
+  "fuente": "web",
+  "fecha": "2026-10-08",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Caracol Radio",
+  "url": "https://caracol.com.co/2026/10/08/mas-de-1000-familias-afectadas-por-falta-de-agua-en-zona-rural-de-barrancabermeja-santander/",
+  "tema": "agua",
+  "sentimiento": "neutral",
+  "objetivo": "ciudad",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Más de 1.000 familias afectadas por falta de agua en zona rural de Barrancabermeja, Santander",
+  "resumen": "Reportaje sobre escasez de agua en más de 13 veredas y medidas para atender a familias de zonas rurales.",
+  "actores": []
+ },
+ {
+  "id": "WEB26_ad5d19b69877e6",
+  "fuente": "web",
+  "fecha": "2026-10-08",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Enlace Televisión",
+  "url": "https://enlacetelevision.com/2026/10/08/alexis-guerrero-deja-la-secretaria-de-cultura/",
+  "tema": "pol",
+  "sentimiento": "neutral",
+  "objetivo": "sin_objetivo",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Alexis Guerrero deja la Secretaría de Cultura",
+  "resumen": "La noticia vincula la renuncia del exsecretario de Cultura con versiones extraoficiales de una eventual aspiración al Concejo de Barrancabermeja en 2027.",
+  "actores": [
+   "Alexis Guerrero"
+  ]
+ },
+ {
   "id": "1581894735459650_1627556272097106",
+  "fuente": "sentione",
   "fecha": "2026-10-09",
   "plataforma": "Facebook",
   "formato": "Video",
@@ -4004,6 +4577,7 @@
  },
  {
   "id": "a325a6f666f4f0d861c45a9a9c3d3150",
+  "fuente": "sentione",
   "fecha": "2026-10-09",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -4020,6 +4594,7 @@
  },
  {
   "id": "fbgen_1627556272097106_66b8c3e5092a07296a9aeb1cb10850ab554dafcebe62239be193220adcaa727f",
+  "fuente": "sentione",
   "fecha": "2026-10-09",
   "plataforma": "Facebook",
   "formato": "Comentario",
@@ -4036,6 +4611,7 @@
  },
  {
   "id": "ig_18087111926289907",
+  "fuente": "sentione",
   "fecha": "2026-10-09",
   "plataforma": "Instagram",
   "formato": "Publicación",
@@ -4050,7 +4626,44 @@
   "extracto": "#Santander I Más de 1.000 familias de la zona rural de Barrancabermeja están afectadas por la falta de agua en medio de las condiciones…"
  },
  {
+  "id": "WEB26_d6880fba7d8c38",
+  "fuente": "web",
+  "fecha": "2026-10-10",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Vanguardia",
+  "url": "https://www.vanguardia.com/santander/barrancabermeja/2026/10/10/dano-en-una-tuberia-dejo-sin-agua-a-barrios-de-las-comunas-4-y-7-de-barrancabermeja/",
+  "tema": "agua",
+  "sentimiento": "neutral",
+  "objetivo": "ciudad",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Daño en una tubería dejó sin agua a barrios de las comunas 4 y 7 de Barrancabermeja",
+  "resumen": "Residentes denuncian perjuicios domésticos y laborales por falla del suministro de agua potable en distintos barrios; nota distinta a Blu Radio sobre el mismo episodio.",
+  "actores": []
+ },
+ {
+  "id": "WEB26_3e81c4c30bb7e2",
+  "fuente": "web",
+  "fecha": "2026-10-11",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Blu Radio",
+  "url": "https://www.bluradio.com/regiones/santanderes/una-tuberia-averiada-tiene-sin-agua-a-barrios-de-barrancabermeja-desde-hace-mas-de-60-horas-rg10",
+  "tema": "agua",
+  "sentimiento": "neutral",
+  "objetivo": "ciudad",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Una tubería averiada tiene sin agua a barrios de Barrancabermeja desde hace más de 60 horas",
+  "resumen": "Habitantes de sectores de comunas 4 y 7 relatan afectaciones por interrupción del agua potable y señalan dificultades del suministro de emergencia.",
+  "actores": []
+ },
+ {
   "id": "6039c0853bbadc07b78e76302468aca4",
+  "fuente": "sentione",
   "fecha": "2026-10-13",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -4066,6 +4679,7 @@
  },
  {
   "id": "d6fca26510e3e63afcca725ceb97a267",
+  "fuente": "sentione",
   "fecha": "2026-10-13",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -4081,6 +4695,7 @@
  },
  {
   "id": "twitter_2110206855502827670",
+  "fuente": "sentione",
   "fecha": "2026-10-13",
   "plataforma": "X",
   "formato": "Publicación",
@@ -4095,7 +4710,26 @@
   "extracto": "#Atención | Alcaldía de Barrancabermeja ofrece recompensa de $50 millones por responsables de ataque con granada cerca del colegio Camilo…"
  },
  {
+  "id": "WEB26_215cef64784dfc",
+  "fuente": "web",
+  "fecha": "2026-10-13",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Enlace Televisión",
+  "url": "https://enlacetelevision.com/2026/10/13/denuncian-amenazas-contra-defensores-ambientales-en-barrancabermeja/",
+  "tema": "seg",
+  "sentimiento": "negativo",
+  "objetivo": "ciudad",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Denuncian amenazas contra defensores ambientales en Barrancabermeja",
+  "resumen": "Lideresas y defensores ambientales denuncian presuntas amenazas relacionadas con su trabajo de protección de ecosistemas; el artículo aclara que deben investigarse.",
+  "actores": []
+ },
+ {
   "id": "297056510331491_1669078814874503",
+  "fuente": "sentione",
   "fecha": "2026-10-14",
   "plataforma": "Facebook",
   "formato": "Publicación",
@@ -4111,6 +4745,7 @@
  },
  {
   "id": "7c621d0005292e7e237d90e176f54e88",
+  "fuente": "sentione",
   "fecha": "2026-10-14",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -4126,6 +4761,7 @@
  },
  {
   "id": "twitter_2110356012179829189",
+  "fuente": "sentione",
   "fecha": "2026-10-14",
   "plataforma": "X",
   "formato": "Publicación",
@@ -4141,6 +4777,7 @@
  },
  {
   "id": "twitter_2110415059394642074",
+  "fuente": "sentione",
   "fecha": "2026-10-14",
   "plataforma": "X",
   "formato": "Publicación",
@@ -4156,6 +4793,7 @@
  },
  {
   "id": "104632211417011_1758688792922827",
+  "fuente": "sentione",
   "fecha": "2026-10-17",
   "plataforma": "Facebook",
   "formato": "Video",
@@ -4171,6 +4809,7 @@
  },
  {
   "id": "twitter_2112009506347532549",
+  "fuente": "sentione",
   "fecha": "2026-10-18",
   "plataforma": "X",
   "formato": "Publicación",
@@ -4187,6 +4826,7 @@
  },
  {
   "id": "3b1bed9e3329401a44ed62d288fc9d73",
+  "fuente": "sentione",
   "fecha": "2026-10-19",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -4202,6 +4842,7 @@
  },
  {
   "id": "810301545696609_1699011794919129",
+  "fuente": "sentione",
   "fecha": "2026-10-19",
   "plataforma": "Facebook",
   "formato": "Publicación",
@@ -4217,6 +4858,7 @@
  },
  {
   "id": "twitter_2112305538016936420",
+  "fuente": "sentione",
   "fecha": "2026-10-19",
   "plataforma": "X",
   "formato": "Publicación",
@@ -4232,6 +4874,7 @@
  },
  {
   "id": "twitter_2112333568940638373",
+  "fuente": "sentione",
   "fecha": "2026-10-19",
   "plataforma": "X",
   "formato": "Publicación",
@@ -4246,7 +4889,26 @@
   "extracto": "¡El calor no es un lujo! En Barrancabermeja y el Magdalena Medio, los ventiladores y aires acondicionados son una necesidad. ¡Cobrar más por…"
  },
  {
+  "id": "WEB26_553d5aba4da64f",
+  "fuente": "web",
+  "fecha": "2026-10-19",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Enlace Televisión",
+  "url": "https://enlacetelevision.com/2026/10/19/que-pasa-con-el-puente-elevado-de-barrancabermeja/",
+  "tema": "obras",
+  "sentimiento": "neutral",
+  "objetivo": "ciudad",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "¿Qué pasa con el puente elevado de Barrancabermeja?",
+  "resumen": "Inquietudes de ciudadanos sobre las obras y plazos del puente elevado; la Secretaría de Infraestructura explica las intervenciones y el estado de la estructura.",
+  "actores": []
+ },
+ {
   "id": "cac07b1a054b2d4af24683c43f8ddf53",
+  "fuente": "sentione",
   "fecha": "2026-10-22",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -4262,6 +4924,7 @@
  },
  {
   "id": "twitter_2113291789754847606",
+  "fuente": "sentione",
   "fecha": "2026-10-22",
   "plataforma": "X",
   "formato": "Publicación",
@@ -4277,6 +4940,7 @@
  },
  {
   "id": "twitter_2113316163249988016",
+  "fuente": "sentione",
   "fecha": "2026-10-22",
   "plataforma": "X",
   "formato": "Publicación",
@@ -4292,6 +4956,7 @@
  },
  {
   "id": "6ba86cee8bc47bb73398648248fffbe4",
+  "fuente": "sentione",
   "fecha": "2026-10-23",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -4307,6 +4972,7 @@
  },
  {
   "id": "40a36d5d10bbcbce2833b0f95f7f8ed5",
+  "fuente": "sentione",
   "fecha": "2026-10-24",
   "plataforma": "Sitios web",
   "formato": "Artículo",
@@ -4323,6 +4989,7 @@
  },
  {
   "id": "youtube_MHgNfu5elis",
+  "fuente": "sentione",
   "fecha": "2026-10-24",
   "plataforma": "YouTube",
   "formato": "Video",
@@ -4338,6 +5005,7 @@
  },
  {
   "id": "twitter_2114848401955127453",
+  "fuente": "sentione",
   "fecha": "2026-10-26",
   "plataforma": "X",
   "formato": "Publicación",
@@ -4352,5 +5020,64 @@
   "extracto": "3/ La Vía Yuma sigue sin un cronograma serio por parte de cada uno de los responsables: alcaldía de Barrancabermeja, gobernación, INVIAS y…",
   "texto": "3/ La Vía Yuma sigue sin un cronograma serio por parte de cada uno de los responsables: alcaldía de Barrancabermeja, gobernación, INVIAS y Ecopetrol. Lastimosamente, en los últimos 4 años no ha habido avances y el riesgo de que aumenten las muertes en la vía es inminente. Genera esperanza la construcción de un ramal férreo hasta el río, así como la construcción y rehabilitación de la vía La Dorada-Chiriguaná. Asimismo, se debe priorizar la construcción del puente Sogamoso en Puerto Wilches y el mejoramiento de sus vías, pues es en este municipio en donde arrancarían los YNC. La Ruta del Caco debe terminarse y ampliarse para completar el tramo La Virgen-El Retén. Los ministerios de Transporte y Energía, junto con las autoridades locales, deben estar más unidos que nunca para impulsar el crecimiento económico y el desarrollo de esta región y de Colombia.",
   "revisar": "Autor con posible perfil político; verificar."
+ },
+ {
+  "id": "WEB26_0effc9b466cc2d",
+  "fuente": "web",
+  "fecha": "2026-10-26",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Enlace Televisión",
+  "url": "https://enlacetelevision.com/2026/10/26/renuncias-mueven-el-tablero-politico-de-barrancabermeja/",
+  "tema": "pol",
+  "sentimiento": "neutral",
+  "objetivo": "sin_objetivo",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Renuncias mueven el tablero político de Barrancabermeja",
+  "resumen": "El medio reporta posibles aspiraciones a la Alcaldía de Alberto Eloy Carrillo, Kellin Baeza, Fabián Arias y Leonardo Granados, sin confirmación formal. También menciona eventuales aspiraciones al Concejo.",
+  "actores": [
+   "Alberto Eloy Carrillo",
+   "Kellin Baeza",
+   "Fabián Arias",
+   "Leonardo Granados"
+  ]
+ },
+ {
+  "id": "WEB26_c5f5866dbf4654",
+  "fuente": "web",
+  "fecha": "2026-10-26",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Enlace Televisión",
+  "url": "https://enlacetelevision.com/2026/10/26/dos-homicidios-en-menos-de-tres-horas-en-barrancabermeja/",
+  "tema": "seg",
+  "sentimiento": "neutral",
+  "objetivo": "ciudad",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Dos homicidios en menos de tres horas en Barrancabermeja",
+  "resumen": "Reportan dos homicidios bajo investigación en sectores distintos de Barrancabermeja; se describe una preocupación de seguridad local sin atribuir culpabilidad política.",
+  "actores": []
+ },
+ {
+  "id": "WEB26_25946633668dd3",
+  "fuente": "web",
+  "fecha": "2026-10-27",
+  "plataforma": "Sitios web",
+  "formato": "Artículo",
+  "autor": "Enlace Televisión",
+  "url": "https://enlacetelevision.com/2026/10/27/cienaga-del-opon-recibira-agua-potable-y-ayudas-alimentarias/",
+  "tema": "agua",
+  "sentimiento": "neutral",
+  "objetivo": "ciudad",
+  "voz": "medio",
+  "ciro": null,
+  "sentione": "no_aplica",
+  "extracto": "Ciénaga del Opón recibirá agua potable y ayudas alimentarias",
+  "resumen": "Medio local informa medidas de abastecimiento de agua y asistencia alimentaria ante dificultades por la sequía y niveles de la ciénaga.",
+  "actores": []
  }
 ]
