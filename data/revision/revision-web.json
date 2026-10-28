@@ -185,7 +185,8 @@
    "sentimiento": "neutral",
    "objetivo": "ciudad",
    "voz": "institucional",
-   "nota": "Comunicado institucional sobre la protesta de Patio Bonito."
+   "nota": "Comunicado institucional sobre la protesta de Patio Bonito.",
+   "revisar": "El enlace no abrió en la verificación del 28 oct 2026 (certificado TLS del sitio); confirmar antes de citar."
   },
   {
    "id": "WEB26_2168a11994b017",
@@ -238,7 +239,7 @@
    "decision": "excluir",
    "motivo": "fuera",
    "nota": "Conflicto laboral nacional de Ecopetrol; la mención a Barrancabermeja es secundaria.",
-   "revisar": "Dominio atípico (www.com.elcolombiano.com): abrir el enlace antes de citar."
+   "revisar": "La URL aportada no existe (dominio www.com.elcolombiano.com sin DNS)."
   },
   {
    "id": "WEB26_a0f953d331d83f",

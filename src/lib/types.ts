@@ -28,7 +28,7 @@ export interface SourceRow {
   keyword: string;
   sentione: string;
   interacciones: number;
-  hoja: 'base' | 'pendiente' | 'web';
+  hoja: 'base' | 'pendiente' | 'web' | 'recuperada';
 }
 
 /** Nota encontrada por investigación web: sin texto original ni interacciones, con un resumen editorial aparte. */

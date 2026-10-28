@@ -5,7 +5,7 @@
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { cleanText, fullText, isCiroAccount } from '../src/lib/pipeline';
-import { readReview, readSource, ROOT, SOURCE_AMPLIADA_CSV, SOURCE_CSV, SOURCE_WEB_CSV } from '../scripts/source';
+import { readRecovered, readReview, readSource, ROOT, SOURCE_AMPLIADA_CSV, SOURCE_CSV, SOURCE_WEB_CSV } from '../scripts/source';
 import { assemble, readReviewWeb } from '../scripts/assemble';
 import type { Figura, Registro, Resumen } from '../src/lib/types';
 import registros from '../src/data/registros.json';
@@ -14,6 +14,7 @@ import figuras from '../src/data/figuras.json';
 import curated from '../src/data/evidencias.json';
 
 const src = readSource();
+const recovered = readRecovered();
 const review = readReview();
 const full = assemble();
 const out = full.sentione;
@@ -69,8 +70,9 @@ describe('validación de la exportación de Sentione', () => {
     });
   });
 
-  it('la revisión cubre exactamente los 346 registros con texto', () => {
-    expect(review).toHaveLength(src.base.length + src.pendiente.length);
+  it('la revisión cubre exactamente los registros con texto: 346 de la exportación y 14 recuperados', () => {
+    expect(review).toHaveLength(src.base.length + src.pendiente.length + recovered.length);
+    expect(review).toHaveLength(360);
     expect(new Set(review.map((r) => r.id)).size).toBe(review.length);
     for (const r of review) {
       if (r.decision === 'incluir') expect(r.tema && r.sentimiento && r.objetivo && r.voz, r.id).toBeTruthy();
@@ -97,17 +99,18 @@ describe('reproducibilidad', () => {
     expect(by('incluido') + by('replica') + by('excluido') + by('sin_texto') + by('duplicado')).toBe(815);
   });
 
-  it('cifras finales: 298 pertinentes tras la revisión, 9 réplicas, 289 en el informe', () => {
-    expect(sum.revision.incluidos).toBe(298);
+  it('cifras finales: 311 pertinentes tras la revisión, 9 réplicas, 302 de la escucha y 325 en total', () => {
+    expect(sum.revision.incluidos).toBe(311);
     expect(sum.revision.replicas).toBe(9);
-    expect(sum.final).toBe(289);
-    expect(rs).toHaveLength(289);
+    expect(sum.final).toBe(302);
+    expect(rs).toHaveLength(302);
+    expect(all).toHaveLength(325);
   });
 });
 
 describe('atribución a Ciro Fernández', () => {
-  const all = [...src.base, ...src.pendiente];
-  const byId = new Map(all.map((r) => [r.id, r]));
+  const rows = [...src.base, ...src.pendiente, ...recovered];
+  const byId = new Map(rows.map((r) => [r.id, r]));
 
   it('las publicaciones propias salen de sus cuentas y las menciones lo nombran en el texto', () => {
     for (const r of rs.filter((x) => x.ciro === 'propia')) expect(isCiroAccount(byId.get(r.id)!), r.id).toBe(true);
@@ -122,11 +125,21 @@ describe('atribución a Ciro Fernández', () => {
     }
   });
 
-  it('16 publicaciones propias, 1 mención de terceros y 14 propias sin texto', () => {
-    expect(sum.ciro.propiasContadas).toBe(16);
+  it('29 publicaciones propias, 1 mención de terceros y ninguna propia sin texto', () => {
+    expect(sum.ciro.propiasContadas).toBe(29);
     expect(sum.ciro.mencionesTerceros).toBe(1);
-    expect(sum.ciro.propiasSinTexto).toHaveLength(14);
-    for (const p of sum.ciro.propiasSinTexto) expect(p.enlace).toMatch(/twitter\.com\/CiroFernandezN\//);
+    expect(sum.ciro.propiasSinTexto).toHaveLength(0);
+  });
+
+  it('las 14 recuperadas son las publicaciones propias que la auditoría tenía sin texto', () => {
+    const audit = new Map(src.audit.map((a) => [a.id, a]));
+    expect(recovered).toHaveLength(14);
+    for (const r of recovered) {
+      expect(audit.get(r.id)?.decision, r.id).toBe('Excluir');
+      expect(audit.get(r.id)?.enlace).toBe(r.url);
+      expect(r.url).toMatch(/^https:\/\/twitter\.com\/CiroFernandezN\/status\/\d+$/);
+      expect(r.texto.length).toBeGreaterThan(0);
+    }
   });
 
   it('los comentarios de personas no exponen el nombre del autor', () => {
@@ -182,7 +195,6 @@ describe('investigación web', () => {
     expect(sum.web.duplicadosConSentione).toEqual([]);
     const sentioneUrls = new Set([...src.base, ...src.pendiente].map((r) => r.url));
     for (const w of web) expect(sentioneUrls.has(w.url), w.id).toBe(false);
-    expect(rs).toHaveLength(289);
   });
 
   it('no inventa texto ni interacciones: el extracto es el titular y el resumen queda aparte', () => {
@@ -228,6 +240,6 @@ describe('figuras políticas', () => {
 
   it('la publicación «por validar» de Santander Se Conecta está en la escucha con enlace y fecha', () => {
     expect(sum.web.hallazgoPorValidar.enSentione).toMatchObject({ id: 'twitter_2099848070871625899', url: 'https://twitter.com/SanSeConecta/status/2099848070871625899' });
-    expect(by('ciro').propias).toBe(16);
+    expect(by('ciro').propias).toBe(29);
   });
 });

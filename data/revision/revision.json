@@ -1,5 +1,5 @@
 {
- "descripcion": "Revisión registro a registro de los 346 registros con texto (220 incluidos y 126 pendientes en la depuración preliminar). Revisión asistida: cada decisión se tomó leyendo el texto completo; los marcados con \"revisar\" requieren validación humana.",
+ "descripcion": "Revisión registro a registro de los 346 registros con texto (220 incluidos y 126 pendientes en la depuración preliminar). Revisión asistida: cada decisión se tomó leyendo el texto completo; los marcados con \"revisar\" requieren validación humana. Incluye 14 publicaciones de @CiroFernandezN que estaban en la auditoría sin texto y se recuperaron desde su enlace público.",
  "motivos": {
   "rutina": "Anuncio institucional rutinario, sin problemática ni debate",
   "fuera": "No trata de Barrancabermeja o la mención es tangencial",
@@ -3344,6 +3344,157 @@
    "objetivo": "alcaldia",
    "voz": "ciudadano",
    "revisar": "Autor con posible perfil político; verificar."
+  },
+  {
+   "id": "twitter_2082461929327456537",
+   "fecha": "2026-07-29",
+   "ref": "Lamento profundamente el fallecimiento del exconcejal de Barrancabermeja Rogelio Scarpetta",
+   "decision": "excluir",
+   "motivo": "rutina",
+   "nota": "Mensaje de condolencia; no trata de problemáticas ni del contexto electoral."
+  },
+  {
+   "id": "twitter_2090195197942509730",
+   "fecha": "2026-08-19",
+   "ref": "Sostuvimos un encuentro con @luisfelipehenao presidente de la junta de Ecopetrol, en el qu",
+   "decision": "incluir",
+   "tema": "eco",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Reunión con el presidente de la junta de Ecopetrol sobre hidrocarburos y la economía de la ciudad. Publicación larga: solo se ve públicamente el inicio del texto."
+  },
+  {
+   "id": "twitter_2093058847367639445",
+   "fecha": "2026-08-27",
+   "ref": "El río Magdalena ha sido el corazón de #Barrancabermeja y del Magdalena Medio. Hoy, los ba",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Bajos niveles del río Magdalena; invita al presidente a liderar una respuesta. Publicación larga: solo se ve públicamente el inicio del texto."
+  },
+  {
+   "id": "twitter_2095594182559596652",
+   "fecha": "2026-09-03",
+   "ref": "Mi solidaridad con las víctimas y sus familias. La verdad y la justicia son importantes, p",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Mensaje de solidaridad con víctimas y llamado a más seguridad."
+  },
+  {
+   "id": "twitter_2098095722641989713",
+   "fecha": "2026-09-10",
+   "ref": "Las granjas solares deben ser una realidad para Barrancabermeja. Más allá de disputas, lo ",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Exige terminar y conectar las granjas solares."
+  },
+  {
+   "id": "twitter_2098433797758824764",
+   "fecha": "2026-09-11",
+   "ref": "El río Magdalena es clave para Barrancabermeja. No más obras paralizadas, urge gestión y s",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Critica las obras paralizadas del río Magdalena."
+  },
+  {
+   "id": "twitter_2099559503930831287",
+   "fecha": "2026-09-14",
+   "ref": "La PTAR San Silvestre no puede seguir acumulando años de retrasos. Barrancabermeja necesit",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Critica los retrasos de la PTAR San Silvestre."
+  },
+  {
+   "id": "twitter_2099874461847621901",
+   "fecha": "2026-09-15",
+   "ref": "Con el río Magdalena en niveles críticos, quienes sienten primero sus efectos son nuestros",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Preocupación por los pescadores ante los niveles críticos del río. Publicación larga: solo se ve públicamente el inicio del texto."
+  },
+  {
+   "id": "twitter_2100313040482652393",
+   "fecha": "2026-09-16",
+   "ref": "Barrancabermeja es una ciudad energética y nuestros jóvenes deben tener oportunidades para",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "positivo",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Valora la formación técnica de jóvenes en sistemas fotovoltaicos. Publicación larga: solo se ve públicamente el inicio del texto."
+  },
+  {
+   "id": "twitter_2103143881705676909",
+   "fecha": "2026-09-24",
+   "ref": "Los cuatro manatíes hallados muertos en Barrancabermeja nos duelen. Son parte de nuestra r",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Muerte de cuatro manatíes; pide esclarecer causas."
+  },
+  {
+   "id": "twitter_2103522841346150476",
+   "fecha": "2026-09-25",
+   "ref": "Si estás pasando días difíciles, mereces ser escuchado y recibir ayuda. En Barrancabermeja",
+   "decision": "incluir",
+   "tema": "salud",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Pide citas de salud mental a tiempo."
+  },
+  {
+   "id": "twitter_2104261306429948079",
+   "fecha": "2026-09-27",
+   "ref": "Propongo que Gobernación, Supersalud y hospital acuerden recursos, fechas y responsables, ",
+   "decision": "incluir",
+   "tema": "salud",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Propuesta para garantizar recursos del hospital regional."
+  },
+  {
+   "id": "twitter_2111241115944796262",
+   "fecha": "2026-10-16",
+   "ref": "Que 3.200 familias puedan ahorrar en la luz es una buena noticia para #Barrancabermeja. Ah",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "positivo",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Celebra el ahorro de energía para 3.200 familias y pide terminar las obras."
+  },
+  {
+   "id": "twitter_2112218882048233557",
+   "fecha": "2026-10-19",
+   "ref": "250 vacantes anunciadas por el SENA para Barrancabermeja este jueves 22 de octubre, de 8 a",
+   "decision": "incluir",
+   "tema": "eco",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Difunde vacantes de empleo del SENA en la ciudad."
   }
  ]
 }

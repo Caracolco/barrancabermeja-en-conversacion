@@ -184,6 +184,8 @@ export function validate(audit: AuditRow[], base: SourceRow[], pend: SourceRow[]
 
 export interface BuildInput {
   base: SourceRow[];
+  /** Publicaciones de la auditoría sin texto en la exportación, recuperadas después de su enlace público. */
+  recuperadas?: SourceRow[];
   pendiente: SourceRow[];
   audit: AuditRow[];
   review: ReviewEntry[];
@@ -210,7 +212,11 @@ export function fullText(r: Pick<SourceRow, 'titulo' | 'texto'>): string {
 
 export function build(input: BuildInput): { registros: Registro[]; resumen: Omit<Resumen, 'web'>; auditoria: AuditoriaFila[] } {
   const { base, pendiente, audit, review, declared } = input;
-  const rows = [...base, ...pendiente];
+  const recuperadas = input.recuperadas ?? [];
+  const auditIds = new Set(audit.map((a) => a.id));
+  const ajenas = recuperadas.filter((r) => !auditIds.has(r.id)).map((r) => r.id);
+  if (ajenas.length) throw new Error(`Recuperadas que no están en la auditoría: ${ajenas.join(', ')}`);
+  const rows = [...base, ...pendiente, ...recuperadas];
   const byId = new Map(rows.map((r) => [r.id, r]));
   const rev = new Map(review.map((r) => [r.id, r]));
   const missing = rows.filter((r) => !rev.has(r.id)).map((r) => r.id);

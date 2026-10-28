@@ -12,6 +12,7 @@ export const SOURCE_WEB_XLSX = 'data/fuente/Ciro_Fernandez_escucha_ampliada_fuen
 export const SOURCE_WEB_CSV = 'data/fuente/Ciro_Fernandez_solo_nuevas_fuentes_web.csv';
 export const SOURCE_AMPLIADA_CSV = 'data/fuente/Ciro_Fernandez_base_ampliada_para_Claude.csv';
 export const REVIEW = 'data/revision/revision.json';
+export const RECOVERED = 'data/fuente/ciro_x_recuperadas.json';
 export const EVIDENCE = 'src/data/evidencias.json';
 
 const toSource = (r: Record<string, string>, hoja: SourceRow['hoja']): SourceRow => ({
@@ -142,4 +143,26 @@ export function readWebSource(path = `${ROOT}${SOURCE_WEB_XLSX}`): WebSource {
     hallazgo: { cuenta: h['Cuenta'], estado: h['Estado'], descripcion: h['Descripción verificada'], url: h['URL hallazgo'] },
     metodologia: Object.fromEntries(meta.map((r) => [r[0], r[1]])),
   };
+}
+
+/** Publicaciones públicas de @CiroFernandezN recuperadas desde su enlace (estaban en la auditoría sin texto). */
+export function readRecovered(): (SourceRow & { textoParcial: boolean })[] {
+  const doc = JSON.parse(readFileSync(`${ROOT}${RECOVERED}`, 'utf8')) as {
+    publicaciones: { id: string; url: string; fecha: string; autor: string; texto: string; textoParcial: boolean }[];
+  };
+  return doc.publicaciones.map((p) => ({
+    id: p.id,
+    fecha: p.fecha,
+    tipo: 'Tweet',
+    plataforma: 'X (Twitter)',
+    titulo: '',
+    texto: p.texto,
+    autor: p.autor,
+    url: p.url,
+    keyword: '',
+    sentione: '',
+    interacciones: 0,
+    hoja: 'recuperada',
+    textoParcial: p.textoParcial,
+  }));
 }

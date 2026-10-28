@@ -84,12 +84,12 @@
     "idsDuplicados": 4
   },
   "revision": {
-    "revisados": 346,
-    "incluidos": 298,
-    "excluidos": 48,
+    "revisados": 360,
+    "incluidos": 311,
+    "excluidos": 49,
     "replicas": 9,
     "porMotivo": {
-      "rutina": 29,
+      "rutina": 30,
       "fuera": 15,
       "sinrel": 2,
       "historica": 2
@@ -98,68 +98,11 @@
     "deRevisarAIncluir": 107,
     "marcadosRevisar": 7
   },
-  "final": 289,
+  "final": 302,
   "ciro": {
-    "propiasConTexto": 17,
-    "propiasContadas": 16,
-    "propiasSinTexto": [
-      {
-        "fila": 21,
-        "enlace": "https://twitter.com/CiroFernandezN/status/2112218882048233557"
-      },
-      {
-        "fila": 27,
-        "enlace": "https://twitter.com/CiroFernandezN/status/2111241115944796262"
-      },
-      {
-        "fila": 144,
-        "enlace": "https://twitter.com/CiroFernandezN/status/2104261306429948079"
-      },
-      {
-        "fila": 147,
-        "enlace": "https://twitter.com/CiroFernandezN/status/2103522841346150476"
-      },
-      {
-        "fila": 149,
-        "enlace": "https://twitter.com/CiroFernandezN/status/2103143881705676909"
-      },
-      {
-        "fila": 177,
-        "enlace": "https://twitter.com/CiroFernandezN/status/2100313040482652393"
-      },
-      {
-        "fila": 182,
-        "enlace": "https://twitter.com/CiroFernandezN/status/2099874461847621901"
-      },
-      {
-        "fila": 187,
-        "enlace": "https://twitter.com/CiroFernandezN/status/2099559503930831287"
-      },
-      {
-        "fila": 197,
-        "enlace": "https://twitter.com/CiroFernandezN/status/2098433797758824764"
-      },
-      {
-        "fila": 201,
-        "enlace": "https://twitter.com/CiroFernandezN/status/2098095722641989713"
-      },
-      {
-        "fila": 218,
-        "enlace": "https://twitter.com/CiroFernandezN/status/2095594182559596652"
-      },
-      {
-        "fila": 251,
-        "enlace": "https://twitter.com/CiroFernandezN/status/2093058847367639445"
-      },
-      {
-        "fila": 257,
-        "enlace": "https://twitter.com/CiroFernandezN/status/2090195197942509730"
-      },
-      {
-        "fila": 366,
-        "enlace": "https://twitter.com/CiroFernandezN/status/2082461929327456537"
-      }
-    ],
+    "propiasConTexto": 30,
+    "propiasContadas": 29,
+    "propiasSinTexto": [],
     "mencionesTerceros": 1,
     "mencionesAuditoria": [
       {
@@ -223,14 +166,14 @@
     "comentariosFacebook": 299
   },
   "sentione": {
-    "sinClasificar": 155,
+    "sinClasificar": 168,
     "comparables": 134,
     "coincidencia": 94
   },
   "motor": {
-    "temaCoincide": 202,
-    "sentimientoCoincide": 224,
-    "total": 289
+    "temaCoincide": 208,
+    "sentimientoCoincide": 231,
+    "total": 302
   },
   "web": {
     "validacion": [

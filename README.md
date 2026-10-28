@@ -42,6 +42,8 @@ Todas las cifras y titulares se calculan en `src/report/story.ts` y `src/lib/con
 | `data/fuente/Ciro_Fernandez_base_depurada.csv` | La hoja *Base depurada* en CSV; una prueba verifica que coincide con el Excel. |
 | `data/fuente/Ciro_Fernandez_escucha_ampliada_fuentes_publicas.xlsx` | Libro ampliado: los mismos 220 registros de Sentione más 26 notas de investigación web, figuras políticas, hallazgo por validar y metodología. Solo se lee. |
 | `data/fuente/Ciro_Fernandez_base_ampliada_para_Claude.csv`, `…_solo_nuevas_fuentes_web.csv` | Las mismas tablas en CSV; las pruebas verifican que coinciden con el libro. |
+| `data/fuente/ciro_x_recuperadas.json` | 14 publicaciones públicas de @CiroFernandezN que la auditoría tenía sin texto, recuperadas desde su enlace con el servicio público de inserción de X (las largas solo muestran el inicio). |
+| `data/revision/verificacion-web.json` | Consulta en línea de cada nota de búsqueda pública: código HTTP, título y fecha. |
 | `data/revision/revision-web.json` | Revisión de las 26 notas web: decisión, tema, sentimiento del titular, destinatario y voz. |
 | `src/data/figuras.json`, `public/data/auditoria-web.csv` | Generados por `npm run data`: figuras con sus cifras en la escucha y en la web, y decisión de cada nota web. |
 | `data/revision/revision.json` | Revisión registro a registro de los 346 registros con texto: decisión, motivo, tema, sentimiento, destinatario y voz. |
@@ -82,7 +84,7 @@ administración. Fabián Oviedo se trata como figura de Bucaramanga. Ninguna can
 ### Resultado
 
 - 815 registros capturados → 346 con texto revisados → 298 pertinentes → **289 en el informe** (9 réplicas).
-- Búsqueda pública: 26 notas → 23 pertinentes. **Base del informe: 312 publicaciones.**
+- Búsqueda pública: 26 notas → 23 pertinentes. **Base del informe: 325 publicaciones** (incluye 13 publicaciones de Ciro recuperadas; la otra recuperada, un mensaje de condolencia, no es pertinente).
 - Ciro Fernández: 16 publicaciones propias y 1 mención de terceros con texto.
 - Limitaciones: los 456 registros excluidos preliminarmente no traen texto en los archivos entregados (299 son comentarios
   de Facebook y 14 son publicaciones de @CiroFernandezN); no se pudieron volver a leer y quedan señalados en la auditoría.

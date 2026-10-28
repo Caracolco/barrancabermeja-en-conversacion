@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import { build, cleanText, fullText, toCsv } from '../src/lib/pipeline';
 import { buildFiguras, buildWeb } from '../src/lib/web';
 import type { Check, Figura, Registro, Resumen, ReviewEntry } from '../src/lib/types';
-import { readEvidenceIds, readReview, readSource, readWebSource, ROOT, SOURCE_WEB_XLSX, SOURCE_XLSX } from './source';
+import { readEvidenceIds, readRecovered, readReview, readSource, readWebSource, ROOT, SOURCE_WEB_XLSX, SOURCE_XLSX } from './source';
 
 export const REVIEW_WEB = 'data/revision/revision-web.json';
 
@@ -14,8 +14,9 @@ export function readReviewWeb(): ReviewEntry[] {
 export function assemble() {
   const src = readSource();
   const ext = readWebSource();
-  const s = build({ ...src, review: readReview(), archivo: SOURCE_XLSX.split('/').pop()!, evidenceIds: readEvidenceIds() });
-  const all = [...src.base, ...src.pendiente];
+  const recuperadas = readRecovered();
+  const s = build({ ...src, recuperadas, review: readReview(), archivo: SOURCE_XLSX.split('/').pop()!, evidenceIds: readEvidenceIds() });
+  const all = [...src.base, ...src.pendiente, ...recuperadas];
   const w = buildWeb({
     web: ext.web,
     review: readReviewWeb(),
