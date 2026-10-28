@@ -1,0 +1,235 @@
+{
+  "fuente": {
+    "archivo": "Ciro_Fernandez_escucha_depurada.xlsx",
+    "ventana": {
+      "desde": "2026-01-01",
+      "hasta": "2026-10-28"
+    },
+    "filas": 815
+  },
+  "rango": {
+    "desde": "2026-01-05",
+    "hasta": "2026-10-26"
+  },
+  "validacion": [
+    {
+      "id": "filas",
+      "label": "Registros originales (filas de la auditoría)",
+      "expected": 815,
+      "actual": 815,
+      "ok": true
+    },
+    {
+      "id": "incluidos",
+      "label": "Incluidos preliminarmente",
+      "expected": 220,
+      "actual": 220,
+      "ok": true
+    },
+    {
+      "id": "pendientes",
+      "label": "Pendientes de revisión",
+      "expected": 126,
+      "actual": 126,
+      "ok": true
+    },
+    {
+      "id": "excluidos",
+      "label": "Excluidos por pertinencia",
+      "expected": 456,
+      "actual": 456,
+      "ok": true
+    },
+    {
+      "id": "duplicados",
+      "label": "Filas con identificador repetido",
+      "expected": 13,
+      "actual": 13,
+      "ok": true
+    },
+    {
+      "id": "duplicados-id",
+      "label": "Filas cuyo identificador ya apareció antes",
+      "expected": 13,
+      "actual": 13,
+      "ok": true
+    },
+    {
+      "id": "hoja-base",
+      "label": "Hoja «Base depurada» = incluidos de la auditoría",
+      "expected": 220,
+      "actual": 220,
+      "ok": true
+    },
+    {
+      "id": "hoja-pendiente",
+      "label": "Hoja «Revisión pendiente» = pendientes de la auditoría",
+      "expected": 126,
+      "actual": 126,
+      "ok": true
+    },
+    {
+      "id": "suma",
+      "label": "Incluidos + pendientes + excluidos + duplicados",
+      "expected": 815,
+      "actual": 815,
+      "ok": true
+    }
+  ],
+  "preliminar": {
+    "incluir": 220,
+    "revisar": 126,
+    "excluir": 456,
+    "duplicado": 13,
+    "idsDuplicados": 4
+  },
+  "revision": {
+    "revisados": 346,
+    "incluidos": 298,
+    "excluidos": 48,
+    "replicas": 9,
+    "porMotivo": {
+      "rutina": 29,
+      "fuera": 15,
+      "sinrel": 2,
+      "historica": 2
+    },
+    "deIncluirAExcluir": 29,
+    "deRevisarAIncluir": 107,
+    "marcadosRevisar": 7
+  },
+  "final": 289,
+  "ciro": {
+    "propiasConTexto": 17,
+    "propiasContadas": 16,
+    "propiasSinTexto": [
+      {
+        "fila": 21,
+        "enlace": "https://twitter.com/CiroFernandezN/status/2112218882048233557"
+      },
+      {
+        "fila": 27,
+        "enlace": "https://twitter.com/CiroFernandezN/status/2111241115944796262"
+      },
+      {
+        "fila": 144,
+        "enlace": "https://twitter.com/CiroFernandezN/status/2104261306429948079"
+      },
+      {
+        "fila": 147,
+        "enlace": "https://twitter.com/CiroFernandezN/status/2103522841346150476"
+      },
+      {
+        "fila": 149,
+        "enlace": "https://twitter.com/CiroFernandezN/status/2103143881705676909"
+      },
+      {
+        "fila": 177,
+        "enlace": "https://twitter.com/CiroFernandezN/status/2100313040482652393"
+      },
+      {
+        "fila": 182,
+        "enlace": "https://twitter.com/CiroFernandezN/status/2099874461847621901"
+      },
+      {
+        "fila": 187,
+        "enlace": "https://twitter.com/CiroFernandezN/status/2099559503930831287"
+      },
+      {
+        "fila": 197,
+        "enlace": "https://twitter.com/CiroFernandezN/status/2098433797758824764"
+      },
+      {
+        "fila": 201,
+        "enlace": "https://twitter.com/CiroFernandezN/status/2098095722641989713"
+      },
+      {
+        "fila": 218,
+        "enlace": "https://twitter.com/CiroFernandezN/status/2095594182559596652"
+      },
+      {
+        "fila": 251,
+        "enlace": "https://twitter.com/CiroFernandezN/status/2093058847367639445"
+      },
+      {
+        "fila": 257,
+        "enlace": "https://twitter.com/CiroFernandezN/status/2090195197942509730"
+      },
+      {
+        "fila": 366,
+        "enlace": "https://twitter.com/CiroFernandezN/status/2082461929327456537"
+      }
+    ],
+    "mencionesTerceros": 1,
+    "mencionesAuditoria": [
+      {
+        "fila": 7,
+        "decision": "Excluir",
+        "justificacion": "Noticia histórica reciclada, no conversación electoral actual",
+        "enlace": "https://costanoticias.com/en-control-politico-al-minagricultura-rodolfo-zea-por-el-mal-uso-de-los-recursos-de-los-campesinos-en-la-pandemia-no-logro-convencer-a-los-congresistas-y-otros-prefirieron-echarle-la-culpa-al-sistem/",
+        "final": "excluido"
+      },
+      {
+        "fila": 183,
+        "decision": "Incluir",
+        "justificacion": "Elecciones, aspiraciones o candidaturas",
+        "enlace": "https://twitter.com/SanSeConecta/status/2099848070871625899",
+        "final": "incluido"
+      },
+      {
+        "fila": 214,
+        "decision": "Excluir",
+        "justificacion": "Homónimo o contenido de otra localidad",
+        "enlace": "https://www.redboing.com/la-antorcha-suramericana-paso-por-granadero-baigorria/",
+        "final": "excluido"
+      },
+      {
+        "fila": 569,
+        "decision": "Excluir",
+        "justificacion": "Rutina institucional, mención tangencial o fuera de alcance",
+        "enlace": "https://www.facebook.com/reel/935935389042558/",
+        "final": "sin_texto"
+      },
+      {
+        "fila": 579,
+        "decision": "Excluir",
+        "justificacion": "Homónimo o contenido de otra localidad",
+        "enlace": "https://quinto-poder.mx/alza-la-voz/2024/5/27/profesor-de-matematicas-encierra-sus-alumnos-en-salon-50-grados-algunos-se-desmayaron-30437.html",
+        "final": "excluido"
+      },
+      {
+        "fila": 674,
+        "decision": "Excluir",
+        "justificacion": "Rutina institucional, mención tangencial o fuera de alcance",
+        "enlace": "https://www.facebook.com/617606030468281/posts/1271492701746274",
+        "final": "sin_texto"
+      },
+      {
+        "fila": 695,
+        "decision": "Excluir",
+        "justificacion": "Homónimo o contenido de otra localidad",
+        "enlace": "https://liberal.com.mx/esti-8-continua-celebrando-su-55-aniversario-con-eventos/",
+        "final": "excluido"
+      }
+    ],
+    "cuentas": [
+      "@CiroFernandezN (X)",
+      "Ciro Fernández (Facebook)"
+    ]
+  },
+  "excluidosSinTexto": {
+    "total": 456,
+    "facebook": 306,
+    "comentariosFacebook": 299
+  },
+  "sentione": {
+    "sinClasificar": 155,
+    "comparables": 134,
+    "coincidencia": 94
+  },
+  "motor": {
+    "temaCoincide": 202,
+    "sentimientoCoincide": 224,
+    "total": 289
+  }
+}

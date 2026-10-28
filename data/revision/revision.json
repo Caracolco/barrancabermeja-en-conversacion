@@ -1,0 +1,3349 @@
+{
+ "descripcion": "Revisión registro a registro de los 346 registros con texto (220 incluidos y 126 pendientes en la depuración preliminar). Revisión asistida: cada decisión se tomó leyendo el texto completo; los marcados con \"revisar\" requieren validación humana.",
+ "motivos": {
+  "rutina": "Anuncio institucional rutinario, sin problemática ni debate",
+  "fuera": "No trata de Barrancabermeja o la mención es tangencial",
+  "sinrel": "Comentario sin relación con la ciudad ni con el contexto electoral",
+  "historica": "Nota de años anteriores recapturada; no es conversación actual"
+ },
+ "registros": [
+  {
+   "id": "f445532a3471b02ccdb13ee5ee3e0b99",
+   "fecha": "2026-01-05",
+   "ref": "Brutal ataque con machete a un perro en Barrancabermeja: autoridades capturaron al respons",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "54e4b6057cc8ecae2d3248914cad19ff",
+   "fecha": "2026-01-06",
+   "ref": "Indignación tras brutal ataque a machete contra un perro en Santander",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "d418733c7b02581b03c2c5e004affa45",
+   "fecha": "2026-01-06",
+   "ref": "Perro atacado con machete en Barrancabermeja requiere reconstrucción facial: autoridades b",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2009637809108475916",
+   "fecha": "2026-01-09",
+   "ref": "#Urgente Ante el descenso crítico en los niveles de agua de la ciénaga El Llanito, la Secr",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "111361870319031_1476609011136481",
+   "fecha": "2026-01-10",
+   "ref": "#Judicial 4sesinan a patrullero en Barrancabermeja En la tarde de hoy fue asesinad0 el pat",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "111361870319031_1477828654347850",
+   "fecha": "2026-01-12",
+   "ref": "#NACIONAL En el barrio Internacional de Barrancabermeja, un patrullero de la Policía Nacio",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "e865a45664a344213d7934ace58fbfd2",
+   "fecha": "2026-01-13",
+   "ref": "Cormagdalena dejó de girar recursos ambientales de ley a Barrancabermeja: ¿por qué?",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "975180cc3d3e38c871fcf4ada593d8ec",
+   "fecha": "2026-01-14",
+   "ref": "Alerta ambiental por presencia de hidrocarburos en ciénaga El Llanito en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "1f204fc2656498d4235bf004fb417213",
+   "fecha": "2026-01-20",
+   "ref": "Nuevamente avistan un hipopótamo en Barrancabermeja: apareció en el patio de una casa",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "4b3b6f98f3e9d80b058972090311b888",
+   "fecha": "2026-01-20",
+   "ref": "Nuevo avistamiento de un hipopótamo cerca de un establo en Barrancabermeja activó alarma d",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "c075580083cea42058ccb184cb0f2985",
+   "fecha": "2026-01-20",
+   "ref": "Plan de acción en marcha para reubicar hipopótamo visto en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18102673543761689",
+   "fecha": "2026-01-20",
+   "ref": "🚨 Alerta en zona rural de Barrancabermeja por hipopótamo suelto. Las autoridades locales a",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "104632211417011_1500669222058120",
+   "fecha": "2026-01-22",
+   "ref": "#Barrancabermeja A partir del lunes 26 de enero, los barranqueños podrán solicitar el reci",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "b0397c3387c28329ba96cc5389c9e269",
+   "fecha": "2026-01-23",
+   "ref": "¿Cuándo están listos los recibos para pagar el predial en Barrancabermeja?: hay descuentos",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "ig_18073310684103664",
+   "fecha": "2026-01-23",
+   "ref": "#Santander | La Alcaldía de Barrancabermeja anunció el ajuste en la tarifa del impuesto pr",
+   "decision": "incluir",
+   "tema": "eco",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio",
+   "nota": "Ajuste de tarifa como respuesta a reclamos por la actualización catastral."
+  },
+  {
+   "id": "twitter_2014758476157714720",
+   "fecha": "2026-01-23",
+   "ref": "Alcaldía de Barrancabermeja socializo disminución en impuesto predial en barrio galán, pal",
+   "decision": "incluir",
+   "tema": "eco",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2014825816689963177",
+   "fecha": "2026-01-23",
+   "ref": "Alcaldía de Barrancabermeja socializo disminución en impuesto predial en barrio galán, pal",
+   "decision": "incluir",
+   "tema": "eco",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2015052080998707498",
+   "fecha": "2026-01-24",
+   "ref": "Alcaldía de Barrancabermeja socializo disminución en impuesto predial en barrio galán, pal",
+   "decision": "incluir",
+   "tema": "eco",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "977a45f7f4ff9cf112087036676c9d91",
+   "fecha": "2026-01-26",
+   "ref": "Sigue contaminada ciénaga tras derrame de crudo en octubre: Alcaldía de Barrancabermeja",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2015893788800020543",
+   "fecha": "2026-01-26",
+   "ref": "Sigue contaminada ciénaga tras derrame de crudo en octubre: Alcaldía de Barrancabermeja #V",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "fbgen_1435448434612930_7cc87588f02448b177b5297c0b8d7fb499a79565788eb264a6db2549151907b0",
+   "fecha": "2026-01-26",
+   "ref": "así decía dario echeverry cuando era candidato para la alcaldía de barrancabermeja prometi",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "negativo",
+   "objetivo": "otro_actor",
+   "voz": "ciudadano"
+  },
+  {
+   "id": "2a30417d485eba465448f2244ef26ea8",
+   "fecha": "2026-01-28",
+   "ref": "Esta sería la nueva directora de la Unidad para las Víctimas, tras salida de Adith Romero",
+   "decision": "excluir",
+   "motivo": "fuera"
+  },
+  {
+   "id": "cc1779e23569838e67ea849dd947db1",
+   "fecha": "2026-01-28",
+   "ref": "Alcaldía de Barrancabermeja instó a las EPS a atender casos de salud mental sin barreras",
+   "decision": "incluir",
+   "tema": "salud",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2016560180117315772",
+   "fecha": "2026-01-28",
+   "ref": "Alcaldía de Barrancabermeja socializo disminución en impuesto predial en barrio galán, pal",
+   "decision": "incluir",
+   "tema": "eco",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_17891245437407894",
+   "fecha": "2026-01-29",
+   "ref": "La presencia de un hipopótamo volvió a generar preocupación en Barrancabermeja. En la madr",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "fbgen_1457097292447837_da1d3a3929720d60acea589186e1dd2b004237aa9401e948756a24a9d1db650a",
+   "fecha": "2026-01-30",
+   "ref": "Gustavo Petro Señor presidente, en Barrancabermeja-Santander hay un problema grande con la",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "ciudadano"
+  },
+  {
+   "id": "fbgen_1311537694339137_b1c391d415b20851db18fccf02558971e42cab0e06a29224f3f5473a283e5f66",
+   "fecha": "2026-01-30",
+   "ref": "Al igual no hemos tenido alcalde en dos años. Fin de la hipocresía. Pide permiso y mantien",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "ciudadano"
+  },
+  {
+   "id": "fbgen_1311537694339137_b27ff77f113cf6d68b57f02141701c4f35cba7a3cdfa604a41f1dbaadd0e160a",
+   "fecha": "2026-01-31",
+   "ref": "Ese era el afán para ser alcalde del distrito, que en la actualidad parece un &quot;molide",
+   "decision": "incluir",
+   "tema": "gestion",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "ciudadano"
+  },
+  {
+   "id": "ig_18141468202473080",
+   "fecha": "2026-01-31",
+   "ref": "Una de las más ambiciosas y contundentes estrategias de defensa del espacio aéreo de la na",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2017742413062717899",
+   "fecha": "2026-01-31",
+   "ref": "Pedro Arnulfo Sánchez. En el encuentro participaron el gobernador de Santander, Juvenal Dí",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "9487de2c740fe937f6c18d0e0e8aed9",
+   "fecha": "2026-02-02",
+   "ref": "Declaran alerta amarilla en Barrancabermeja por aumento del nivel del río Magdalena",
+   "decision": "incluir",
+   "tema": "riesgo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18166205191402942",
+   "fecha": "2026-02-02",
+   "ref": "Desde las 5:30 a.m. de este lunes, 2 de febrero, la Alcaldía de Barrancabermeja estuvo aco",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2018482424305381380",
+   "fecha": "2026-02-02",
+   "ref": "A esta belleza lo tenemos que volver famoso y no es su primer escándalo Vean esto 👇 Alcald",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "ciudadano"
+  },
+  {
+   "id": "c6a1091ebbd30da88d1d2df040c9bbe8",
+   "fecha": "2026-02-04",
+   "ref": "Barrancabermeja pasa a alerta naranja por aumento del caudal del río Magdalena",
+   "decision": "incluir",
+   "tema": "riesgo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "7ec73274f3d8eb62e50143d5679103ca",
+   "fecha": "2026-02-04",
+   "ref": "Ya rigen las nuevas tarifas de taxi en Barrancabermeja: esto es lo que debe saber",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "32eda6d01730c335bdcb08765d5a3c56",
+   "fecha": "2026-02-05",
+   "ref": "Viviendas Solares en Barrancabermeja: ¿quiénes pueden postularse y cómo será la convocator",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "104632211417011_1513678494090526",
+   "fecha": "2026-02-05",
+   "ref": "La Alcaldía de Barrancabermeja, a través de la Dirección de Catastro Multipropósito, avanz",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "fbgen_900672646189108_d3ceb38885211cc706d23a9fbc82cf6f6a1dfa53c68b5158efc29c30b909050d",
+   "fecha": "2026-02-10",
+   "ref": "Señor presidente cormagdalena y la alcaldía de barrancabermeja nos privados del rio magdal",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "ciudadano"
+  },
+  {
+   "id": "twitter_2021675239894397036",
+   "fecha": "2026-02-11",
+   "ref": "Tránsito estrenará parque automotor tras años de espera, anunció la Alcaldía de Barrancabe",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "twitter_2021704142952005991",
+   "fecha": "2026-02-11",
+   "ref": "Tránsito estrenará parque automotor tras años de espera, anunció la Alcaldía de Barrancabe",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "fbgen_1221569933398871_fb4d7a7d639a9831a8313cb0c07b524ebf5d465756cb614be4c7f14c5d92cabb",
+   "fecha": "2026-02-16",
+   "ref": "En Barrancabermeja miembros de grupos paramilitares son dueños de empresas de vigilancia y",
+   "decision": "incluir",
+   "tema": "gestion",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "ciudadano"
+  },
+  {
+   "id": "15ef03fa577c10ad9e8a807567a3ae4c",
+   "fecha": "2026-02-17",
+   "ref": "Remolcador chocó contra un puente en el río Magdalena: así se salvaron sus ocupantes de mo",
+   "decision": "incluir",
+   "tema": "riesgo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2025660412251754807",
+   "fecha": "2026-02-22",
+   "ref": "Alcaldía de Barrancabermeja reportó que en cinco barrios se presentaron afectaciones por i",
+   "decision": "incluir",
+   "tema": "riesgo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2025718241297830085",
+   "fecha": "2026-02-22",
+   "ref": "La alcaldía de Barrancabermeja se pegó al hype de Camilo Torres e hicieron un video sobre ",
+   "decision": "incluir",
+   "tema": "mem",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciudadano",
+   "nota": "Opinión sobre memoria y legado paramilitar; no se refiere a Ciro."
+  },
+  {
+   "id": "twitter_2026029087316177132",
+   "fecha": "2026-02-23",
+   "ref": "🚕 #Seguridad | La Alcaldía de Barrancabermeja inició la instalación de 70 botones de pánic",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "88c33481a0e3f96dbd2be9792db974b0",
+   "fecha": "2026-02-28",
+   "ref": "Investigación: Estos son los bienes de los congresistas de Santander",
+   "decision": "excluir",
+   "motivo": "fuera"
+  },
+  {
+   "id": "twitter_2028255763013980278",
+   "fecha": "2026-03-01",
+   "ref": "🔴 #Elecciones | Barrancabermeja tendrá refuerzo de 86 uniformados para la jornada electora",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "neutral",
+   "objetivo": "sin_objetivo",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18079577951062128",
+   "fecha": "2026-03-03",
+   "ref": "🐾 Exigen activar protocolo urgente ante presencia de hipopótamos en Barrancabermeja La Alc",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "fbgen_1403785048457697_f7b3dfc8ddc032ce4ec720890c773730f56b4a048aea29a25f7e8bd07323bf36",
+   "fecha": "2026-03-05",
+   "ref": "Vamos directo al comunismo, que no se nos olvide estos personajes se prestaron para esa si",
+   "decision": "excluir",
+   "motivo": "sinrel"
+  },
+  {
+   "id": "fbgen_1403785048457697_8cb3a87d4a056f6b69b6d33666a715b0f90e2ff20fbe1b6b9f5537ce57f68bda",
+   "fecha": "2026-03-05",
+   "ref": "Nunca actúan porque no tienen los recursos y menos en campaña política ya que el alcalde d",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "ciudadano"
+  },
+  {
+   "id": "fbgen_1403785048457697_7069fccc7e13a5b41eb82a88670741d1be0bff1d2adaebea03684359b401fcfd",
+   "fecha": "2026-03-06",
+   "ref": "Ya es hora de extinguidos están acabando con las demás especies y el ecosistema de la regi",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciudadano",
+   "nota": "Opinión ciudadana sobre el control de hipopótamos."
+  },
+  {
+   "id": "4095428d37e4b906a11f5bbd27373eb7",
+   "fecha": "2026-03-06",
+   "ref": "Mintrabajo suspende obra en colegio de Barrancabermeja por presuntas fallas en seguridad l",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2030033178229101044",
+   "fecha": "2026-03-06",
+   "ref": "Con el propósito de garantizar un proceso electoral transparente y seguro, la Alcaldía de ",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "neutral",
+   "objetivo": "sin_objetivo",
+   "voz": "medio"
+  },
+  {
+   "id": "22148ccde9c4f975bf46eff86ba4b8fb",
+   "fecha": "2026-03-06",
+   "ref": "42 años de cárcel para alias Pipe por el feminicidio y desmembramiento de una menor de eda",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "d4f23a6b4e349046dc4dc8211ac6782",
+   "fecha": "2026-03-07",
+   "ref": "Barrancabermeja declara alerta amarilla en la red de salud por jornada electoral",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "neutral",
+   "objetivo": "sin_objetivo",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18060486431343869",
+   "fecha": "2026-03-07",
+   "ref": "Suspensión inesperada en millonario contrato vial en Barrancabermeja El Fondo Mixto Foncol",
+   "decision": "incluir",
+   "tema": "gestion",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "8292be5c4bd941e4ac8de1902c184583",
+   "fecha": "2026-03-09",
+   "ref": "Mario José Carvajal: asume el liderazgo del Partido Liberal en Santander",
+   "decision": "excluir",
+   "motivo": "fuera"
+  },
+  {
+   "id": "9104c5e6a8132d802536ca4edf97b370",
+   "fecha": "2026-03-09",
+   "ref": "Mario José Carvajal: Partido Liberal solo alcanzó una curul en la Cámara de Santander",
+   "decision": "excluir",
+   "motivo": "fuera"
+  },
+  {
+   "id": "twitter_2031341651327619478",
+   "fecha": "2026-03-10",
+   "ref": "Duro golpe para Alfonso Eljach Su estructura quedó seriamente debilitada tras la derrota d",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "negativo",
+   "objetivo": "otro_actor",
+   "voz": "medio"
+  },
+  {
+   "id": "8b67d5e18d72c6f934b38af3e5f240a2",
+   "fecha": "2026-03-16",
+   "ref": "Denuncian posible ‘cartel en contratos’ de seguridad privada en el Sena por más de $190.00",
+   "decision": "excluir",
+   "motivo": "fuera"
+  },
+  {
+   "id": "ig_18158939314429839",
+   "fecha": "2026-03-16",
+   "ref": "En un trabajo articulado entre las alcaldías de Barrancabermeja y Yondó, la Agencia Nacion",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "cee36d9d52988f32b621f3f11e756f0",
+   "fecha": "2026-03-17",
+   "ref": "Cierre total en la vía Bucaramanga – Barrancabermeja – Yondó: grave daño en el puente Guil",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "351413539f3ea67f547b57c63f54e0b1",
+   "fecha": "2026-03-17",
+   "ref": "En ocho días habilitarían el puente Guillermo Gaviria entre Barrancabermeja y Yondó",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "97a0ff5d9d2772a90aa5a780a9ae7ff7",
+   "fecha": "2026-03-23",
+   "ref": "Erosión del río Magdalena pone en riesgo a 650 habitantes de un corregimiento de Barrancab",
+   "decision": "incluir",
+   "tema": "riesgo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "496a9a57780e9ca7dbd61be47e0df3eb",
+   "fecha": "2026-03-28",
+   "ref": "Culminan obras de pavimentación de la calle 71 en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2037954117587423502",
+   "fecha": "2026-03-28",
+   "ref": "Predial al Barrio ha beneficiado a más de 400 personas, Alcaldía de Barrancabermeja https:",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "4eaf26885e7956c1d5acb44b374e259a",
+   "fecha": "2026-03-30",
+   "ref": "Alerta en tres comunas de Barrancabermeja por riesgo de deslizamientos e inundaciones",
+   "decision": "incluir",
+   "tema": "riesgo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2038608431616340302",
+   "fecha": "2026-03-30",
+   "ref": "La Alcaldía de Barrancabermeja alerta sobre posibles deslizamientos de tierra por intensas",
+   "decision": "incluir",
+   "tema": "riesgo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "a1878fd1d6a86b513cb06e2aba25c6be",
+   "fecha": "2026-03-31",
+   "ref": "Refuerzan controles a venta de pescado en Barrancabermeja durante Semana Santa",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "a4761d321c6d9093b67bf21100ef5f94",
+   "fecha": "2026-03-31",
+   "ref": "Ofrecen recompensa por el asesinato de una menor de 15 años en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "8f8bb9625d214818f2c273e88e09e687",
+   "fecha": "2026-03-31",
+   "ref": "Autoridades activan medidas de prevención en Barrancabermeja ante el inicio de la temporad",
+   "decision": "incluir",
+   "tema": "riesgo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2039101938998886814",
+   "fecha": "2026-03-31",
+   "ref": "#Atencion Refuerzan vigilancia a la comercialización de pescado en Barrancabermeja durante",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "b335bf78333a9e43f863c088af0edced",
+   "fecha": "2026-03-31",
+   "ref": "Recompensa de $15 millones por responsables del crimen de una menor en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2039295458460197011",
+   "fecha": "2026-04-01",
+   "ref": "La Alcaldía de Barrancabermeja ofrece una recompensa de 15 millones de pesos para quien su",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "e07ad55b4dce094c155d0fd54ce579c7",
+   "fecha": "2026-04-02",
+   "ref": "Asesinan a adolescente dentro de su vivienda en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "111361870319031_1551998196930895",
+   "fecha": "2026-04-02",
+   "ref": "#Judicial Consternación ha generado en Barrancabermeja el asesinato de una adolescente de ",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "8f99c103cdefa77bf41021d9d29436de",
+   "fecha": "2026-04-02",
+   "ref": "Adolescente de 16 años es asesinada al interior de su vivienda en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "a5990480acdc200be778bf0716f883d2",
+   "fecha": "2026-04-02",
+   "ref": "Ofrecen recompensa por responsables de asesinato de joven de 16 años en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "209619682408567_1428537365983027",
+   "fecha": "2026-04-03",
+   "ref": "#Colombia | Mariana Uribe Rodríguez, una adolescente de 16 años, falleció tras ser atacada",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "659540120848131_1523714302455396",
+   "fecha": "2026-04-03",
+   "ref": "🔴 Consternación ha generado en #Barrancabermeja el as3s!nat0 de una adolescente de 16 años",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2040344755528503759",
+   "fecha": "2026-04-04",
+   "ref": "¡Barbarie! ¿Dónde están Gustavo Petro -@petrogustavo, Ivan Cepeda y sus defensoras de dere",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "negativo",
+   "objetivo": "otro_actor",
+   "voz": "ciudadano",
+   "nota": "Crítica dirigida a Gustavo Petro e Iván Cepeda a partir de un homicidio en la ciudad."
+  },
+  {
+   "id": "twitter_2040515888617578678",
+   "fecha": "2026-04-04",
+   "ref": "#AtenciónCN ⚫🔴 Hay consternación en Barrancabermeja (Santander) tras el asesinato de una a",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "44f5eb0c63ce67725b0aec1bf31c56b8",
+   "fecha": "2026-04-05",
+   "ref": "Los campeones buscarán defender el título de la Media Maratón del Sol",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "fbgen_1526689325487052_fe5a25e4d27433d5ef5965cfe874fcfab1341972f93fa1a841f4a736d54ac5ed",
+   "fecha": "2026-04-10",
+   "ref": "Ay una denuncia de un ciudadano trabador de la alcaldía de Barrancabermeja que los obligan",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "ciudadano",
+   "nota": "Denuncia ciudadana no verificada sobre presión a funcionarios.",
+   "revisar": "Denuncia sin verificación; confirmar contexto del hilo."
+  },
+  {
+   "id": "fbgen_1571749964955883_02187a1b3f27ed35130d22042424b2f1ef12df2c7498b48a7fb0c437ecff7668",
+   "fecha": "2026-04-10",
+   "ref": "Mico Mico en las plazas lo que demuestra es el desempleo galopante que hay en todas partes",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "ciudadano"
+  },
+  {
+   "id": "6393b993b6f5e37ab50cbb9a25ab3053",
+   "fecha": "2026-04-10",
+   "ref": "¿Por eso llena algunas plazas? Denuncian que están obligando a funcionarios a asistir a ev",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "b18d95e85a308ad5d880b7e7880e1b10",
+   "fecha": "2026-04-13",
+   "ref": "Barrancabermeja respalda control de hipopótamos tras aval del Gobierno a eutanasia",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "15cf3c3bb5885cead30ac00d1f4139e6",
+   "fecha": "2026-04-13",
+   "ref": "Contratos millonarios de seguridad privada en el Sena: patrones que alertan sobre posibles",
+   "decision": "excluir",
+   "motivo": "fuera"
+  },
+  {
+   "id": "8e997066887fbf1422ac0c9b7b2f86df",
+   "fecha": "2026-04-14",
+   "ref": "Bloqueos afectan misión médica de Barrancabermeja: Secretaría de Salud",
+   "decision": "incluir",
+   "tema": "salud",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "fbgen_1545877246910304_d5a7b4b8abeb082f56dda8253b5a1faafc397239b2e21cf11ae76d88e357cb68",
+   "fecha": "2026-04-14",
+   "ref": "Su amigo guerrillero cepeda, ordenó a los empleados de la alcaldía de barrancabermejá llev",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "negativo",
+   "objetivo": "otro_actor",
+   "voz": "ciudadano"
+  },
+  {
+   "id": "909ce0b3eb0fa9a37f10838d84ee734",
+   "fecha": "2026-04-16",
+   "ref": "Con pico y cédula inicia pago del tercer ciclo de Colombia Mayor en Barrancabermeja",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "7b73df6875a529dd1963d101c44e25ca",
+   "fecha": "2026-04-20",
+   "ref": "Invertirán más de 380 millones en la renovación del Parque de las Memorias en Barrancaberm",
+   "decision": "incluir",
+   "tema": "mem",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2046613002045018523",
+   "fecha": "2026-04-21",
+   "ref": "💚CREDHOS, en el marco de la Reparación Colectiva, recibe por parte de la Unidad para las V",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "twitter_2046613514257592565",
+   "fecha": "2026-04-21",
+   "ref": "💪🏽Esto representa un avance importante para el fortalecimiento del trabajo de CREDHOS en e",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "c356e883bd1dda196e572b5392c294d",
+   "fecha": "2026-04-22",
+   "ref": "Comunidades bloquean vía entre Barrancabermeja y Puerto Wilches por crisis educativa",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "revisar": "Confirmar a quién dirige la comunidad el reclamo educativo."
+  },
+  {
+   "id": "363e631180511c6b918747dbedf033b3",
+   "fecha": "2026-04-23",
+   "ref": "Ofrecen millonaria recompensa por autores de asesinato de comerciante en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ab20815245fc843cd500f575f403830",
+   "fecha": "2026-04-25",
+   "ref": "Anuncian proyecto de $22 mil millones para mejoramiento vial en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "bb7865ebb11cce33ad0ab278ef980812",
+   "fecha": "2026-04-25",
+   "ref": "Barrancabermeja avanza entre obras, inversión social y energía limpia",
+   "decision": "incluir",
+   "tema": "gestion",
+   "sentimiento": "positivo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "239d465c4c90386f8a1071c4567541b",
+   "fecha": "2026-04-26",
+   "ref": "Procuraduría investiga irregularidades en contrato de cámaras de la Alcaldía de Barrancabe",
+   "decision": "incluir",
+   "tema": "gestion",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2048519757406589111",
+   "fecha": "2026-04-26",
+   "ref": "Procuraduría investiga irregularidades en contrato de cámaras de la Alcaldía de Barrancabe",
+   "decision": "incluir",
+   "tema": "gestion",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2048761583321395671",
+   "fecha": "2026-04-27",
+   "ref": "Procuraduría investiga irregularidades en contrato de cámaras de la Alcaldía de Barrancabe",
+   "decision": "incluir",
+   "tema": "gestion",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "be8c249fa34ed5c61ed65ce8df539555",
+   "fecha": "2026-04-27",
+   "ref": "De 157 cámaras, solo 26 están activas en el sistema de videovigilancia de Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "a14ca7bd89b6a4046a41be3416af35c0",
+   "fecha": "2026-04-28",
+   "ref": "Corte da cinco días a Unidad de Víctimas para explicar fallas en giros para los desplazado",
+   "decision": "excluir",
+   "motivo": "fuera"
+  },
+  {
+   "id": "2cf07103d00e4dc049e78d666a29b1d",
+   "fecha": "2026-04-29",
+   "ref": "Ofrecen recompensa de $50 millones por información sobre masacre en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "16769d6783990fc08e3b3f9bb924386f",
+   "fecha": "2026-04-29",
+   "ref": "Ofrecen millonarias recompensas tras ola de homicidios en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2052062899062112571",
+   "fecha": "2026-05-06",
+   "ref": "#RuedaDePrensa 📣Un fallo a favor de los y las pescadoras artesanales, del agua y el territ",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "positivo",
+   "objetivo": "ciudad",
+   "voz": "institucional",
+   "nota": "Celebra un fallo judicial; la responsabilidad se atribuye a empresas y autoridades."
+  },
+  {
+   "id": "5738dcb8dd1c5e947bdd70f2a05d421d",
+   "fecha": "2026-05-07",
+   "ref": "Barrancabermeja pidió ser priorizada en plan de eutanasia química de hipopótamos en Colomb",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "3905eca733241335401d3a18de14007c",
+   "fecha": "2026-05-07",
+   "ref": "En Barrancabermeja piden al Gobierno colombiano priorizar control de tres hipopótamos",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "7f135b367eca82a60258f3843837b530",
+   "fecha": "2026-05-07",
+   "ref": "La intensa batalla de los manatíes por no desaparecer en la ciudad del petróleo",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "7e52077169477251486e8c1c5c5d3789",
+   "fecha": "2026-05-07",
+   "ref": "Barrancabermeja pide prioridad para controlar hipopótamos invasores",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "2cbb27a9643b85bfb3e4a63e549e6852",
+   "fecha": "2026-05-08",
+   "ref": "Indignación por brutal agresión a joven con discapacidad en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "f223b84d7be9a495d0ad5910d79d126d",
+   "fecha": "2026-05-08",
+   "ref": "Video: sujeto agredió a hombre con discapacidad por pedirle que no agrediera a una mujer e",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "258cb39d723161cff02b598d872463e",
+   "fecha": "2026-05-08",
+   "ref": "Barrancabermeja pide prioridad en la caza-control de hipopótamos al detectar varios ejempl",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "e99a0ff2dd4b15124fa69a27996644a0",
+   "fecha": "2026-05-08",
+   "ref": "Barrancabermeja pide priorizar caza-control de hipopótamos tras avistamientos cerca de com",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18435453127187795",
+   "fecha": "2026-05-08",
+   "ref": "🦛⚠️ La Alcaldía de Barrancabermeja solicitó al Ministerio de Ambiente priorizar al distrit",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "111361870319031_1584597813670933",
+   "fecha": "2026-05-08",
+   "ref": "#ATENCIÓN Barrancabermeja pide medidas urgentes por expansión de hipopótamos en el Magdale",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "a34709d45828fbfe6c78842848703c2c",
+   "fecha": "2026-05-13",
+   "ref": "Graban hipopótamo en zona rural de Barrancabermeja: preocupa su comportamiento agresivo",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "888152376c9ef4f71ce35f534e153941",
+   "fecha": "2026-05-13",
+   "ref": "Secretaría de Ambiente alertó por la expansión de los hipopótamos en Colombia: “No podemos",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ccea2f4ef28c4ef69f74d395579f2512",
+   "fecha": "2026-05-14",
+   "ref": "Crece alerta por hipopótamos en Barrancabermeja: campesinos reportan nuevo avistamiento en",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "f5ac05be8928035805de6cc4b3a62258",
+   "fecha": "2026-05-15",
+   "ref": "En huelga trabajadores de la Alcaldía de Barrancabermeja por incumplimiento salarial",
+   "decision": "incluir",
+   "tema": "gestion",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "f5833fdbbab6b0c89057624e6660bad",
+   "fecha": "2026-05-15",
+   "ref": "Masacre del 16 de mayo: víctimas convierten una escuela en símbolo de memoria y resistenci",
+   "decision": "incluir",
+   "tema": "mem",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ded70b9ac5ec84d7190f50bcf9d29de2",
+   "fecha": "2026-05-15",
+   "ref": "Actualización catastral en Barrancabermeja avanza en un 50%: conozca cómo se adelanta el p",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "6eeb3ae7b680fe00614b6cd8eeff7e45",
+   "fecha": "2026-05-16",
+   "ref": "Empleados públicos de la Alcaldía de Barrancabermeja se declararon en huelga: ¿por qué?",
+   "decision": "incluir",
+   "tema": "gestion",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "b95257b078a45d9256cb105ca3377daf",
+   "fecha": "2026-05-19",
+   "ref": "Grandes manchas de crudo aparecen en la ciénaga de El Llanito, en Barrancabermeja: autorid",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "cfcc67372f21d190107150fe921152e5",
+   "fecha": "2026-05-20",
+   "ref": "Alcaldía de Barrancabermeja nombro Avenida 16 de Mayo a vía donde ocurrió masacre en 1998",
+   "decision": "incluir",
+   "tema": "mem",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "86365241a1ecd6ffd3ef3374bb96aa93",
+   "fecha": "2026-05-21",
+   "ref": "Fuerte tormenta eléctrica dejó daños en más de 10 viviendas de Barrancabermeja",
+   "decision": "incluir",
+   "tema": "riesgo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2057786702362493132",
+   "fecha": "2026-05-22",
+   "ref": "#Bucaramanga | Alcaldía de Barrancabermeja echó para atrás circular que prohibía alimentar",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2057803929291784438",
+   "fecha": "2026-05-22",
+   "ref": "🔴 #Santander | Alcaldía de Barrancabermeja echó para atrás circular que prohibía alimentar",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2057954262362054991",
+   "fecha": "2026-05-22",
+   "ref": "#Barrancabermeja l Dejan sin efectos la prohibición del ingreso y alimentación de animales",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "8cd80ae53545c9ddbbe267ce55d7bdb1",
+   "fecha": "2026-05-23",
+   "ref": "Buscan frenar ingreso de armas y drogas en colegios de Barrancabermeja: conozca cómo es la",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "9c1abb139efc5f9903fa863fc17b1343",
+   "fecha": "2026-05-28",
+   "ref": "Ley seca y estrictas medidas de seguridad se implementarán en Barrancabermeja durante elec",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "neutral",
+   "objetivo": "sin_objetivo",
+   "voz": "medio"
+  },
+  {
+   "id": "14f3ca0762b0ab470ffca0d351ab39b0",
+   "fecha": "2026-05-29",
+   "ref": "Pavimentación en Barrancabermeja llega al 90 %: estas son las vías y barrios intervenidos",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2060719178227601909",
+   "fecha": "2026-05-30",
+   "ref": "#Política #Elecciones2026 Así se mueve la maquinaria de la Alcaldía de Barrancabermeja a f",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "2dc8d873116db96bfebcbca440770f6a",
+   "fecha": "2026-06-01",
+   "ref": "Anuncian estrategia de seguridad y recompensas en zona rural de Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "eed7b1603a82712f5569e8b2dbccec9b",
+   "fecha": "2026-06-02",
+   "ref": "Barrancabermeja invertirá $525 millones en 12 espacios públicos: comunidad pide obras de f",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "9765c6eb79e9c3a350092f87030ed9e4",
+   "fecha": "2026-06-10",
+   "ref": "Petro dejó «plantados» a los santandereanos en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "negativo",
+   "objetivo": "otro_actor",
+   "voz": "medio",
+   "revisar": "Conversación de alcance nacional con efecto local."
+  },
+  {
+   "id": "9fa0765e0038be2073dc6b917e8f955c",
+   "fecha": "2026-06-11",
+   "ref": "Barrancabermeja en alerta por ola de calor: temperatura subió a 35 °C",
+   "decision": "incluir",
+   "tema": "riesgo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18107354518993756",
+   "fecha": "2026-06-17",
+   "ref": "🚨 Caso UNGRD salpica a Santander: una investigación periodística de METROPOLITANO y EnLaDi",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "negativo",
+   "objetivo": "otro_actor",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2067396091046183213",
+   "fecha": "2026-06-17",
+   "ref": "#EnLaDiana | Los chats que dejarían en evidencia la financiación de campañas con dineros d",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "negativo",
+   "objetivo": "otro_actor",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2068041120677065108",
+   "fecha": "2026-06-19",
+   "ref": "La Alcaldía de Barrancabermeja expidió decreto sobre medidas de seguridad para la segunda ",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "neutral",
+   "objetivo": "sin_objetivo",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2068069424783929427",
+   "fecha": "2026-06-19",
+   "ref": "#Barrancabermeja 🚨| La Alcaldía de Barrancabermeja expidió el decreto con las medidas de s",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "neutral",
+   "objetivo": "sin_objetivo",
+   "voz": "medio"
+  },
+  {
+   "id": "def4c8936f3d3d2538c2ab4ae7ba0537",
+   "fecha": "2026-06-20",
+   "ref": "Fenavi acompañará la Segunda Jornada Avícola de Barrancabermeja",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "be3f1ee0416dd16b3d226793b5c681ba",
+   "fecha": "2026-06-23",
+   "ref": "Alcaldía de Barrancabermeja denuncia contaminación por hidrocarburos en ciénaga El Llanito",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2069499480320188761",
+   "fecha": "2026-06-23",
+   "ref": "Alcaldía de Barrancabermeja denuncia contaminación por hidrocarburos en ciénaga El Llanito",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18027013682839042",
+   "fecha": "2026-06-24",
+   "ref": "La Alcaldía de Barrancabermeja denunció un presunto caso de contaminación ambiental en la ",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "63d02602169605a10c1ad15f344b95d4",
+   "fecha": "2026-07-02",
+   "ref": "Barrancabermeja recupera vías críticas en Galán y barrio Colombia con nuevas obras de pavi",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2073129040299376755",
+   "fecha": "2026-07-03",
+   "ref": "✅La Alcaldía de Barrancabermeja rindió un sentido homenaje a la secretaria general @YackyC",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "78066bd668a1d389e3d040309b863672",
+   "fecha": "2026-07-07",
+   "ref": "Barrancabermeja inicia construcción de su primera granja solar del programa Viviendas Sola",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "77e2ad1a0c8e8dec5cdc098d0ebcb898",
+   "fecha": "2026-07-10",
+   "ref": "Padres alertan por presencia de habitantes de calle cerca de colegios en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "84fb2efd535e502a8fb6f35f10b774c",
+   "fecha": "2026-07-10",
+   "ref": "María Fernanda Cabal y otras políticas que han pasado por Soho",
+   "decision": "excluir",
+   "motivo": "fuera"
+  },
+  {
+   "id": "fbgen_1518302006991975_fb25004e7b764ecb0a64febe220e6569f9dfef43c7448e95ce72ef8ebdb37a82",
+   "fecha": "2026-07-11",
+   "ref": "No solo es contaminación auditiva, es un problema de salud pública que muchas administraci",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "ciudadano"
+  },
+  {
+   "id": "twitter_2076724588659282159",
+   "fecha": "2026-07-13",
+   "ref": "#Santander 🚨🏪 La Alcaldía de Barrancabermeja ofrece hasta $5 millones de recompensa por in",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2076725537385431217",
+   "fecha": "2026-07-13",
+   "ref": "#Santander 🚨🏪 La Alcaldía de Barrancabermeja ofrece hasta $5 millones de recompensa por in",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2076775290450137275",
+   "fecha": "2026-07-13",
+   "ref": "#Noticia 🔴 | La Alcaldía de Barrancabermeja anunció que presentará una denuncia penal cont",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "186504284744469_1482047673969559",
+   "fecha": "2026-07-13",
+   "ref": "#Noticia 🔴 | La Alcaldía de Barrancabermeja anunció que presentará una denuncia penal cont",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "681c27669e52c966cac574cc35785ddd",
+   "fecha": "2026-07-14",
+   "ref": "Ofrecen $5 millones de recompensa por ataques contra negocios en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "104632211417011_1662804545844586",
+   "fecha": "2026-07-14",
+   "ref": "#Barrancabermeja Como parte de su compromiso con la calidad del sistema de salud en el Dis",
+   "decision": "incluir",
+   "tema": "salud",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "15c771ea8964973cd4361070dd6116cd",
+   "fecha": "2026-07-15",
+   "ref": "Alcaldía de Barrancabermeja pide investigar daño ambiental tras permiso de la CAS",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "eb485671e2c6e3b3695416ee35269646",
+   "fecha": "2026-07-16",
+   "ref": "Impulsan cabildo abierto para exigir cuentas sobre empréstito aprobado en 2024 a la Alcald",
+   "decision": "incluir",
+   "tema": "gestion",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "104632211417011_1665707385554302",
+   "fecha": "2026-07-17",
+   "ref": "La Alcaldía de Barrancabermeja informa que continúa brindando apoyo y acompañamiento const",
+   "decision": "incluir",
+   "tema": "mov",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "6be21f45c9dd06d9f1bff64cc5dc04a0",
+   "fecha": "2026-07-18",
+   "ref": "Predial en Barrancabermeja: póngase al día y evite embargos: estas son las alternativas",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "fbgen_1665707385554302_d99a231297a721fd5085460b9839f3ba50c0bf69a513dda074752ac458d7a148",
+   "fecha": "2026-07-18",
+   "ref": "A lo mejor depronto el niño tomaba el transporte escolar o como pueda que no pero los niño",
+   "decision": "incluir",
+   "tema": "mov",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "ciudadano"
+  },
+  {
+   "id": "3bc5c55a2c11aa11071744230bb46768",
+   "fecha": "2026-07-20",
+   "ref": "Reactivan transporte escolar para más de 7.900 estudiantes en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "mov",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "5a1f6bafd2f1ac0c57ee10cb05fa5fd2",
+   "fecha": "2026-07-22",
+   "ref": "La lucha de la Organización Femenina Popular que desafió la violencia en el Magdalena Medi",
+   "decision": "excluir",
+   "motivo": "fuera"
+  },
+  {
+   "id": "40b3b2411f2dfa06cadf3f1cb0ef37c9",
+   "fecha": "2026-07-23",
+   "ref": "Estudian medidas de racionamiento de agua y energía por el fenómeno de El Niño en Barranca",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "8be0934fe7b5b632f89ddd08d06d8a4c",
+   "fecha": "2026-07-25",
+   "ref": "Barrancabermeja anuncia acciones contra Ecopetrol por contaminación y mortandad de peces",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18060574085738644",
+   "fecha": "2026-07-25",
+   "ref": "🚨¡ATENCIÓN COLOMBIA! #Seguridad #MedioAmbiente #EsNoticia 𝗕𝗔𝗥𝗥𝗔𝗡𝗖𝗔𝗕𝗘𝗥𝗠𝗘𝗝𝗔 𝗗𝗘𝗠𝗔𝗡𝗗𝗔𝗥Á 𝗔 𝗘𝗖𝗢𝗣",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2081530858180075703",
+   "fecha": "2026-07-26",
+   "ref": "La Alcaldía de Barrancabermeja anunció medidas contra Ecopetrol tras una presunta afectaci",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2081743912603906332",
+   "fecha": "2026-07-27",
+   "ref": "Alcaldía de Barrancabermeja anuncia acciones contra Ecopetrol por contaminación y mortanda",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "73bbbbd80f1b37d3263d1d2e995aa840",
+   "fecha": "2026-07-27",
+   "ref": "ESSA ajustará protocolos para reducir tiempos de respuesta ante fallas de energía en Barra",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "43b5eef16f477521bba67f3ba0f64e33",
+   "fecha": "2026-07-29",
+   "ref": "Mario Hernández llamó “peladero” a Barrancabermeja y gremios salieron a responderle",
+   "decision": "incluir",
+   "tema": "eco",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "nota": "Crítica de un empresario al desarrollo de la ciudad, no a una figura política local."
+  },
+  {
+   "id": "3328ebb25ec3b55acc3cd67b2d5e6f22",
+   "fecha": "2026-07-29",
+   "ref": "Impulsan restauración ecológica para mitigar efectos de El Niño en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "b8ade3c0d5d95e255a333020e920343b",
+   "fecha": "2026-07-29",
+   "ref": "Inició pago de Colombia Mayor en Barrancabermeja: así funciona el pico y cédula",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "twitter_2082594517342101763",
+   "fecha": "2026-07-29",
+   "ref": "Alcaldía de Barrancabermeja exige mejoras en el servicio de energía. El alcalde Jonathan V",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2082911666421780716",
+   "fecha": "2026-07-30",
+   "ref": "La Alcaldía de Barrancabermeja informó que Ecopetrol abrió una convocatoria para desarroll",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "d8982051f6ad0d9ecb8e56738e87c7f5",
+   "fecha": "2026-07-31",
+   "ref": "Investigan hallazgo de feto de seis meses en un contenedor de basura en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "726ce6fa88c4ccf93ad028599c944ebc",
+   "fecha": "2026-07-31",
+   "ref": "Consternación en Barrancabermeja por el hallazgo de un feto en una caneca de basura: esto ",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "d7b657ee54bf0e766134b26cbd52ce29",
+   "fecha": "2026-07-31",
+   "ref": "Incendio dentro de cárcel de Barrancabermeja habría sido una protesta de los reclusos",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "b580f4f1749ab00962abd1b6b206a324",
+   "fecha": "2026-08-01",
+   "ref": "Feto de casi seis meses fue encontrado en una caneca de basura en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "a9b922a6bb017dd26dcbb16ba932c813",
+   "fecha": "2026-08-01",
+   "ref": "Granjas solares en Barrancabermeja: $28.004 millones adjudicados a ‘Bachiller’ para obra s",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18123406384727963",
+   "fecha": "2026-08-02",
+   "ref": "#Investigación | En el Puerto Petrolero, el sol no alumbra igual para todos. Con la promes",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "209619682408567_1538447351658694",
+   "fecha": "2026-08-02",
+   "ref": "#Colombia | El hallazgo de un feto de aproximadamente seis meses de gestación dentro de un",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "7ce49d3faca39bb0c092b5ecccf7b8bc",
+   "fecha": "2026-08-03",
+   "ref": "Proyecto de granjas solares por $28.000 millones sigue sin iniciar en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "975de92f5fd3f12de40f855c46d5f00b",
+   "fecha": "2026-08-03",
+   "ref": "Decretan restricciones en Barrancabermeja para enfrentar el fenómeno de El Niño",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18117993706932603",
+   "fecha": "2026-08-03",
+   "ref": "Las autoridades adelantan una investigación para esclarecer el hallazgo de un f3t0 de apro",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2084406456149745909",
+   "fecha": "2026-08-03",
+   "ref": "La Alcaldía de Barrancabermeja expidió el decreto para mitigar los efectos del fenómeno de",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "57f4eedd388cba37ea3de961acb75e5e",
+   "fecha": "2026-08-04",
+   "ref": "Protestas en Barrancabermeja por inseguridad y presencia de habitantes de calle",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "104632211417011_1682833143841726",
+   "fecha": "2026-08-04",
+   "ref": "Como parte de las acciones urgentes que lidera la Alcaldía de Barrancabermeja para mitigar",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2084981495446610022",
+   "fecha": "2026-08-05",
+   "ref": "La Alcaldía de Barrancabermeja expidió el decreto para mitigar los efectos del fenómeno de",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "c347480f004e7224159263efa5a7800d",
+   "fecha": "2026-08-06",
+   "ref": "Barrancabermeja decreta ley seca y restricciones por posesión presidencial",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "be4ba4593577eb8a8f808a6453214a29",
+   "fecha": "2026-08-06",
+   "ref": "Ley seca y restricción de parrillero: estas son las medidas adoptadas en Barrancabermeja p",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "f4f75857db26f690c84a83d4b0c2fa8b",
+   "fecha": "2026-08-07",
+   "ref": "Entregan millonarias obras de mejoramiento en el colegio Industrial de Barrancabermeja",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "9786b727edef89dbabefd6d2cbb49daa",
+   "fecha": "2026-08-08",
+   "ref": "Una postal turística en medio del deterioro: así está el puente mirador del Cristo Petrole",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2086472542668128651",
+   "fecha": "2026-08-09",
+   "ref": "Este diario también conoció que la Fiscalía recopiló información en la Alcaldía de Barranc",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "367eec4b13309dbfd19c0a82284dab52",
+   "fecha": "2026-08-10",
+   "ref": "Suspenden clases y revisan varios colegios de Barrancabermeja tras sismo",
+   "decision": "incluir",
+   "tema": "riesgo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "8ac6b8edc9ae358e31d74dbfbd54375",
+   "fecha": "2026-08-10",
+   "ref": "Cese de actividades en colegio de Barrancabermeja por presencia de habitantes de calle",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "8a49209b847d62d49c7d1c9af200edf7",
+   "fecha": "2026-08-10",
+   "ref": "La UTS estrena sede propia en Barrancabermeja y proyecta recibir más de 3.000 estudiantes",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "positivo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2086979713063379052",
+   "fecha": "2026-08-10",
+   "ref": "Más oportunidades para los jóvenes del Magdalena Medio Abrimos las puertas de la nueva sed",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "positivo",
+   "objetivo": "ciudad",
+   "voz": "institucional"
+  },
+  {
+   "id": "twitter_2087002138807316608",
+   "fecha": "2026-08-10",
+   "ref": "¡Hoy abrimos las puertas a nuevas oportunidades en el Magdalena Medio! Hoy se dio la apert",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "positivo",
+   "objetivo": "ciudad",
+   "voz": "institucional"
+  },
+  {
+   "id": "4d8fb58086071dfd76aa707b02cb4108",
+   "fecha": "2026-08-10",
+   "ref": "Santander mantiene monitoreo tras sismo y prepara apoyo para zonas afectadas",
+   "decision": "excluir",
+   "motivo": "fuera"
+  },
+  {
+   "id": "ig_18409753174155575",
+   "fecha": "2026-08-10",
+   "ref": "Más oportunidades para los jóvenes del Magdalena Medio Abrimos las puertas de la nueva sed",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "positivo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18144839206529839",
+   "fecha": "2026-08-11",
+   "ref": "Barrancabermeja cuenta con una nueva sede propia de las Unidades Tecnológicas de Santander",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "positivo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "7917e8aaa3966ceba5e595a6eafcedae",
+   "fecha": "2026-08-11",
+   "ref": "Más aulas y oportunidades: las UTS fortalecen su Campus Barrancabermeja",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "positivo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "8aebf9bb42ea0afb1cb2782657b873df",
+   "fecha": "2026-08-11",
+   "ref": "Hipopótamo genera temor tras aparecer en calles de un barrio de Barrancabermeja",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "1e866a00be384d71fe233955833a8a1d",
+   "fecha": "2026-08-12",
+   "ref": "SOS por la Ciénaga El Llanito: alertan sobre bajos niveles del agua y el riesgo que corren",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "83eea74a58a68825cf6b8b73734b08bf",
+   "fecha": "2026-08-13",
+   "ref": "Nueva sede de las UTS en Barrancabermeja amplía oportunidades para jóvenes",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "positivo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "4edd53bd0e9c9c7d2606393175408b1e",
+   "fecha": "2026-08-13",
+   "ref": "Hipopótamo vuelve a aparecer en Barrancabermeja y autoridades piden medidas urgentes",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "d7a61d24ac45bfa7f2b8d4894b77a2c1",
+   "fecha": "2026-08-13",
+   "ref": "Sequía amenaza a pescadores y manatíes en la Ciénaga El Llanito de Barrancabermeja",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "f3635389d953b1bf5e7c6536fd7d066e",
+   "fecha": "2026-08-14",
+   "ref": "Ofrecen $80 millones de recompensa por panfletos de disidencias Farc en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2088296413482344689",
+   "fecha": "2026-08-14",
+   "ref": "#Santander l Panfletos y posibles explosivos generan alarma en Barrancabermeja y Puerto Wi",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_17929544160381801",
+   "fecha": "2026-08-14",
+   "ref": "🚨 Santander l La aparición de panfletos y carteles con mensajes intimidatorios en Barranca",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "52fa28920ad29543a6fb5c031d506a4d",
+   "fecha": "2026-08-14",
+   "ref": "Panfletos, cilindros y pancartas: tensión en Magdalena Medio por mensajes atribuidos a las",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18607122748050889",
+   "fecha": "2026-08-14",
+   "ref": "Gobernación ofrece recompensa de hasta $80 millones tras hechos de intimidación en Barranc",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_17956010708996271",
+   "fecha": "2026-08-14",
+   "ref": "*Es Tiempo de los hechos* 🆗 Ya fueron enviadas 25 toneladas de ayudas humanitarias para la",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ca304e86b1fcc10b4ac909dd2adc5af8",
+   "fecha": "2026-08-15",
+   "ref": "Bajan niveles de la Ciénaga San Silvestre en Barrancabermeja: ¿Hay riesgo de racionamiento",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "a90e55ebc8eb08b62153668639e4cde3",
+   "fecha": "2026-08-17",
+   "ref": "Avanzan trabajos de conexión eléctrica de la Planta de Lodos de Barrancabermeja",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "c59fea5c473035c3e96b67d8ca4df603",
+   "fecha": "2026-08-18",
+   "ref": "Habitantes de barrio de Barrancabermeja se unieron para retirar a personas en condición de",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_17968452743947901",
+   "fecha": "2026-08-18",
+   "ref": "la Alcaldía de Barrancabermeja advirtió sobre la disminución en el nivel de la Ciénaga San",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2089814120627310640",
+   "fecha": "2026-08-18",
+   "ref": "la Alcaldía de Barrancabermeja advirtió sobre la disminución en el nivel de la Ciénaga San",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ae6417181772d10acd58640e1dd29d35",
+   "fecha": "2026-08-20",
+   "ref": "Bloquean relleno sanitario en Barrancabermeja: comunidad de Patio Bonito reclama suministr",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "6ab29b0044d440e550438fb71a574cef",
+   "fecha": "2026-08-26",
+   "ref": "Con nuevo decreto buscan frenar la mala disposición de basuras en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2093054579092918312",
+   "fecha": "2026-08-27",
+   "ref": "Más importante que discutir quién gestionó la granja solar, es unirnos para que las granja",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Publicación propia de Ciro Fernández; tono conciliador."
+  },
+  {
+   "id": "81df4a1ed28e80f382a2e8432c0fde4c",
+   "fecha": "2026-08-27",
+   "ref": "Alexandra Acelas Rodríguez es la nueva directora de la Agencia Nacional de Seguridad Vial",
+   "decision": "excluir",
+   "motivo": "fuera"
+  },
+  {
+   "id": "93d47fce48e97c90a831b36ee16d4e6d",
+   "fecha": "2026-08-28",
+   "ref": "Nueva directora de Seguridad Vial trabajó en la alcaldía del condenado Sneyder Pinilla",
+   "decision": "excluir",
+   "motivo": "fuera"
+  },
+  {
+   "id": "61cb34673a6db543d3b8a894343e6ff0",
+   "fecha": "2026-08-28",
+   "ref": "Nueva directora de Seguridad Vial trabajó en la alcaldía del condenado Sneyder Pinilla",
+   "decision": "excluir",
+   "motivo": "fuera"
+  },
+  {
+   "id": "twitter_2093500765025321014",
+   "fecha": "2026-08-28",
+   "ref": "#Atencion | La Alcaldía de Barrancabermeja ofrece una recompensa de hasta $10 millones, po",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "86bd2deae938607794f58e02418e6486",
+   "fecha": "2026-08-29",
+   "ref": "Salió por fotocopias y fue asesinado: pensionado de ESSA murió en Barrancabermeja y hay re",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2093663762498695528",
+   "fecha": "2026-08-29",
+   "ref": "La Alcaldía de Barrancabermeja ofrece una recompensa de $10 millones por información para ",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "dfd424481d5beb9554dac7a18a2ec15",
+   "fecha": "2026-08-29",
+   "ref": "Capturaron a presunto sicario por asesinato de un pensionado de Electrificadora en Santand",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "a8c7bd5b7593bf4d713da2e55b205788",
+   "fecha": "2026-08-29",
+   "ref": "Capturaron a presunto sicario por el asesinato de un pensionado de la Electrificadora en S",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "104632211417011_1707677611357279",
+   "fecha": "2026-08-29",
+   "ref": "#Barrancabermeja La Alcaldía de Barrancabermeja ofrece una recompensa de hasta $10.000.000",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "youtube_9UZahTyatpo",
+   "fecha": "2026-08-29",
+   "ref": "Hasta diez millones de pesos ofrece la Alcaldía de Barrancabermeja como recompensa por inf",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "768f365a50387a4458fc87c8f9a7efad",
+   "fecha": "2026-08-31",
+   "ref": "Piden reparar reflectores de la pista de patinaje del corregimiento El Centro de Barrancab",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2094533784443953376",
+   "fecha": "2026-08-31",
+   "ref": "La Alcaldía de Barrancabermeja ofreció una recompensa de hasta $10 millones por informació",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18014841170739018",
+   "fecha": "2026-08-31",
+   "ref": "La Alcaldía de Barrancabermeja ofreció una recompensa de hasta $10 millones por informació",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "4b8765ff0ae2a29ccab896d16c9fd477",
+   "fecha": "2026-09-01",
+   "ref": "Barrancabermeja se une a la Semana por la Paz: esta es la programación",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "twitter_2094845159653433373",
+   "fecha": "2026-09-01",
+   "ref": "Las capturas de presuntos extorsionistas son una buena noticia para Barrancabermeja y hay ",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "positivo",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Publicación propia: reconoce capturas y propone medidas."
+  },
+  {
+   "id": "4638e0dea17cbd91b5bcb99899b51668",
+   "fecha": "2026-09-01",
+   "ref": "Ofrecen millonaria recompensa por información sobre feminicida de Génesis Rojas en Santand",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "7abe37009f1ff64797cb8b4d095af14d",
+   "fecha": "2026-09-01",
+   "ref": "Barrancabermeja ofrece $10 millones por información sobre feminicidio de Génesis Rojas",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "104632211417011_1711726504285723",
+   "fecha": "2026-09-02",
+   "ref": "#Barrancabermeja Con el propósito de continuar fortaleciendo los espacios de participación",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "ig_18091809803533933",
+   "fecha": "2026-09-02",
+   "ref": "$40 millones de recompensa para esclarecer la muerte de una mujer en Barrancabermeja Desde",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "57637bff199446c08213eef937092bdb",
+   "fecha": "2026-09-03",
+   "ref": "Ofrecen millonaria recompensa por feminicida de Génesis Rojas en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_17921598330429866",
+   "fecha": "2026-09-03",
+   "ref": "#Santander I La Gobernación de Santander convocó un consejo extraordinario de seguridad de",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "8e948f7759d3db932e7da16774ba65a3",
+   "fecha": "2026-09-04",
+   "ref": "Alcaldía de Barrancabermeja retrasa obras del Malecón del Río por errores de gestión",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "8c3ea8207b6e96bd66be5cc4c0f1fdc2",
+   "fecha": "2026-09-04",
+   "ref": "Alcaldía de Barrancabermeja retrasa obras del Malecón del río Magdalena por errores de ges",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "7fdb5b34dffdcf5270e820de349c4ad3",
+   "fecha": "2026-09-04",
+   "ref": "Construyeron millonario puesto de salud en Barrancabermeja, pero permanece cerrado por fal",
+   "decision": "incluir",
+   "tema": "salud",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_17936205225364728",
+   "fecha": "2026-09-04",
+   "ref": "#Santander I La Alcaldía de Barrancabermeja se pronunció sobre el caso de dos estudiantes ",
+   "decision": "incluir",
+   "tema": "salud",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2095965122221252612",
+   "fecha": "2026-09-04",
+   "ref": "Alcaldía de Barrancabermeja retrasa obras del Malecón del río Magdalena por errores de ges",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "youtube_hyg9CAc2Kyg",
+   "fecha": "2026-09-04",
+   "ref": "Continúan las reacciones de las autoridades tras la muerte violenta de una mujer registrad",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2096279357983461666",
+   "fecha": "2026-09-05",
+   "ref": "La Alcaldía de Barrancabermeja financió la obra con una inversión superior a $380 millones",
+   "decision": "incluir",
+   "tema": "mem",
+   "sentimiento": "positivo",
+   "objetivo": "alcaldia",
+   "voz": "institucional"
+  },
+  {
+   "id": "daca4243037d64faf41c729589ca8291",
+   "fecha": "2026-09-05",
+   "ref": "La quebrada de aguas cristalinas que terminó convertida en un caño negro tras la llegada d",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2096584207158087824",
+   "fecha": "2026-09-06",
+   "ref": "Alcaldía de Barrancabermeja retrasa obras del Malecón del río Magdalena por errores de ges",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2096645007209845074",
+   "fecha": "2026-09-06",
+   "ref": "Una obra de salud solo cumple su propósito cuando está al servicio de la comunidad. Barran",
+   "decision": "incluir",
+   "tema": "salud",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro"
+  },
+  {
+   "id": "ac1ee19d3abe8a21e49f9ae0e6f8edf",
+   "fecha": "2026-09-07",
+   "ref": "Jornadas de vacunación antirrábica llegarán a distintos barrios de Barrancabermeja",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "twitter_2097351218314023334",
+   "fecha": "2026-09-08",
+   "ref": "Las vías rurales en Barrancabermeja no aguantan más abandono. Arreglarlas es apostar por l",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro"
+  },
+  {
+   "id": "1cd04595b9130158a28edf20f8f5d2cc",
+   "fecha": "2026-09-09",
+   "ref": "Alcaldía de Barrancabermeja anuncia llegada de paneles para cuestionado proyecto de granja",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "445051e340bff397f9f7edd3147cfad1",
+   "fecha": "2026-09-10",
+   "ref": "Buscan destrabar obras de protección del río Magdalena en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2098195613489717346",
+   "fecha": "2026-09-10",
+   "ref": "🔴 #Santander | La Alcaldía de Barrancabermeja entregó 153 chalecos antibalas a la Policía ",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "fbgen_1519124686917702_aeed3240d54706b7e29701cf2804ad0387d2e8e5aaa70a0a3405627d9f8baea9",
+   "fecha": "2026-09-11",
+   "ref": "Sí, sí es de pensiones, pero *NO es TU pensión.* Te lo pongo así de simple: *FONPET = Pens",
+   "decision": "excluir",
+   "motivo": "sinrel"
+  },
+  {
+   "id": "twitter_2098479185241026631",
+   "fecha": "2026-09-11",
+   "ref": "Con una inversión superior a los $740 millones, la Alcaldía de Barrancabermeja entregó 153",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "186504284744469_1535997081907951",
+   "fecha": "2026-09-11",
+   "ref": "#Noticia 🔴 | La Alcaldía de Barrancabermeja convocó un Puesto de Mando Unificado para refo",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2098604896094204092",
+   "fecha": "2026-09-11",
+   "ref": "#Noticia 🔴 | La Alcaldía de Barrancabermeja convocó un Puesto de Mando Unificado para refo",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2098605311716196861",
+   "fecha": "2026-09-11",
+   "ref": "#Noticia 🔴 | La Alcaldía de Barrancabermeja convocó un Puesto de Mando Unificado para refo",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "68c3b315e625bb974c3b1fd29c470332",
+   "fecha": "2026-09-12",
+   "ref": "¿Qué pasará con la PTAR San Silvestre? Aguas estudia posible siniestro de un contrato firm",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "efca21557b4d856df3ea04768bccd033",
+   "fecha": "2026-09-13",
+   "ref": "Alerta por avistamiento de un hipopótamo en zona urbana de Barrancabermeja: piden al Gobie",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_17966003915964578",
+   "fecha": "2026-09-14",
+   "ref": "¡Alerta en Barrancabermeja! Piden al Gobierno retirar hipopótamos por riesgo para la comun",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "5965cbc3654e18cc034110a9f2e747d2",
+   "fecha": "2026-09-15",
+   "ref": "Barrancabermeja pidió retirar los hipopótamos que rondan sus barrios: la Alcaldía se reúne",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2099848070871625899",
+   "fecha": "2026-09-15",
+   "ref": "#ATENCION 💥🗳 𝙑𝙪𝙚𝙡𝙫𝙚𝙣 𝙖𝙡 𝙧𝙪𝙚𝙙𝙤. Fabián Oviedo y Ciro Fernández regresarían a la contienda e",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "neutral",
+   "objetivo": "ciro",
+   "voz": "medio",
+   "nota": "Única mención verificable de terceros a Ciro Fernández con texto disponible."
+  },
+  {
+   "id": "afdeaf25d882bc7da964fd36a18d7e5e",
+   "fecha": "2026-09-15",
+   "ref": "Vacunación se toma colegios y espacios públicos de Barrancabermeja: esta es la programació",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "f94335a6d9e7930f8ebe1063eebd5a4",
+   "fecha": "2026-09-16",
+   "ref": "Estudiantes de un colegio de Barrancabermeja se salvaron de milagro luego de que se les ca",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "youtube_vHZJtdPktPM",
+   "fecha": "2026-09-16",
+   "ref": "La Alcaldía de Barrancabermeja volvió a pedir al Gobierno Nacional y a la CAS avanzar en e",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18105690146247560",
+   "fecha": "2026-09-16",
+   "ref": "La Alcaldía de Barrancabermeja volvió a pedir al Gobierno Nacional y a la CAS avanzar en e",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2100593151064838604",
+   "fecha": "2026-09-17",
+   "ref": "Ecopetrol y Barrancabermeja tienen una historia que camina junta. Esta nueva etapa debe si",
+   "decision": "incluir",
+   "tema": "eco",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "ciro"
+  },
+  {
+   "id": "twitter_2100787471927714074",
+   "fecha": "2026-09-17",
+   "ref": "#Barrancabermeja|| La Alcaldía de Barrancabermeja informó que durante la noche de este jue",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "f99a2433f809758f759fe8f6e9068aca",
+   "fecha": "2026-09-17",
+   "ref": "Drones sobrevolaron estación de Policía en Barrancabermeja; activaron seguridad",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2100800682714386765",
+   "fecha": "2026-09-17",
+   "ref": "#ACTUALIDA La Alcaldía de Barrancabermeja informó que, durante la noche de este jueves 17 ",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2100892587519603111",
+   "fecha": "2026-09-18",
+   "ref": "La Alcaldía de Barrancabermeja confirmó que fueron detectados drones realizando sobrevuelo",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "aae2e580cdb57f9cb3eb3ed087e65679",
+   "fecha": "2026-09-18",
+   "ref": "Hombre estaría vertiendo aceite y gasolina dentro de árbol en Medellín; busca que lo talen",
+   "decision": "excluir",
+   "motivo": "fuera"
+  },
+  {
+   "id": "cf3347cc284a68be10f4071035198cbe",
+   "fecha": "2026-09-18",
+   "ref": "Drones sobrevolaron estación de Policía en Barrancabermeja y activaron alerta de seguridad",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2101322141358514685",
+   "fecha": "2026-09-19",
+   "ref": "Preocupa la denuncia de habitantes de Campo Galán sobre posibles vertimientos cerca del rí",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro"
+  },
+  {
+   "id": "3b962b5c42dd3bf5ea14c1fc44f93d0c",
+   "fecha": "2026-09-21",
+   "ref": "Río Magdalena recupera nivel en Barrancabermeja, pero persiste la alerta por fenómeno de E",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2102198082393797118",
+   "fecha": "2026-09-21",
+   "ref": "76 homicidios en lo corrido del año no pueden convertirse en una cifra más. Barrancabermej",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro"
+  },
+  {
+   "id": "e1c300b1ce09d874628d19676e97bc7",
+   "fecha": "2026-09-22",
+   "ref": "Líder de Barrancabermeja asesinado había recibido amenazas de supuestas disidencias",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18110068436332624",
+   "fecha": "2026-09-23",
+   "ref": "#Santander I La alcaldía de Barrancabermeja y la gobernación de Santander ofrecieron una r",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "d77e35d9e47938bf476a11d37b8278f3",
+   "fecha": "2026-09-23",
+   "ref": "Dos líderes sociales fueron asesinados en menos de cuatro días en Colombia: Indepaz eleva ",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "bf42503bb60c9fcfb5d72aca37eaf06",
+   "fecha": "2026-09-23",
+   "ref": "Hipopótamos en Barrancabermeja: juez le ordenó a MinAmbiente actuar en menos de 30 días",
+   "decision": "incluir",
+   "tema": "hipo",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18159047290494805",
+   "fecha": "2026-09-23",
+   "ref": "Rafael Julián Rodríguez Quiroz, presidente de Asojuntas del corregimiento El Centro, en Ba",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_17908031205510134",
+   "fecha": "2026-09-23",
+   "ref": "Hasta $100 millones ofrecen las autoridades por información que permita identificar y ubic",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "youtube_826U4qO__Xg",
+   "fecha": "2026-09-23",
+   "ref": "Hasta $100 millones ofrecen las autoridades por información que permita identificar y ubic",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "da9c599baa4dd5cc96f646549b17ddf5",
+   "fecha": "2026-09-23",
+   "ref": "Procuraduría investiga presuntas irregularidades que tendrían frenada construcción de Gran",
+   "decision": "excluir",
+   "motivo": "historica",
+   "nota": "La URL corresponde a una nota de 2024 recapturada en 2026."
+  },
+  {
+   "id": "d5ccfdbbffc3026e2d1b1c05e6600a6e",
+   "fecha": "2026-09-24",
+   "ref": "Investigan muerte de cuatro manatíes en el caño San Silvestre de Barrancabermeja",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "810301545696609_1676287447191564",
+   "fecha": "2026-09-25",
+   "ref": "A veces una persona está pasando por un momento difícil y no sabe cómo decirlo. Puede ser ",
+   "decision": "incluir",
+   "tema": "salud",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "ciro"
+  },
+  {
+   "id": "twitter_2103862100476985494",
+   "fecha": "2026-09-26",
+   "ref": "#Judicial l Dos líderes sociales asesinados en Santander en solo tres días: el nuevo crime",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2104261303296778272",
+   "fecha": "2026-09-27",
+   "ref": "Me preocupa nuestro Hospital Regional del Magdalena Medio. Según la alerta publicada por @",
+   "decision": "incluir",
+   "tema": "salud",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro"
+  },
+  {
+   "id": "c1290434e2dd8beeec61f5fa3f6bc3a6",
+   "fecha": "2026-09-27",
+   "ref": "¿Qué está matando a los manatíes en Santander?",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "104632211417011_1737626385029068",
+   "fecha": "2026-09-28",
+   "ref": "#Barrancabermeja La Alcaldía Distrital, en articulación con la empresa Tigo, continúa lleg",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "twitter_2104578731582881809",
+   "fecha": "2026-09-28",
+   "ref": "Empezamos la semana con una reflexión para los barranqueños. Salir a trabajar y regresar a",
+   "decision": "incluir",
+   "tema": "gestion",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Publicación propia que invita a comentar; no se capturaron respuestas."
+  },
+  {
+   "id": "c266ee6cb4a8e740fd62c0925e6391fe",
+   "fecha": "2026-09-29",
+   "ref": "Recursos adicionales para terminar la PTAR San Silvestre superan el valor del contrato ini",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "a881484fc31d691e20ac462a7af9768b",
+   "fecha": "2026-10-01",
+   "ref": "UTS: así se cumple la jornada de rendición de cuentas",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "a77e1db7e373905f3f476f9a7fcc60dd",
+   "fecha": "2026-10-01",
+   "ref": "UTS: así será la jornada de rendición de cuentas",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "15153ce6ff5f53ea1b005c2ae0f0aad0",
+   "fecha": "2026-10-01",
+   "ref": "UBPD recuperó 14 cuerpos en nueva intervención a cementerio de Barrancabermeja",
+   "decision": "incluir",
+   "tema": "mem",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2105684928419512449",
+   "fecha": "2026-10-01",
+   "ref": "PTAR San Silvestre: Barrancabermeja necesita cuentas claras y una ruta para terminarla. Se",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro"
+  },
+  {
+   "id": "bf71ae3458917258190b015d6fe27cac",
+   "fecha": "2026-10-01",
+   "ref": "Tribunal ordenó medidas urgentes para proteger al manatí antillano, tras la muerte de cuat",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "316faf836db0d231feb2b08aeb8ebf27",
+   "fecha": "2026-10-03",
+   "ref": "Teatro Unión de Barrancabermeja: la obra de $4.159 millones que sigue inconclusa y tiene $",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "f30d819778e0b6f5cd25b3f79f8aa44c",
+   "fecha": "2026-10-04",
+   "ref": "Procuraduría investiga muerte de cuatro manatíes en el Magdalena Medio",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "153430631190164_122255930498099572",
+   "fecha": "2026-10-04",
+   "ref": "#Nación | Los ejemplares fueron encontrados en los caños San Silvestre y El Rosario, en Ba",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "f88b3a2fe6c8b34849e1de488d73ae8e",
+   "fecha": "2026-10-05",
+   "ref": "Yuly Velásquez, lideresa ambiental: «Defender los derechos causa la muerte en Colombia»",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2107112721435033877",
+   "fecha": "2026-10-05",
+   "ref": "#Santander l Procuraduría verifica respuesta institucional tras muerte de cuatro manatíes ",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "9bd52a9d97bffd49bc046a2d2dbd0f9",
+   "fecha": "2026-10-05",
+   "ref": "Muerte de manatíes en Barrancabermeja: Procuraduría pone la lupa sobre la respuesta instit",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "60b9973c5e8d2eb1fad9502bc97a8860",
+   "fecha": "2026-10-05",
+   "ref": "Controles de ruido llegan al área rural de Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "c27fd24c32341cf0d67d7fa2115d5f15",
+   "fecha": "2026-10-05",
+   "ref": "Yuly Velásquez, lideresa ambiental: «Defender los derechos causa la muerte en Colombia»",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "24f9a4b4ca81cd37b59a245f7227fa82",
+   "fecha": "2026-10-05",
+   "ref": "Yuly Velásquez, la ‘mujer anfibia’ que defiende el río Magdalena pese a tres atentados y a",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "2bf072bca8583cb86be4cddfc39f7029",
+   "fecha": "2026-10-05",
+   "ref": "Yuly Velásquez, lideresa ambiental: “Defender los derechos causa la muerte en Colombia”",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "eb062bf056e8d66a9ea273535ecd5f60",
+   "fecha": "2026-10-06",
+   "ref": "Yuly Velásquez, lideresa ambiental: tres atentados por defender el río Magdalena",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "bc99a0ec0aae71b97ea0c1029847393c",
+   "fecha": "2026-10-06",
+   "ref": "Yuly Velásquez, lideresa ambiental: «Defender los derechos causa la muerte en Colombia»",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "319ac5216357ef23c5296acabee7930e",
+   "fecha": "2026-10-07",
+   "ref": "Yuly Velásquez, lideresa ambiental: «Defender los derechos causa la muerte en Colombia»",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "8a17e324e3fd5053f809493c859e2222",
+   "fecha": "2026-10-07",
+   "ref": "Barrancabermeja busca recolectar 200.000 litros de agua para afectados por la sequía",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "1647df97b754f1b0928c8ada5493b6d",
+   "fecha": "2026-10-08",
+   "ref": "Gobernación anuncia $1.000 millones para reforzar la seguridad en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "ig_18087111926289907",
+   "fecha": "2026-10-09",
+   "ref": "#Santander I Más de 1.000 familias de la zona rural de Barrancabermeja están afectadas por",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "a325a6f666f4f0d861c45a9a9c3d3150",
+   "fecha": "2026-10-09",
+   "ref": "Barrancabermeja se unirá a la movilización nacional del próximo 14 de octubre",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "neutral",
+   "objetivo": "otro_actor",
+   "voz": "medio",
+   "revisar": "Movilización nacional; incluida por su convocatoria local."
+  },
+  {
+   "id": "ig_17933506476145234",
+   "fecha": "2026-10-09",
+   "ref": "La escasez de agua continúa extendiéndose por Santander. Según el más reciente reporte de ",
+   "decision": "excluir",
+   "motivo": "fuera"
+  },
+  {
+   "id": "1581894735459650_1627556272097106",
+   "fecha": "2026-10-09",
+   "ref": "¡Barrancabermeja se moviliza! Este 14 de octubre, todas y todos a la calle para defender n",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "negativo",
+   "objetivo": "otro_actor",
+   "voz": "ciudadano"
+  },
+  {
+   "id": "fbgen_1627556272097106_66b8c3e5092a07296a9aeb1cb10850ab554dafcebe62239be193220adcaa727f",
+   "fecha": "2026-10-09",
+   "ref": "Jajaja el presidente estará alerta can a salir los animales jajaja",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "no_determinable",
+   "objetivo": "sin_objetivo",
+   "voz": "ciudadano",
+   "nota": "Comentario irónico y ambiguo; sentimiento no determinable.",
+   "revisar": "Ironía: sentimiento y objetivo no determinables."
+  },
+  {
+   "id": "6039c0853bbadc07b78e76302468aca4",
+   "fecha": "2026-10-13",
+   "ref": "Instalan PMU para garantizar la seguridad durante movilización en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "pol",
+   "sentimiento": "neutral",
+   "objetivo": "sin_objetivo",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2110206855502827670",
+   "fecha": "2026-10-13",
+   "ref": "#Atención | Alcaldía de Barrancabermeja ofrece recompensa de $50 millones por responsables",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "d6fca26510e3e63afcca725ceb97a267",
+   "fecha": "2026-10-13",
+   "ref": "$50 millones de recompensa por ataque con granada que dejó tres heridos en Barrancabermeja",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2110356012179829189",
+   "fecha": "2026-10-14",
+   "ref": "#Atención | La Alcaldía de Barrancabermeja y la Gobernación de Santander ofrecen hasta $ 5",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2110415059394642074",
+   "fecha": "2026-10-14",
+   "ref": "Hasta $50 millones ofrecen la Alcaldía de Barrancabermeja y la Gobernación de Santander po",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "297056510331491_1669078814874503",
+   "fecha": "2026-10-14",
+   "ref": "Hasta $50 millones ofrecen la Alcaldía de Barrancabermeja y la Gobernación de Santander po",
+   "decision": "incluir",
+   "tema": "seg",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "7c621d0005292e7e237d90e176f54e88",
+   "fecha": "2026-10-14",
+   "ref": "Yuly Velásquez, lideresa ambiental: &quot;Defender los derechos causa la muerte en Colombi",
+   "decision": "incluir",
+   "tema": "amb",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "104632211417011_1758688792922827",
+   "fecha": "2026-10-17",
+   "ref": "ABREN VÍA AL PUENTE ELEVADO!!La Alcaldía de Barrancabermeja informa a la comunidad que, a ",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2112009506347532549",
+   "fecha": "2026-10-18",
+   "ref": "Qué bueno que ya se pueda pasar de nuevo por el puente elevado. Para quienes lo usan a dia",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "positivo",
+   "objetivo": "ciudad",
+   "voz": "ciro",
+   "nota": "Publicación propia con valoración positiva y llamado a terminar la obra."
+  },
+  {
+   "id": "3b1bed9e3329401a44ed62d288fc9d73",
+   "fecha": "2026-10-19",
+   "ref": "Alcaldía de Barrancabermeja redujo la asignación de becas para educación superior: así cam",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2112203403988218291",
+   "fecha": "2026-10-19",
+   "ref": "#SomosSENA | Bajo el liderazgo de Fray Ricardo Torres, avanzamos con la Alcaldía de Barran",
+   "decision": "excluir",
+   "motivo": "rutina"
+  },
+  {
+   "id": "810301545696609_1699011794919129",
+   "fecha": "2026-10-19",
+   "ref": "¡UNA MEDIDA DESCABELLADA QUE GOLPEA EL BOLSILLO DE NUESTRAS FAMILIAS! La ESSA Grupo EPM an",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro"
+  },
+  {
+   "id": "twitter_2112305538016936420",
+   "fecha": "2026-10-19",
+   "ref": "¡UNA MEDIDA DESCABELLADA QUE GOLPEA EL BOLSILLO DE NUESTRAS FAMILIAS! La ESSA anuncia cobr",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro"
+  },
+  {
+   "id": "twitter_2112308386830454893",
+   "fecha": "2026-10-19",
+   "ref": "¡UNA MEDIDA DESCABELLADA QUE GOLPEA EL BOLSILLO DE NUESTRAS FAMILIAS! La @ESSAGrupoEPM anu",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro"
+  },
+  {
+   "id": "twitter_2112333568940638373",
+   "fecha": "2026-10-19",
+   "ref": "¡El calor no es un lujo! En Barrancabermeja y el Magdalena Medio, los ventiladores y aires",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro"
+  },
+  {
+   "id": "cac07b1a054b2d4af24683c43f8ddf53",
+   "fecha": "2026-10-22",
+   "ref": "Convivencia E benefició a más de 15.000 personas en colegios de Barrancabermeja durante 20",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2113291789754847606",
+   "fecha": "2026-10-22",
+   "ref": "#Santander 🏫🤝 La estrategia ‘Convivencia E’, de la Alcaldía de Barrancabermeja, benefició ",
+   "decision": "incluir",
+   "tema": "edu",
+   "sentimiento": "neutral",
+   "objetivo": "alcaldia",
+   "voz": "medio"
+  },
+  {
+   "id": "twitter_2113316163249988016",
+   "fecha": "2026-10-22",
+   "ref": "Me preocupa que la vía Yuma siga pendiente. Según Invías, faltan 4 km y debe resolverse la",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "ciudad",
+   "voz": "ciro"
+  },
+  {
+   "id": "6ba86cee8bc47bb73398648248fffbe4",
+   "fecha": "2026-10-23",
+   "ref": "Se inició entrega de tanques de agua para familias rurales de Barrancabermeja afectadas po",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "youtube_MHgNfu5elis",
+   "fecha": "2026-10-24",
+   "ref": "Ante las dificultades que enfrenta el sector rural durante la temporada seca, la Alcaldía ",
+   "decision": "incluir",
+   "tema": "agua",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio"
+  },
+  {
+   "id": "c777e5be7accc37b8872b88ecc2662ad",
+   "fecha": "2026-10-24",
+   "ref": "Fallo histórico obliga a Ecopetrol y autoridades a salvaguardar la ciénaga de San Silvestr",
+   "decision": "excluir",
+   "motivo": "historica",
+   "nota": "La URL corresponde a una nota de 2025 recapturada en 2026."
+  },
+  {
+   "id": "40a36d5d10bbcbce2833b0f95f7f8ed5",
+   "fecha": "2026-10-24",
+   "ref": "Transporte y energía",
+   "decision": "incluir",
+   "tema": "mov",
+   "sentimiento": "neutral",
+   "objetivo": "ciudad",
+   "voz": "medio",
+   "revisar": "Columna de opinión de un senador; voz de actor político."
+  },
+  {
+   "id": "twitter_2114848401955127453",
+   "fecha": "2026-10-26",
+   "ref": "3/ La Vía Yuma sigue sin un cronograma serio por parte de cada uno de los responsables: al",
+   "decision": "incluir",
+   "tema": "obras",
+   "sentimiento": "negativo",
+   "objetivo": "alcaldia",
+   "voz": "ciudadano",
+   "revisar": "Autor con posible perfil político; verificar."
+  }
+ ]
+}
