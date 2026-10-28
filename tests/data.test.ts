@@ -4,18 +4,24 @@
  */
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import { build, cleanText, fullText, isCiroAccount, toCsv } from '../src/lib/pipeline';
-import { readEvidenceIds, readReview, readSource, ROOT, SOURCE_CSV, SOURCE_XLSX } from '../scripts/source';
-import type { Registro, Resumen } from '../src/lib/types';
+import { cleanText, fullText, isCiroAccount } from '../src/lib/pipeline';
+import { readReview, readSource, ROOT, SOURCE_AMPLIADA_CSV, SOURCE_CSV, SOURCE_WEB_CSV } from '../scripts/source';
+import { assemble, readReviewWeb } from '../scripts/assemble';
+import type { Figura, Registro, Resumen } from '../src/lib/types';
 import registros from '../src/data/registros.json';
 import resumen from '../src/data/resumen.json';
+import figuras from '../src/data/figuras.json';
 import curated from '../src/data/evidencias.json';
 
 const src = readSource();
 const review = readReview();
-const out = build({ ...src, review, archivo: SOURCE_XLSX.split('/').pop()!, evidenceIds: readEvidenceIds() });
-const rs = registros as Registro[];
+const full = assemble();
+const out = full.sentione;
+const all = registros as Registro[];
+const rs = all.filter((r) => r.fuente === 'sentione');
+const web = all.filter((r) => r.fuente === 'web');
 const sum = resumen as Resumen;
+const figs = figuras as Figura[];
 
 /** CSV con comillas y saltos de línea dentro de los campos. */
 function parseCsv(text: string): string[][] {
@@ -75,9 +81,11 @@ describe('validación de la exportación de Sentione', () => {
 
 describe('reproducibilidad', () => {
   it('los datos publicados se regeneran idénticos desde los archivos fuente', () => {
-    expect(out.registros).toEqual(rs);
-    expect(out.resumen).toEqual(sum);
-    expect(toCsv(out.auditoria)).toBe(readFileSync(`${ROOT}public/data/auditoria.csv`, 'utf8'));
+    expect(full.registros).toEqual(all);
+    expect(full.resumen).toEqual(sum);
+    expect(full.figuras).toEqual(figs);
+    expect(full.auditoriaCsv).toBe(readFileSync(`${ROOT}public/data/auditoria.csv`, 'utf8'));
+    expect(full.auditoriaWebCsv).toBe(readFileSync(`${ROOT}public/data/auditoria-web.csv`, 'utf8'));
   });
 
   it('la auditoría tiene una fila por cada registro original y cuadra con el informe', () => {
@@ -149,5 +157,77 @@ describe('evidencias', () => {
     expect(n).toBeLessThanOrEqual(9);
     for (const e of groups.ciudad.items) expect(rs.find((r) => r.id === e.id)!.ciro).toBeNull();
     for (const e of groups.ciro.items) expect(rs.find((r) => r.id === e.id)!.ciro).not.toBeNull();
+  });
+});
+
+describe('investigación web', () => {
+  const ext = full.ext;
+
+  it('trae las 26 notas declaradas y los 220 registros de Sentione sin cambios', () => {
+    for (const c of sum.web.validacion) expect(c, c.label).toMatchObject({ ok: true });
+    expect(ext.web).toHaveLength(26);
+  });
+
+  it('los CSV entregados coinciden con el libro ampliado', () => {
+    const [h1, ...webCsv] = parseCsv(readFileSync(`${ROOT}${SOURCE_WEB_CSV}`, 'utf8').replace(/^\uFEFF/, ''));
+    expect(webCsv.map((r) => r[h1.indexOf('ID')])).toEqual(ext.web.map((w) => w.id));
+    expect(webCsv.map((r) => r[h1.indexOf('URL original')])).toEqual(ext.web.map((w) => w.url));
+    const [h2, ...amp] = parseCsv(readFileSync(`${ROOT}${SOURCE_AMPLIADA_CSV}`, 'utf8').replace(/^\uFEFF/, ''));
+    expect(amp).toHaveLength(246);
+    expect(amp.filter((r) => r[h2.indexOf('Fuente')] === 'Sentione').map((r) => r[h2.indexOf('ID')])).toEqual(src.base.map((b) => b.id));
+  });
+
+  it('23 notas en el informe, separadas de la escucha y sin repetir registros de Sentione', () => {
+    expect(web).toHaveLength(23);
+    expect(sum.web.duplicadosConSentione).toEqual([]);
+    const sentioneUrls = new Set([...src.base, ...src.pendiente].map((r) => r.url));
+    for (const w of web) expect(sentioneUrls.has(w.url), w.id).toBe(false);
+    expect(rs).toHaveLength(289);
+  });
+
+  it('no inventa texto ni interacciones: el extracto es el titular y el resumen queda aparte', () => {
+    for (const w of web) {
+      const s = ext.web.find((x) => x.id === w.id)!;
+      expect(s.texto).toBe('');
+      expect(s.interacciones).toBe(0);
+      expect(w.extracto).toBe(cleanText(s.titulo));
+      expect(w.texto).toBeUndefined();
+      expect(w.sentione).toBe('no_aplica');
+    }
+  });
+
+  it('los resúmenes editoriales no cuentan como voz ciudadana ni como evidencia', () => {
+    for (const w of web) expect(['medio', 'institucional']).toContain(w.voz);
+    const ids = new Set(Object.values(curated as Record<string, { items: { id: string }[] }>).flatMap((g) => g.items.map((i) => i.id)));
+    for (const w of web) expect(ids.has(w.id)).toBe(false);
+  });
+
+  it('ninguna nota web se atribuye a Ciro si no lo nombra', () => {
+    for (const w of web) expect(w.ciro).toBeNull();
+    expect(readReviewWeb()).toHaveLength(26);
+  });
+});
+
+describe('figuras políticas', () => {
+  const by = (id: string) => figs.find((f) => f.id === id)!;
+
+  it('Fabián Oviedo se trata como Bucaramanga, no como aspirante en Barrancabermeja', () => {
+    expect(by('oviedo').grupo).toBe('otro_municipio');
+    expect(figs.filter((f) => f.grupo === 'alcaldia').map((f) => f.id)).toEqual(['ciro', 'carrillo', 'baeza', 'arias', 'granados']);
+  });
+
+  it('ninguna candidatura figura como confirmada', () => {
+    for (const f of figs.filter((x) => x.grupo !== 'otro_municipio'))
+      expect(`${f.situacion} ${f.tratamiento}`, f.nombre).toMatch(/(no|sin) (confirm|inscrip)|no clasificar|pendiente|eventual|posible/i);
+  });
+
+  it('Carrillo, Baeza y Arias no aparecen en la escucha; Granados aparece como funcionario', () => {
+    for (const id of ['carrillo', 'baeza', 'arias']) expect(by(id).sentione, id).toBe(0);
+    expect(by('granados').comoFuncionario / by('granados').sentione).toBeGreaterThanOrEqual(0.8);
+  });
+
+  it('la publicación «por validar» de Santander Se Conecta está en la escucha con enlace y fecha', () => {
+    expect(sum.web.hallazgoPorValidar.enSentione).toMatchObject({ id: 'twitter_2099848070871625899', url: 'https://twitter.com/SanSeConecta/status/2099848070871625899' });
+    expect(by('ciro').propias).toBe(16);
   });
 });

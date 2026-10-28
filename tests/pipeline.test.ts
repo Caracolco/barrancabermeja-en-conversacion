@@ -169,3 +169,39 @@ describe('lector de XLSX', () => {
     ]);
   });
 });
+
+describe('investigación web y figuras', () => {
+  it('lee la fecha de la URL y detecta dominios atípicos', async () => {
+    const { urlDate, atypicalUrl, asOfficial } = await import('../src/lib/web');
+    expect(urlDate('https://enlacetelevision.com/2026/10/26/renuncias/')).toBe('2026-10-26');
+    expect(urlDate('https://www.procuraduria.gov.co/Pages/nota.aspx')).toBeNull();
+    expect(atypicalUrl('https://www.com.elcolombiano.com/negocios/x')).toBe(true);
+    expect(atypicalUrl('https://chat.policia.gov.co/noticia/x')).toBe(true);
+    expect(atypicalUrl('https://www.vanguardia.com/santander/x')).toBe(false);
+    expect(asOfficial('El secretario de Ambiente y Transición Energética, Leonardo Granados, explicó', /Leonardo\s+Granados/)).toBe(true);
+    expect(asOfficial('Leonardo Granados aspiraría a la Alcaldía', /Leonardo\s+Granados/)).toBe(false);
+  });
+
+  it('una nota repetida de Sentione se descarta y el resumen editorial no crea menciones', async () => {
+    const { buildWeb } = await import('../src/lib/web');
+    const w = (id: string, o: Partial<SourceRow> & { resumen?: string }) => ({
+      ...row({ id, tipo: 'Article', plataforma: 'Websites', autor: 'Medio', fecha: '2026-10-10', titulo: 'Titular', url: `https://medio.co/2026/10/10/${id}/`, ...o }),
+      resumen: o.resumen ?? '',
+      actores: [],
+      estadoPolitico: '',
+    });
+    const review = ['a', 'b'].map((id) => ({ id, fecha: '', ref: '', decision: 'incluir' as const, tema: 'pol' as const, sentimiento: 'neutral' as const, objetivo: 'sin_objetivo' as const, voz: 'medio' as const }));
+    const out = buildWeb({
+      web: [w('a', { resumen: 'Ciro Fernández aspiraría a la Alcaldía de Barrancabermeja' }), w('b', { url: 'https://sentione.co/x' })],
+      review,
+      sentione: [row({ id: 's1', url: 'https://sentione.co/x' })],
+      auditLinks: [],
+      ventana: { desde: '2026-01-01', hasta: '2026-10-28' },
+      archivo: 'x.xlsx',
+      hallazgo: { cuenta: 'Cuenta (@Cuenta)', estado: '' },
+    });
+    expect(out.registros.map((r) => r.id)).toEqual(['a']);
+    expect(out.registros[0].ciro).toBeNull();
+    expect(out.resumen.duplicadosConSentione).toEqual(['b']);
+  });
+});

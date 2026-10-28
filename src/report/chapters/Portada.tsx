@@ -22,7 +22,7 @@ function DotCalendar({ s }: { s: Story }) {
       return band;
     });
   }, [months]);
-  const rows = Math.max(...months.map((m) => Math.ceil(m.total / COLS)));
+  const rows = Math.max(...months.map((m) => Math.ceil((m.total + m.web) / COLS)));
   const width = layout.length * (COLS + GAP) - GAP;
   const height = rows * CELL;
   const shown = layout.find((b) => b.month === hover);
@@ -57,6 +57,28 @@ function DotCalendar({ s }: { s: Story }) {
               );
             }),
           )}
+          {/* Notas de investigación web: huecas y encima de la escucha, para no confundirlas con ella. */}
+          {layout.map((b) =>
+            Array.from({ length: b.web }, (_, k) => {
+              const i = b.total + k;
+              const c = b.x0 + (i % COLS);
+              const r = rows - 1 - Math.floor(i / COLS);
+              return (
+                <circle
+                  key={`${b.month}-w${k}`}
+                  className="dot"
+                  style={{ animationDelay: `${1.2 + k * 0.03}s` }}
+                  cx={c * CELL + CELL / 2}
+                  cy={r * CELL + CELL / 2}
+                  r={2.8}
+                  fill="#fff"
+                  stroke="#2E6BB0"
+                  strokeWidth={1.3}
+                  opacity={hover && hover !== b.month ? 0.18 : 1}
+                />
+              );
+            }),
+          )}
           {layout.map((b) => (
             <g key={b.month}>
               <text x={(b.x0 + COLS / 2) * CELL} y={height + 18} textAnchor="middle" className="fill-ink-faint text-[11px]">
@@ -71,7 +93,7 @@ function DotCalendar({ s }: { s: Story }) {
                 onPointerEnter={() => setHover(b.month)}
                 onPointerLeave={() => setHover(null)}
               >
-                <title>{`${monthLong(b.month)}: ${fmt(b.total)} registros, ${fmt(b.ciro)} de Ciro Fernández`}</title>
+                <title>{`${monthLong(b.month)}: ${fmt(b.total)} registros de la escucha, ${fmt(b.ciro)} de Ciro Fernández, ${fmt(b.web)} notas web`}</title>
               </rect>
             </g>
           ))}
@@ -79,12 +101,19 @@ function DotCalendar({ s }: { s: Story }) {
         {shown && (
           <div className="pointer-events-none absolute -top-9 left-0 rounded-md bg-navy-900 px-2.5 py-1 text-[12.5px] text-white shadow-lg">
             {monthLong(shown.month)}: <b>{fmt(shown.total)}</b> registros{shown.ciro ? `, ${fmt(shown.ciro)} de Ciro` : ''}
+            {shown.web ? ` · ${fmt(shown.web)} web` : ''}
           </div>
         )}
       </div>
       <figcaption className="mt-4 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 text-[13.5px] leading-snug text-ink-muted">
-        <span>Cada punto es un registro pertinente, en el mes en que se publicó: {fmt(s.analyzed)} en total.</span>
+        <span>Cada punto es un registro pertinente de la escucha, en el mes en que se publicó: {fmt(s.analyzed)}.</span>
         <span className="font-semibold text-accent">Los rojos son de Ciro Fernández o lo mencionan: {fmt(s.ciro.direct)}.</span>
+        <span className="inline-flex items-center gap-1.5">
+          <svg width="10" height="10" aria-hidden>
+            <circle cx="5" cy="5" r="3.6" fill="#fff" stroke="#2E6BB0" strokeWidth="1.3" />
+          </svg>
+          Los huecos son notas de investigación web, analizadas aparte: {fmt(s.web.total)}.
+        </span>
       </figcaption>
     </figure>
   );
@@ -105,16 +134,16 @@ export default function Portada({ s, onStart }: { s: Story; onStart: () => void 
         </motion.p>
         <motion.div variants={rise} className="mt-7 flex items-end gap-6 border-t border-line pt-5">
           <div>
-            <p className="figure-num text-[clamp(2.4rem,min(1.8rem+2.6vw,8vh),4rem)] text-navy-900">{s.conversation.months.length}</p>
-            <p className="mt-1 text-[13px] text-ink-muted">meses de escucha</p>
-          </div>
-          <div>
             <p className="figure-num text-[clamp(2.4rem,min(1.8rem+2.6vw,8vh),4rem)] text-navy-900">{fmt(s.rawRows)}</p>
-            <p className="mt-1 text-[13px] text-ink-muted">registros capturados</p>
+            <p className="mt-1 text-[13px] text-ink-muted">capturados por Sentione</p>
           </div>
           <div>
             <p className="figure-num text-[clamp(2.4rem,min(1.8rem+2.6vw,8vh),4rem)] text-accent">{fmt(s.analyzed)}</p>
             <p className="mt-1 text-[13px] text-ink-muted">pertinentes tras depurar</p>
+          </div>
+          <div>
+            <p className="figure-num text-[clamp(2.4rem,min(1.8rem+2.6vw,8vh),4rem)] text-sky">+{fmt(s.web.total)}</p>
+            <p className="mt-1 text-[13px] text-ink-muted">notas de investigación web</p>
           </div>
         </motion.div>
         <motion.button

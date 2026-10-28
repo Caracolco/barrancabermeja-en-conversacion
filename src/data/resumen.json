@@ -231,5 +231,92 @@
     "temaCoincide": 202,
     "sentimientoCoincide": 224,
     "total": 289
+  },
+  "web": {
+    "validacion": [
+      {
+        "id": "web-filas",
+        "label": "Notas web declaradas en la metodología",
+        "expected": 26,
+        "actual": 26,
+        "ok": true
+      },
+      {
+        "id": "web-sentione",
+        "label": "Registros de Sentione idénticos en el libro ampliado",
+        "expected": 220,
+        "actual": 220,
+        "ok": true
+      },
+      {
+        "id": "web-sentione-total",
+        "label": "Registros de Sentione en el libro ampliado",
+        "expected": 220,
+        "actual": 220,
+        "ok": true
+      },
+      {
+        "id": "web-ids",
+        "label": "Identificadores de notas web únicos",
+        "expected": 26,
+        "actual": 26,
+        "ok": true
+      },
+      {
+        "id": "web-fechas",
+        "label": "Notas cuya fecha coincide con la de su URL",
+        "expected": 26,
+        "actual": 26,
+        "ok": true
+      },
+      {
+        "id": "web-sin-texto",
+        "label": "Notas sin texto original (solo titular y resumen editorial)",
+        "expected": 26,
+        "actual": 26,
+        "ok": true
+      }
+    ],
+    "archivo": "Ciro_Fernandez_escucha_ampliada_fuentes_publicas.xlsx",
+    "filas": 26,
+    "incluidos": 23,
+    "excluidos": 3,
+    "porMotivo": {
+      "comunal": 2,
+      "fuera": 1
+    },
+    "duplicadosConSentione": [],
+    "fechasDiscrepantes": [],
+    "fuera": [],
+    "urlsAtipicas": [
+      {
+        "id": "WEB26_4aa1e92188d57b",
+        "url": "https://www.com.elcolombiano.com/negocios/uso-paro-nacional-ecopetrol-estancamiento-negociaciones-BD37253075"
+      },
+      {
+        "id": "WEB26_403f264aff79fe",
+        "url": "https://chat.policia.gov.co/noticia/policia-nacional-frena-extorsion-en-barrancabermeja-dos-capturados-4-millones-pesos"
+      }
+    ],
+    "sinTextoOriginal": 26,
+    "sinInteracciones": 26,
+    "medios": {
+      "Enlace Televisión": 13,
+      "Blu Radio": 1,
+      "Caracol Radio": 2,
+      "Vanguardia": 4,
+      "Procuraduría General": 1,
+      "Yariguíes Stereo": 1,
+      "Policía Nacional": 1
+    },
+    "hallazgoPorValidar": {
+      "cuenta": "Santander Se Conecta (@SanSeConecta)",
+      "estado": "POR VALIDAR — excluido del conteo confirmado",
+      "enSentione": {
+        "id": "twitter_2099848070871625899",
+        "fecha": "2026-09-15 08:09:28",
+        "url": "https://twitter.com/SanSeConecta/status/2099848070871625899"
+      }
+    }
   }
 }

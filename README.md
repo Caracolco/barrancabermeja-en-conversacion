@@ -1,7 +1,7 @@
 # Barrancabermeja en Conversación
 
 Informe ejecutivo interactivo sobre la conversación pública digital de Barrancabermeja, sus problemáticas y el contexto
-electoral, con foco en la presencia de Ciro Fernández. Comparte identidad visual y arquitectura con
+electoral, con foco en la presencia de Ciro Fernández y en los nombres que suenan para la Alcaldía 2027. Comparte identidad visual y arquitectura con
 [Cartagena en Conversación](https://caracolco.github.io/cartagena-en-conversacion/).
 
 **Sitio:** https://caracolco.github.io/barrancabermeja-en-conversacion/
@@ -25,7 +25,8 @@ deslizando en tableta; cada pantalla tiene su dirección (`#/ciro`, `#/voces/2`)
 
 1. **Portada**: un punto por registro pertinente, mes a mes; los rojos son de Ciro Fernández.
 2. **La conversación**: volumen, evolución semanal y plataformas.
-3. **Ciro Fernández**: publicaciones propias frente a menciones de terceros, meses, temas y tono de sus mensajes.
+3. **Ciro Fernández**: publicaciones propias frente a menciones de terceros, meses, temas y tono de sus mensajes; y el
+   **tablero 2027**: posibles aspirantes, qué fuente los nombra y que ninguna candidatura está confirmada.
 4. **¿De qué habla Barrancabermeja?**: temas ordenados por volumen real, con su carga crítica y ejemplos.
 5. **Percepciones y voces ciudadanas**: sentimiento y destinatario de la crítica, y nueve evidencias reales.
 6. **Conclusiones**: cinco hallazgos cuantificados y el método de verificación.
@@ -39,6 +40,10 @@ Todas las cifras y titulares se calculan en `src/report/story.ts` y `src/lib/con
 |---|---|
 | `data/fuente/Ciro_Fernandez_escucha_depurada.xlsx` | Exportación de Sentione con la depuración preliminar (hojas *Base depurada*, *Revisión pendiente*, *Auditoría* y *Resumen y método*). Solo se lee. |
 | `data/fuente/Ciro_Fernandez_base_depurada.csv` | La hoja *Base depurada* en CSV; una prueba verifica que coincide con el Excel. |
+| `data/fuente/Ciro_Fernandez_escucha_ampliada_fuentes_publicas.xlsx` | Libro ampliado: los mismos 220 registros de Sentione más 26 notas de investigación web, figuras políticas, hallazgo por validar y metodología. Solo se lee. |
+| `data/fuente/Ciro_Fernandez_base_ampliada_para_Claude.csv`, `…_solo_nuevas_fuentes_web.csv` | Las mismas tablas en CSV; las pruebas verifican que coinciden con el libro. |
+| `data/revision/revision-web.json` | Revisión de las 26 notas web: decisión, tema, sentimiento del titular, destinatario y voz. |
+| `src/data/figuras.json`, `public/data/auditoria-web.csv` | Generados por `npm run data`: figuras con sus cifras en la escucha y en la web, y decisión de cada nota web. |
 | `data/revision/revision.json` | Revisión registro a registro de los 346 registros con texto: decisión, motivo, tema, sentimiento, destinatario y voz. |
 | `src/data/evidencias.json` | Evidencias elegidas: id, fragmento literal y motivo de la selección. |
 | `src/data/registros.json`, `src/data/resumen.json` | Generados por `npm run data`. |
@@ -58,9 +63,27 @@ El motor (`src/lib/pipeline.ts`) son funciones puras con pruebas:
 El motor también propone tema y sentimiento por reglas; el resumen registra cuánto coinciden esas propuestas y el
 sentimiento original de Sentione con la revisión.
 
+### Investigación web
+
+Las notas encontradas por búsqueda pública se mantienen separadas de la escucha (campo `fuente`):
+
+- No traen texto original ni interacciones. El extracto es el titular del medio; el resumen editorial de la investigación
+  se guarda aparte y nunca se cita como evidencia ni se trata como comentario ciudadano.
+- El sentimiento se lee solo en el titular. No entran en la curva semanal, las plataformas ni el tono de la escucha; en
+  los temas se muestran como un segmento aparte.
+- Se verifica que el libro ampliado trae los 220 registros de Sentione sin cambios, que la fecha de cada nota coincide
+  con la de su URL y que ninguna repite un registro de la escucha.
+- Se excluyen las elecciones de Juntas de Acción Comunal y los temas nacionales con mención secundaria de la ciudad.
+  Dos enlaces con dominio atípico quedan marcados para abrirlos antes de citarlos.
+
+**Figuras.** La situación de cada nombre sale de la hoja *Figuras y verificación*. Las cifras salen de contar sus
+menciones en los textos de la escucha y en las notas web, distinguiendo cuando se le nombra con un cargo en la
+administración. Fabián Oviedo se trata como figura de Bucaramanga. Ninguna candidatura se presenta como confirmada.
+
 ### Resultado
 
 - 815 registros capturados → 346 con texto revisados → 298 pertinentes → **289 en el informe** (9 réplicas).
+- Investigación web: 26 notas → **23 en el informe**, analizadas aparte.
 - Ciro Fernández: 16 publicaciones propias y 1 mención de terceros con texto.
 - Limitaciones: los 456 registros excluidos preliminarmente no traen texto en los archivos entregados (299 son comentarios
   de Facebook y 14 son publicaciones de @CiroFernandezN); no se pudieron volver a leer y quedan señalados en la auditoría.

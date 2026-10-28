@@ -208,7 +208,7 @@ export function fullText(r: Pick<SourceRow, 'titulo' | 'texto'>): string {
   return title && !body.startsWith(title) ? `${title}. ${body}` : body || title;
 }
 
-export function build(input: BuildInput): { registros: Registro[]; resumen: Resumen; auditoria: AuditoriaFila[] } {
+export function build(input: BuildInput): { registros: Registro[]; resumen: Omit<Resumen, 'web'>; auditoria: AuditoriaFila[] } {
   const { base, pendiente, audit, review, declared } = input;
   const rows = [...base, ...pendiente];
   const byId = new Map(rows.map((r) => [r.id, r]));
@@ -230,6 +230,7 @@ export function build(input: BuildInput): { registros: Registro[]; resumen: Resu
       const voz = ciro === 'propia' ? 'ciro' : v.voz!;
       const reg: Registro = {
         id: r.id,
+        fuente: 'sentione',
         fecha: r.fecha.slice(0, 10),
         plataforma: platformOf(r.plataforma, r.id),
         formato: formatOf(r.tipo),
@@ -288,7 +289,7 @@ export function build(input: BuildInput): { registros: Registro[]; resumen: Resu
   const motorSent = registros.filter((r) => suggestSentiment(fullText(byId.get(r.id)!), r.formato) === r.sentimiento).length;
   const fechas = registros.map((r) => r.fecha).sort();
 
-  const resumen: Resumen = {
+  const resumen: Omit<Resumen, 'web'> = {
     fuente: { archivo: input.archivo, ventana: declared.ventana, filas: audit.length },
     rango: { desde: fechas[0], hasta: fechas[fechas.length - 1] },
     validacion: validate(audit, base, pendiente, declared),

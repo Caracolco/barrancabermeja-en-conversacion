@@ -32,7 +32,7 @@ describe('cifras del informe', () => {
     ]);
   });
 
-  it('meses, semanas, plataformas y voces suman el total analizado', () => {
+  it('meses, semanas, plataformas y voces de la escucha suman el total analizado', () => {
     const c = story.conversation;
     const total = story.analyzed;
     expect(c.months.reduce((a, m) => a + m.total, 0)).toBe(total);
@@ -94,6 +94,9 @@ describe('navegación del informe', () => {
     await act(async () => fireEvent.keyDown(window, { key: 'ArrowRight' }));
     expect(window.location.hash).toBe('#/ciro');
     expect(headline()).toContain(`${story.ciro.own} de sus ${story.ciro.direct} registros`);
+    await act(async () => fireEvent.keyDown(window, { key: 'ArrowRight' }));
+    expect(window.location.hash).toBe('#/ciro/1');
+    await act(async () => fireEvent.keyDown(window, { key: 'ArrowLeft' }));
     await act(async () => fireEvent.keyDown(window, { key: 'ArrowLeft' }));
     expect(window.location.hash).toBe('#/conversacion');
     await act(async () => fireEvent.keyDown(window, { key: 'End' }));
@@ -115,6 +118,22 @@ describe('navegación del informe', () => {
     await act(async () => fireEvent.keyDown(window, { key: 'ArrowRight' }));
     expect(window.location.hash).toBe('#/voces/2');
     expect(document.querySelectorAll('[data-evidence]')).toHaveLength(story.evidence.ciro.list.length);
+  });
+
+  it('el tablero 2027 separa aspirantes de Barrancabermeja y no confirma candidaturas', () => {
+    window.location.hash = '#/ciro/1';
+    render(<Report />);
+    expect(headline()).toMatch(/ninguna candidatura está confirmada/);
+    const text = document.querySelector('main')!.textContent ?? '';
+    for (const f of story.figures.alcaldia) expect(text).toContain(f.nombre);
+    expect(text).toMatch(/Fabián Oviedo no es aspirante en Barrancabermeja/);
+    expect(text).not.toMatch(/candidat[oa] confirmad/i);
+  });
+
+  it('la escucha y la investigación web se cuentan por separado', () => {
+    expect(story.analyzed + story.web.total).toBe(REGISTROS.length);
+    expect(story.conversation.months.reduce((a, m) => a + m.web, 0)).toBe(story.web.total);
+    expect(story.topics.rows.reduce((a, t) => a + t.web, 0)).toBe(story.web.total);
   });
 
   it('el tono no atribuye a Ciro crítica que no existe', () => {

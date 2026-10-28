@@ -37,7 +37,7 @@ export default function Conclusiones({ s }: { s: Story }) {
               <p className="max-w-[48ch] text-[12.5px] leading-snug text-ink-muted">{c.figureLabel}</p>
             </div>
             <h3 className="mt-1.5 text-[15.5px] font-bold leading-snug text-navy-900">{c.title}</h3>
-            <p className="mt-0.5 max-w-[84ch] text-[13.5px] leading-normal text-ink">{c.text}</p>
+            <p className={`mt-0.5 text-[13.5px] leading-normal text-ink ${i === 0 ? 'max-w-[150ch]' : 'max-w-[84ch]'}`}>{c.text}</p>
           </motion.li>
         ))}
       </ol>
