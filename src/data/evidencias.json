@@ -1,0 +1,92 @@
+{
+  "ciudad": {
+    "headline": "Las personas reclaman por obras, colegios, ruido y promesas incumplidas",
+    "nota": "Ninguno de estos textos menciona a Ciro Fernández.",
+    "items": [
+      {
+        "id": "fbgen_1311537694339137_b27ff77f113cf6d68b57f02141701c4f35cba7a3cdfa604a41f1dbaadd0e160a",
+        "about": "Gestión de la ciudad",
+        "why": "Resume en un solo comentario varias quejas frecuentes: desempleo, inseguridad y obras inconclusas.",
+        "fragmento": "cómo es posible que en una cuidad que tiene 1billon de pesos para invertir, vemos más desempleo, más inseguridad, más hurtos, obras inconclusas, y las obras que estaban para entregar, perdiéndose entra la maleza y la indigencia"
+      },
+      {
+        "id": "fbgen_1457097292447837_da1d3a3929720d60acea589186e1dd2b004237aa9401e948756a24a9d1db650a",
+        "about": "Entornos escolares",
+        "why": "Reclamo directo a la Alcaldía por la seguridad de los colegios, un tema que reaparece en las protestas de agosto.",
+        "fragmento": "en Barrancabermeja-Santander hay un problema grande con la educación de nuestros niños, la alcaldía de Barrancabermeja y secretaria de educación no están haciendo nada para que los niños vayan en dignas condiciones a los colegios"
+      },
+      {
+        "id": "twitter_2114848401955127453",
+        "about": "Vía Yuma",
+        "why": "Crítica argumentada que reparte responsabilidades entre varias entidades; el mismo tema aparece en publicaciones de Ciro.",
+        "fragmento": "La Vía Yuma sigue sin un cronograma serio por parte de cada uno de los responsables: alcaldía de Barrancabermeja, gobernación, INVIAS y Ecopetrol. Lastimosamente, en los últimos 4 años no ha habido avances"
+      },
+      {
+        "id": "fbgen_1518302006991975_fb25004e7b764ecb0a64febe220e6569f9dfef43c7448e95ce72ef8ebdb37a82",
+        "about": "Ruido y convivencia",
+        "why": "Una queja cotidiana que la persona conecta con salud pública y seguridad.",
+        "fragmento": "No solo es contaminación auditiva, es un problema de salud pública que muchas administraciónes municipales están ignorando, es un problema de seguridad porque han habido muertos por solicitar bajar el volumen"
+      },
+      {
+        "id": "fbgen_1403785048457697_7069fccc7e13a5b41eb82a88670741d1be0bff1d2adaebea03684359b401fcfd",
+        "about": "Hipopótamos",
+        "why": "La opinión ciudadana en el tema propio de Barrancabermeja con más registros de medios.",
+        "fragmento": "Ya es hora de extinguidos están acabando con las demás especies y el ecosistema de la región"
+      },
+      {
+        "id": "fbgen_1435448434612930_7cc87588f02448b177b5297c0b8d7fb499a79565788eb264a6db2549151907b0",
+        "about": "Promesas de campaña",
+        "why": "Crítica a un exaspirante a la Alcaldía: muestra que la conversación política también mira hacia atrás.",
+        "fragmento": "así decía dario echeverry cuando era candidato para la alcaldía de barrancabermeja prometió 10.000.000 mil viviendas solo repartió las llaves se vurlo del pueblo de barrancabermeja"
+      }
+    ]
+  },
+  "ciro": {
+    "headline": "Sobre Ciro Fernández hablan sobre todo sus propias cuentas; de terceros hay una sola mención verificable",
+    "nota": "Dos publicaciones propias y la única mención de un tercero con texto disponible.",
+    "items": [
+      {
+        "id": "twitter_2099848070871625899",
+        "about": "Mención de un tercero",
+        "why": "Es la única publicación de un tercero que lo nombra: lo sitúa como posible precandidato a la Alcaldía para 2027.",
+        "fragmento": "Fabián Oviedo y Ciro Fernández regresarían a la contienda electoral en las territoriales de 2027."
+      },
+      {
+        "id": "twitter_2102198082393797118",
+        "about": "Publicación propia: seguridad",
+        "why": "Seguridad es el tema con más registros en la ciudad; aquí aparece en su voz, con una cifra y una exigencia.",
+        "fragmento": "76 homicidios en lo corrido del año no pueden convertirse en una cifra más. Barrancabermeja necesita resultados en seguridad, prevención, investigación y acciones contundentes. No podemos acostumbrarnos a contar muertos."
+      },
+      {
+        "id": "twitter_2112009506347532549",
+        "about": "Publicación propia: obras",
+        "why": "Una de las pocas valoraciones positivas: celebra la reapertura del puente y pide terminar la obra.",
+        "fragmento": "Qué bueno que ya se pueda pasar de nuevo por el puente elevado. Para quienes lo usan a diario para trabajar, llevar a sus hijos o regresar a casa, recuperar el paso es una buena noticia. Celebremos los avances y estemos pendientes de lo que falta."
+      }
+    ]
+  },
+  "temas": {
+    "headline": "Ejemplos por tema",
+    "nota": "Titulares de medios tomados del registro original.",
+    "items": [
+      {
+        "id": "57f4eedd388cba37ea3de961acb75e5e",
+        "about": "Seguridad y convivencia",
+        "why": "Protesta ciudadana por inseguridad cerca de colegios.",
+        "fragmento": "Protestas en Barrancabermeja por inseguridad y presencia de habitantes de calle"
+      },
+      {
+        "id": "d5ccfdbbffc3026e2d1b1c05e6600a6e",
+        "about": "Ambiente y ciénagas",
+        "why": "El hecho ambiental que más registros generó en septiembre y octubre.",
+        "fragmento": "Investigan muerte de cuatro manatíes en el caño San Silvestre de Barrancabermeja"
+      },
+      {
+        "id": "8aebf9bb42ea0afb1cb2782657b873df",
+        "about": "Hipopótamos",
+        "why": "Los avistamientos pasaron de las veredas a los barrios.",
+        "fragmento": "Hipopótamo genera temor tras aparecer en calles de un barrio de Barrancabermeja"
+      }
+    ]
+  }
+}
