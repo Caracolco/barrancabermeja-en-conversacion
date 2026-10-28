@@ -134,12 +134,8 @@ export default function Portada({ s, onStart }: { s: Story; onStart: () => void 
         </motion.p>
         <motion.div variants={rise} className="mt-7 flex items-end gap-6 border-t border-line pt-5">
           <div>
-            <p className="figure-num text-[clamp(2.4rem,min(1.8rem+2.6vw,8vh),4rem)] text-navy-900">{fmt(s.rawRows)}</p>
-            <p className="mt-1 text-[13px] text-ink-muted">capturados por Sentione</p>
-          </div>
-          <div>
             <p className="figure-num text-[clamp(2.4rem,min(1.8rem+2.6vw,8vh),4rem)] text-accent">{fmt(s.analyzed)}</p>
-            <p className="mt-1 text-[13px] text-ink-muted">pertinentes tras depurar</p>
+            <p className="mt-1 text-[13px] text-ink-muted">publicaciones pertinentes en redes y medios</p>
           </div>
           <div>
             <p className="figure-num text-[clamp(2.4rem,min(1.8rem+2.6vw,8vh),4rem)] text-sky">+{fmt(s.web.total)}</p>
