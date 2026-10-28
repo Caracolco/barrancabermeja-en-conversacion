@@ -93,7 +93,7 @@ describe('navegación del informe', () => {
     expect(headline()).toMatch(/de la conversación llegó entre/);
     await act(async () => fireEvent.keyDown(window, { key: 'ArrowRight' }));
     expect(window.location.hash).toBe('#/ciro');
-    expect(headline()).toContain(`${story.ciro.own} de sus ${story.ciro.direct} registros`);
+    expect(headline()).toContain(`${story.ciro.own} de sus ${story.ciro.direct} publicaciones son suyas`);
     await act(async () => fireEvent.keyDown(window, { key: 'ArrowRight' }));
     expect(window.location.hash).toBe('#/ciro/1');
     await act(async () => fireEvent.keyDown(window, { key: 'ArrowLeft' }));
@@ -130,10 +130,20 @@ describe('navegación del informe', () => {
     expect(text).not.toMatch(/candidat[oa] confirmad/i);
   });
 
-  it('la escucha y la investigación web se cuentan por separado', () => {
-    expect(story.analyzed + story.web.total).toBe(REGISTROS.length);
-    expect(story.conversation.months.reduce((a, m) => a + m.web, 0)).toBe(story.web.total);
-    expect(story.topics.rows.reduce((a, t) => a + t.web, 0)).toBe(story.web.total);
+  it('analiza una sola base con todas las publicaciones pertinentes', () => {
+    expect(story.analyzed).toBe(REGISTROS.length);
+    expect(story.conversation.months.reduce((a, m) => a + m.total, 0)).toBe(REGISTROS.length);
+  });
+
+  it('ninguna pantalla menciona el origen de las publicaciones ni totales brutos', async () => {
+    for (const c of CHAPTERS)
+      for (let step = 0; step < c.steps.length; step++) {
+        window.location.hash = `#/${c.id}${step ? `/${step}` : ''}`;
+        const { unmount } = render(<Report />);
+        const text = document.body.textContent ?? '';
+        expect(text, c.id).not.toMatch(/Sentione|investigaci[oó]n web|notas? web|\b815\b|\b813\b|capturad|depuraci[oó]n preliminar/i);
+        unmount();
+      }
   });
 
   it('el tono no atribuye a Ciro crítica que no existe', () => {

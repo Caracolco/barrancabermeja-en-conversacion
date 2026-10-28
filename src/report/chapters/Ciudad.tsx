@@ -13,7 +13,7 @@ export default function Ciudad({ s }: { s: Story }) {
   const rows = all.slice(0, SHOWN);
   const rest = all.slice(SHOWN);
   const restTotal = rest.reduce((a, t) => a + t.total, 0);
-  const max = Math.max(1, ...rows.map((t) => t.total + t.web));
+  const max = rows[0]?.total ?? 1;
   const [t1, t2, t3] = all;
   const [c1, c2] = s.topics.critical;
   const critical = new Set([c1?.id, c2?.id]);
@@ -23,19 +23,18 @@ export default function Ciudad({ s }: { s: Story }) {
     <Slide
       headline={
         <>
-          {t1.label} domina: {fmt(t1.total)} registros, casi uno de cada {WORDS[Math.round(s.analyzed / t1.total)] ?? fmt(Math.round(s.analyzed / t1.total))}. Le siguen {t2.label.toLowerCase()} y {t3.label.toLowerCase()}
+          {t1.label} domina: {fmt(t1.total)} publicaciones, casi una de cada {WORDS[Math.round(s.analyzed / t1.total)] ?? fmt(Math.round(s.analyzed / t1.total))}. Le siguen {t2.label.toLowerCase()} y {t3.label.toLowerCase()}
         </>
       }
-      lead="Temas según el volumen real de la escucha, no una lista predefinida. Las notas de la investigación web se muestran aparte y no cambian el orden."
+      lead="Temas según el volumen real registrado, no una lista predefinida. Cada publicación se asigna a su tema principal tras leerla."
     >
       <div className="grid min-h-0 flex-1 gap-8 lg:grid-cols-[1.7fr_minmax(260px,1fr)] lg:gap-12">
         <div className="min-w-0">
           <Reveal className="mb-4">
             <Legend
               items={[
-                { label: 'Registros sobre el tema', color: '#13315C' },
+                { label: 'Publicaciones sobre el tema', color: '#13315C' },
                 { label: 'De ellos, negativos', color: '#C8102E' },
-                { label: 'Notas de investigación web', color: '#C3D0E3' },
               ]}
             />
           </Reveal>
@@ -49,25 +48,23 @@ export default function Ciudad({ s }: { s: Story }) {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.5, ease: EASE, delay: 0.15 + i * 0.05 }}
                   className="grid grid-cols-[minmax(132px,190px)_1fr_auto] items-center gap-x-4"
-                  title={`${t.label}: ${fmt(t.total)} registros de la escucha, ${fmt(t.negativo)} negativos, y ${fmt(t.web)} notas web. Incluye ${TOPIC_SCOPE[t.id]}.`}
+                  title={`${t.label}: ${fmt(t.total)} publicaciones, ${fmt(t.negativo)} negativas. Incluye ${TOPIC_SCOPE[t.id]}.`}
                 >
                   <span className={`truncate text-[15px] ${i < 3 ? 'font-bold text-navy-900' : hot ? 'font-semibold text-navy-900' : 'text-ink'}`}>{t.label}</span>
                   <div className="relative h-[20px] min-w-0">
                     <motion.div
                       className="absolute inset-y-0 left-0 flex gap-[2px] overflow-hidden rounded-r-[4px]"
                       initial={{ width: 0 }}
-                      animate={{ width: `${((t.total + t.web) / max) * 100}%` }}
+                      animate={{ width: `${(t.total / max) * 100}%` }}
                       transition={{ duration: 0.9, ease: EASE, delay: 0.25 + i * 0.05 }}
                     >
                       <div className="h-full bg-navy-800" style={{ flex: t.total - t.negativo }} />
                       <div className="h-full bg-accent" style={{ flex: t.negativo }} />
-                      {t.web > 0 && <div className="h-full bg-mist" style={{ flex: t.web }} />}
                     </motion.div>
                   </div>
-                  <span className="w-[11em] text-right text-[13px] text-ink-muted">
+                  <span className="w-[7.5em] text-right text-[13px] text-ink-muted">
                     <b className="figure-num mr-1.5 text-[19px] text-navy-900">{fmt(t.total)}</b>
                     {fmtPct(t.negRate)} neg.
-                    <span className="ml-1.5 inline-block w-[3.6em] text-left text-sky">{t.web ? `+${fmt(t.web)} web` : ''}</span>
                   </span>
                 </motion.li>
               );

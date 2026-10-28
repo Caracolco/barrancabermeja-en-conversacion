@@ -197,8 +197,8 @@ export function buildStory(
   groups = curated as Record<'ciudad' | 'ciro' | 'temas', CuratedGroup>,
   figuras: Figura[] = FIGURAS,
 ): Story {
-  // La escucha de Sentione es el universo comparable; la investigación web se analiza aparte.
-  const rs = all.filter((r) => r.fuente === 'sentione');
+  // Una sola base: todas las publicaciones pertinentes se analizan juntas.
+  const rs = all;
   const webRs = all.filter((r) => r.fuente === 'web');
   const total = rs.length;
   const period = { from: resumen.fuente.ventana.desde, to: resumen.fuente.ventana.hasta, dataFrom: resumen.rango.desde, dataTo: resumen.rango.hasta };

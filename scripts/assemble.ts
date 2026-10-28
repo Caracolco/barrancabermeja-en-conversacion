@@ -51,7 +51,7 @@ export function assemble() {
           ...f,
           propias: s.registros.filter((r) => r.ciro === 'propia').length,
           nota: w.resumen.hallazgoPorValidar.enSentione
-            ? `La publicación de ${ext.hallazgo.cuenta} que lo menciona sí está en la escucha de Sentione, con enlace permanente y fecha (${w.resumen.hallazgoPorValidar.enSentione.fecha.slice(0, 10)}): lo ubica como posible precandidato, sin candidatura confirmada.`
+            ? `Una publicación de ${ext.hallazgo.cuenta} del ${w.resumen.hallazgoPorValidar.enSentione.fecha.slice(0, 10).split('-').reverse().join('/')} lo ubica como posible precandidato a la Alcaldía de Barrancabermeja. No hay candidatura confirmada.`
             : f.nota,
         }
       : f,

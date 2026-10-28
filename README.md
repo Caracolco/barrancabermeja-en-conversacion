@@ -63,18 +63,17 @@ El motor (`src/lib/pipeline.ts`) son funciones puras con pruebas:
 El motor también propone tema y sentimiento por reglas; el resumen registra cuánto coinciden esas propuestas y el
 sentimiento original de Sentione con la revisión.
 
-### Investigación web
+### Una sola base
 
-Las notas encontradas por búsqueda pública se mantienen separadas de la escucha (campo `fuente`):
+El informe analiza una sola base de publicaciones pertinentes: las de la escucha social y las notas de medios encontradas
+por búsqueda pública se cuentan, grafican y clasifican juntas. Las pantallas no distinguen el origen ni muestran los
+totales brutos de captura. El origen de cada registro se conserva solo en los datos (campo `fuente`) y en las auditorías
+descargables, para poder verificarlo.
 
-- No traen texto original ni interacciones. El extracto es el titular del medio; el resumen editorial de la investigación
-  se guarda aparte y nunca se cita como evidencia ni se trata como comentario ciudadano.
-- El sentimiento se lee solo en el titular. No entran en la curva semanal, las plataformas ni el tono de la escucha; en
-  los temas se muestran como un segmento aparte.
-- Se verifica que el libro ampliado trae los 220 registros de Sentione sin cambios, que la fecha de cada nota coincide
-  con la de su URL y que ninguna repite un registro de la escucha.
-- Se excluyen las elecciones de Juntas de Acción Comunal y los temas nacionales con mención secundaria de la ciudad.
-  Dos enlaces con dominio atípico quedan marcados para abrirlos antes de citarlos.
+- Las notas de búsqueda pública no traen texto completo ni interacciones. Su extracto es el titular del medio; el resumen
+  editorial de la investigación no se cita ni se trata como comentario ciudadano, y su sentimiento se lee en el titular.
+- Las pruebas verifican que el libro ampliado trae los registros de la escucha sin cambios, que la fecha de cada nota
+  coincide con la de su URL y que ninguna repite otra publicación.
 
 **Figuras.** La situación de cada nombre sale de la hoja *Figuras y verificación*. Las cifras salen de contar sus
 menciones en los textos de la escucha y en las notas web, distinguiendo cuando se le nombra con un cargo en la
@@ -83,7 +82,7 @@ administración. Fabián Oviedo se trata como figura de Bucaramanga. Ninguna can
 ### Resultado
 
 - 815 registros capturados → 346 con texto revisados → 298 pertinentes → **289 en el informe** (9 réplicas).
-- Investigación web: 26 notas → **23 en el informe**, analizadas aparte.
+- Búsqueda pública: 26 notas → 23 pertinentes. **Base del informe: 312 publicaciones.**
 - Ciro Fernández: 16 publicaciones propias y 1 mención de terceros con texto.
 - Limitaciones: los 456 registros excluidos preliminarmente no traen texto en los archivos entregados (299 son comentarios
   de Facebook y 14 son publicaciones de @CiroFernandezN); no se pudieron volver a leer y quedan señalados en la auditoría.

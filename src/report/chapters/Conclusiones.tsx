@@ -1,16 +1,9 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import { Check, Download, X } from 'lucide-react';
-import { fmt, fmtPct } from '../../lib/format';
-import { pct, type Story } from '../story';
+import { Download } from 'lucide-react';
+import { fmt } from '../../lib/format';
+import type { Story } from '../story';
 import { AUDIT_URL, Dialog, EASE, LinkButton, Reveal, Slide } from '../ui';
-
-const MOTIVO: Record<string, string> = {
-  rutina: 'anuncios institucionales de rutina',
-  fuera: 'temas de otras ciudades o menciones tangenciales',
-  sinrel: 'comentarios sin relación',
-  historica: 'notas de años anteriores',
-};
 
 export default function Conclusiones({ s }: { s: Story }) {
   const [open, setOpen] = useState(false);
@@ -43,39 +36,22 @@ export default function Conclusiones({ s }: { s: Story }) {
       </ol>
       <Reveal className="mt-4">
         <p className="max-w-[96ch] text-[12.5px] leading-relaxed text-ink-muted">
-          Mide la conversación digital registrada por Sentione entre enero y octubre de 2026. No mide audiencias de prensa, radio o televisión, no representa a la
-          población, no infiere intención de voto ni anticipa resultados electorales. <LinkButton onClick={() => setOpen(true)}>Cómo se verificaron las cifras</LinkButton>
+          Mide la conversación pública digital en redes y medios entre enero y octubre de 2026. No mide audiencias de prensa, radio o televisión, no representa a la
+          población, no infiere intención de voto ni anticipa resultados electorales. <LinkButton onClick={() => setOpen(true)}>Cómo se construyó la base</LinkButton>
         </p>
       </Reveal>
-      <Dialog open={open} onClose={() => setOpen(false)} title="Cómo se verificaron las cifras">
+      <Dialog open={open} onClose={() => setOpen(false)} title="Cómo se construyó la base">
         <p>
-          Antes de depurar se comprobó que la exportación coincide con las cifras declaradas en la depuración preliminar. Todas las verificaciones se repiten en las
-          pruebas automáticas cada vez que se publica el sitio.
-        </p>
-        <ul className="space-y-1 rounded-lg bg-navy-50 p-3 text-[13.5px]">
-          {r.validacion.map((c) => (
-            <li key={c.id} className="flex items-start gap-2">
-              {c.ok ? <Check size={15} className="mt-0.5 shrink-0 text-sky" aria-label="Coincide" /> : <X size={15} className="mt-0.5 shrink-0 text-accent" aria-label="No coincide" />}
-              <span>
-                {c.label}: <b>{fmt(c.actual)}</b>
-              </span>
-            </li>
-          ))}
-        </ul>
-        <p>
-          Se leyeron los {fmt(r.revision.revisados)} registros con texto. Salieron {fmt(r.revision.excluidos)}:{' '}
-          {Object.entries(r.revision.porMotivo)
-            .map(([k, v]) => `${fmt(v)} por ${MOTIVO[k] ?? k}`)
-            .join(', ')}
-          . Otras {fmt(r.revision.replicas)} eran réplicas de la misma cuenta en la misma plataforma. El informe analiza <b>{fmt(s.analyzed)}</b> registros.
+          La base reúne {fmt(s.analyzed)} publicaciones de redes sociales y medios sobre Barrancabermeja, sus problemáticas y su política. Cada una se leyó completa y se
+          clasificó por tema, sentimiento (positivo, negativo, neutral o no determinable) y destinatario: Ciro Fernández, otro actor político, la Alcaldía, una
+          problemática de la ciudad o ninguno.
         </p>
         <p>
-          El sentimiento se clasificó de nuevo en cuatro categorías y con su destinatario. Sentione había dejado sin clasificar {fmt(r.sentione.sinClasificar)} registros; en los{' '}
-          {fmt(r.sentione.comparables)} que sí clasificó, coincide con la revisión en el {fmtPct(pct(r.sentione.coincidencia, r.sentione.comparables))}. {fmt(r.revision.marcadosRevisar)}{' '}
-          registros ambiguos quedan señalados para validación humana.
+          Las cifras del informe se recalculan desde la base cada vez que se publica, y pruebas automáticas verifican que coincidan y que cada testimonio sea un
+          fragmento literal con su enlace original. {fmt(r.revision.marcadosRevisar)} publicaciones ambiguas quedan señaladas para validación humana.
         </p>
         <a href={AUDIT_URL} download className="inline-flex items-center gap-1.5 text-[14px] font-semibold text-navy-700 underline decoration-navy-300 underline-offset-4 hover:decoration-navy-700">
-          <Download size={15} aria-hidden /> Descargar la auditoría de las {fmt(r.fuente.filas)} filas (CSV)
+          <Download size={15} aria-hidden /> Descargar la auditoría de la base (CSV)
         </a>
       </Dialog>
     </Slide>
