@@ -22,7 +22,7 @@ function DotCalendar({ s }: { s: Story }) {
       return band;
     });
   }, [months]);
-  const rows = Math.max(...months.map((m) => Math.ceil((m.total + m.web) / COLS)));
+  const rows = Math.max(...months.map((m) => Math.ceil(m.total / COLS)));
   const width = layout.length * (COLS + GAP) - GAP;
   const height = rows * CELL;
   const shown = layout.find((b) => b.month === hover);
@@ -34,7 +34,7 @@ function DotCalendar({ s }: { s: Story }) {
           viewBox={`-8 -8 ${width * CELL + 16} ${height + 32}`}
           className="block h-auto max-h-[52vh] w-full"
           role="img"
-          aria-label={`${fmt(s.analyzed)} registros pertinentes entre ${monthLong(months[0].month)} y ${monthLong(months[months.length - 1].month)}; ${fmt(s.ciro.direct)} son de Ciro Fernández o lo mencionan.`}
+          aria-label={`${fmt(s.analyzed)} publicaciones analizadas entre ${monthLong(months[0].month)} y ${monthLong(months[months.length - 1].month)}; ${fmt(s.ciro.direct)} son de Ciro Fernández o lo mencionan.`}
         >
           {layout.map((b) =>
             Array.from({ length: b.total }, (_, i) => {
@@ -57,28 +57,6 @@ function DotCalendar({ s }: { s: Story }) {
               );
             }),
           )}
-          {/* Notas de investigación web: huecas y encima de la escucha, para no confundirlas con ella. */}
-          {layout.map((b) =>
-            Array.from({ length: b.web }, (_, k) => {
-              const i = b.total + k;
-              const c = b.x0 + (i % COLS);
-              const r = rows - 1 - Math.floor(i / COLS);
-              return (
-                <circle
-                  key={`${b.month}-w${k}`}
-                  className="dot"
-                  style={{ animationDelay: `${1.2 + k * 0.03}s` }}
-                  cx={c * CELL + CELL / 2}
-                  cy={r * CELL + CELL / 2}
-                  r={2.8}
-                  fill="#fff"
-                  stroke="#2E6BB0"
-                  strokeWidth={1.3}
-                  opacity={hover && hover !== b.month ? 0.18 : 1}
-                />
-              );
-            }),
-          )}
           {layout.map((b) => (
             <g key={b.month}>
               <text x={(b.x0 + COLS / 2) * CELL} y={height + 18} textAnchor="middle" className="fill-ink-faint text-[11px]">
@@ -93,27 +71,20 @@ function DotCalendar({ s }: { s: Story }) {
                 onPointerEnter={() => setHover(b.month)}
                 onPointerLeave={() => setHover(null)}
               >
-                <title>{`${monthLong(b.month)}: ${fmt(b.total)} registros de la escucha, ${fmt(b.ciro)} de Ciro Fernández, ${fmt(b.web)} notas web`}</title>
+                <title>{`${monthLong(b.month)}: ${fmt(b.total)} publicaciones, ${fmt(b.ciro)} de Ciro Fernández o sobre él`}</title>
               </rect>
             </g>
           ))}
         </svg>
         {shown && (
           <div className="pointer-events-none absolute -top-9 left-0 rounded-md bg-navy-900 px-2.5 py-1 text-[12.5px] text-white shadow-lg">
-            {monthLong(shown.month)}: <b>{fmt(shown.total)}</b> registros{shown.ciro ? `, ${fmt(shown.ciro)} de Ciro` : ''}
-            {shown.web ? ` · ${fmt(shown.web)} web` : ''}
+            {monthLong(shown.month)}: <b>{fmt(shown.total)}</b> publicaciones{shown.ciro ? `, ${fmt(shown.ciro)} de Ciro` : ''}
           </div>
         )}
       </div>
       <figcaption className="mt-4 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 text-[13.5px] leading-snug text-ink-muted">
-        <span>Cada punto es un registro pertinente de la escucha, en el mes en que se publicó: {fmt(s.analyzed)}.</span>
+        <span>Cada punto es una publicación analizada, en el mes en que se publicó: {fmt(s.analyzed)} en total.</span>
         <span className="font-semibold text-accent">Los rojos son de Ciro Fernández o lo mencionan: {fmt(s.ciro.direct)}.</span>
-        <span className="inline-flex items-center gap-1.5">
-          <svg width="10" height="10" aria-hidden>
-            <circle cx="5" cy="5" r="3.6" fill="#fff" stroke="#2E6BB0" strokeWidth="1.3" />
-          </svg>
-          Los huecos son notas de investigación web, analizadas aparte: {fmt(s.web.total)}.
-        </span>
       </figcaption>
     </figure>
   );
@@ -124,7 +95,7 @@ export default function Portada({ s, onStart }: { s: Story; onStart: () => void 
     <motion.div variants={stagger} initial="hidden" animate="show" className="mx-auto grid min-h-full w-full max-w-[1240px] content-center items-center gap-10 px-5 py-10 md:px-10 lg:grid-cols-[1fr_1.1fr] xl:gap-14 xl:px-14">
       <div>
         <motion.p variants={rise} className="kicker">
-          Escucha social · {fmtDate(s.period.from)} – {fmtDate(s.period.to)}
+          Conversación digital · {fmtDate(s.period.from)} – {fmtDate(s.period.to)}
         </motion.p>
         <motion.h1 variants={rise} className="display mt-4 text-[clamp(2.8rem,min(1rem+4.6vw,12vh),6rem)] font-medium leading-[0.95] text-navy-900">
           Barrancabermeja en Conversación
@@ -134,12 +105,12 @@ export default function Portada({ s, onStart }: { s: Story; onStart: () => void 
         </motion.p>
         <motion.div variants={rise} className="mt-7 flex items-end gap-6 border-t border-line pt-5">
           <div>
-            <p className="figure-num text-[clamp(2.4rem,min(1.8rem+2.6vw,8vh),4rem)] text-accent">{fmt(s.analyzed)}</p>
-            <p className="mt-1 text-[13px] text-ink-muted">publicaciones pertinentes en redes y medios</p>
+            <p className="figure-num text-[clamp(2.4rem,min(1.8rem+2.6vw,8vh),4rem)] text-navy-900">{fmt(s.analyzed)}</p>
+            <p className="mt-1 text-[13px] text-ink-muted">publicaciones analizadas en redes y medios</p>
           </div>
           <div>
-            <p className="figure-num text-[clamp(2.4rem,min(1.8rem+2.6vw,8vh),4rem)] text-sky">+{fmt(s.web.total)}</p>
-            <p className="mt-1 text-[13px] text-ink-muted">notas de investigación web</p>
+            <p className="figure-num text-[clamp(2.4rem,min(1.8rem+2.6vw,8vh),4rem)] text-accent">{fmt(s.ciro.direct)}</p>
+            <p className="mt-1 text-[13px] text-ink-muted">de Ciro Fernández o sobre él</p>
           </div>
         </motion.div>
         <motion.button

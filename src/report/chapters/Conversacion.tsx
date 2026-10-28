@@ -39,7 +39,7 @@ function WeeklyChart({ s }: { s: Story }) {
           width={width}
           height={H}
           role="img"
-          aria-label={`Registros por semana. Pico en la semana del ${fmtDay(s.conversation.peak.week)} con ${fmt(s.conversation.peak.total)}.`}
+          aria-label={`Publicaciones por semana. Pico en la semana del ${fmtDay(s.conversation.peak.week)} con ${fmt(s.conversation.peak.total)}.`}
           onPointerMove={(e) => {
             const r = e.currentTarget.getBoundingClientRect();
             const i = Math.round(((e.clientX - r.left - PAD.l) / w) * (data.length - 1));
@@ -85,7 +85,7 @@ function WeeklyChart({ s }: { s: Story }) {
         >
           <p className="font-semibold text-navy-900">Semana del {fmtDay(hv.week)}</p>
           <p className="text-ink-muted">
-            <b className="text-ink">{fmt(hv.total)}</b> registros, <b className="text-ink">{fmt(hv.ciro)}</b> de Ciro
+            <b className="text-ink">{fmt(hv.total)}</b> publicaciones, <b className="text-ink">{fmt(hv.ciro)}</b> de Ciro
           </p>
         </div>
       )}
@@ -129,7 +129,6 @@ function Platforms({ s }: { s: Story }) {
 export default function Conversacion({ s }: { s: Story }) {
   const [open, setOpen] = useState(false);
   const c = s.conversation;
-  const r = s.resumen;
   const [m1, , m3] = c.recent.months;
   const medios = pct(c.voices.medio, s.analyzed);
 
@@ -140,12 +139,12 @@ export default function Conversacion({ s }: { s: Story }) {
           El {fmtPct(c.recent.share)} de la conversación llegó entre {monthLong(m1)} y {monthLong(m3 ?? m1)}
         </>
       }
-      lead={`De ${fmt(s.rawRows)} registros que capturó Sentione, ${fmt(s.analyzed)} hablan de verdad de Barrancabermeja, sus problemas o su política. Es una conversación de medios: ${fmtPct(medios)} la producen portales y noticieros. Las ${fmt(s.web.total)} notas de la investigación web se analizan aparte.`}
+      lead={`${fmt(s.analyzed)} publicaciones hablan de Barrancabermeja, sus problemas o su política. Es una conversación de medios: ${fmtPct(medios)} la producen portales, noticieros e instituciones.`}
     >
       <div className="grid min-h-0 flex-1 gap-8 lg:grid-cols-[minmax(230px,0.8fr)_2.2fr] lg:gap-12">
         <div className="grid grid-cols-2 content-start gap-x-6 gap-y-7 sm:grid-cols-3 lg:grid-cols-1">
           <Reveal>
-            <Stat value={s.analyzed} label={`registros pertinentes, de ${fmt(s.rawRows)} capturados por Sentione`} />
+            <Stat value={s.analyzed} label="publicaciones analizadas entre enero y octubre de 2026" />
           </Reveal>
           <Reveal>
             <Stat size="md" tone="red" value={c.voices.ciudadano} label={`son de personas; ${fmt(c.voices.medio)} de medios y ${fmt(c.voices.ciro)} de las cuentas de Ciro`} />
@@ -157,42 +156,35 @@ export default function Conversacion({ s }: { s: Story }) {
         <div className="flex min-w-0 flex-col gap-5">
           <Reveal className="min-w-0">
             <div className="mb-3 flex flex-wrap items-baseline justify-between gap-2">
-              <p className="text-[14px] font-semibold text-navy-900">Registros pertinentes por semana</p>
+              <p className="text-[14px] font-semibold text-navy-900">Publicaciones por semana</p>
               <Legend
                 items={[
-                  { label: 'Todos los registros', color: '#13315C', kind: 'line' },
+                  { label: 'Todas las publicaciones', color: '#13315C', kind: 'line' },
                   { label: 'Ciro Fernández', color: '#C8102E', kind: 'line' },
                 ]}
               />
             </div>
             <WeeklyChart s={s} />
           </Reveal>
-          <Takeaway action={<LinkButton onClick={() => setOpen(true)}>Cómo se depuró la base</LinkButton>}>
-            La semana más intensa fue la del {fmtDay(c.peak.week)}, con {fmt(c.peak.total)} registros; {fmt(c.peak.topicCount)} trataban de{' '}
+          <Takeaway action={<LinkButton onClick={() => setOpen(true)}>Qué publicaciones se analizan</LinkButton>}>
+            La semana más intensa fue la del {fmtDay(c.peak.week)}, con {fmt(c.peak.total)} publicaciones; {fmt(c.peak.topicCount)} trataban de{' '}
             {c.peak.topic.toLowerCase()}. El volumen crece desde agosto, cuando la ciudad suma crisis de seguridad, sequía y obras cuestionadas, y cuando
             aparecen las publicaciones de Ciro Fernández.
           </Takeaway>
         </div>
       </div>
-      <Dialog open={open} onClose={() => setOpen(false)} title="Cómo se depuró la base">
+      <Dialog open={open} onClose={() => setOpen(false)} title="Qué publicaciones se analizan">
         <p>
-          Sentione capturó {fmt(s.rawRows)} registros. La depuración preliminar marcó {fmt(r.preliminar.incluir)} como pertinentes, {fmt(r.preliminar.revisar)} pendientes,{' '}
-          {fmt(r.preliminar.excluir)} excluidos y {fmt(r.preliminar.duplicado)} filas que repetían {fmt(r.preliminar.idsDuplicados)} identificadores. Las cuatro cifras se
-          verificaron contra la auditoría del archivo.
+          Se leyó cada publicación completa y solo se conservaron las que tratan de aspiraciones, elecciones, figuras políticas, la Alcaldía o problemáticas de la
+          ciudad. Salieron los anuncios de rutina, los temas de otras ciudades, las notas antiguas recirculadas y los comentarios sin relación; lo crítico no se
+          excluyó por serlo.
         </p>
         <p>
-          Se leyeron los {fmt(r.revision.revisados)} registros con texto: {fmt(r.revision.deIncluirAExcluir)} de los preliminarmente incluidos salieron (anuncios de
-          rutina, temas de otras ciudades, notas de años anteriores) y {fmt(r.revision.deRevisarAIncluir)} pendientes entraron por tratar problemáticas de la ciudad.
-          Otras {fmt(r.revision.replicas)} eran réplicas de la misma cuenta. Quedan <b>{fmt(s.analyzed)}</b>.
-        </p>
-        <p className="rounded-lg bg-navy-50 p-3 text-[14px] text-ink-muted">
-          Los {fmt(r.excluidosSinTexto.total)} excluidos preliminarmente no traen texto en los archivos entregados ({fmt(r.excluidosSinTexto.comentariosFacebook)} son
-          comentarios de Facebook): no se pudieron volver a leer. Todas las decisiones están en la auditoría descargable.
+          Cuando la misma cuenta repite el mismo texto en la misma red en pocos días, se cuenta una vez. La misma noticia contada por medios distintos sí cuenta,
+          porque llega a públicos distintos.
         </p>
         <p>
-          <b>Investigación web.</b> Se añadieron {fmt(s.web.rows)} notas de medios encontradas por búsqueda pública. Quedan {fmt(s.web.total)}: {fmt(s.web.excluded)} salieron
-          (elecciones comunales y un tema laboral nacional). No traen texto completo ni interacciones, así que no se mezclan con la escucha: no entran en la curva
-          ni en las plataformas, y su sentimiento se lee solo en el titular.
+          A Ciro Fernández solo se le atribuyen las publicaciones de sus cuentas y los textos que lo nombran. La conversación general sobre la ciudad no se le suma.
         </p>
         <p className="text-[13.5px] text-ink-muted">Voces: {Object.entries(c.voices).map(([k, v]) => `${VOICE_LABEL[k as keyof typeof VOICE_LABEL]} ${fmt(v)}`).join(' · ')}.</p>
       </Dialog>

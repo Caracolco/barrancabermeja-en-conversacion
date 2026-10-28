@@ -40,7 +40,7 @@ function Monthly({ data }: { data: Story['ciro']['monthly'] }) {
   return (
     <div>
       <div className="mb-3 flex flex-wrap items-baseline justify-between gap-2">
-        <p className="text-[14px] font-semibold text-navy-900">Registros directos por mes</p>
+        <p className="text-[14px] font-semibold text-navy-900">Publicaciones por mes</p>
         <Legend
           items={[
             { label: 'Propios', color: '#0B1F3A' },
@@ -90,21 +90,18 @@ export default function Ciro({ s }: { s: Story }) {
     <Slide
       headline={
         <>
-          Ciro Fernández se escucha en su propia voz: {fmt(c.own)} de sus {fmt(c.direct)} registros los publicó él
+          Ciro Fernández se escucha en su propia voz: {fmt(c.own)} de sus {fmt(c.direct)} publicaciones son suyas
         </>
       }
       lead="Solo cuentan las publicaciones de sus cuentas y los textos que lo nombran. La conversación general sobre la ciudad no se le atribuye."
     >
       <div className="grid min-h-0 flex-1 gap-8 lg:grid-cols-[minmax(230px,0.8fr)_2fr] lg:gap-12">
-        <div className="grid grid-cols-3 content-start gap-x-5 gap-y-[clamp(0.75rem,2.5vh,1.5rem)] lg:grid-cols-1">
+        <div className="grid grid-cols-2 content-start gap-x-5 gap-y-[clamp(0.75rem,2.5vh,1.5rem)] lg:grid-cols-1">
           <Reveal>
-            <Stat size="xl" tone="red" value={c.direct} label={`registros directos de ${fmt(s.analyzed)} pertinentes`} />
+            <Stat size="xl" tone="red" value={c.direct} label={`publicaciones suyas o sobre él, de ${fmt(s.analyzed)} analizadas`} />
           </Reveal>
           <Reveal>
-            <Stat size="md" value={c.share} format={(n) => fmtPct(n, 1)} label={`de la conversación; ${fmt(c.otherRecords)} registros no lo mencionan`} />
-          </Reveal>
-          <Reveal>
-            <Stat size="md" value={c.ownWithoutText} label="publicaciones suyas en X, excluidas sin texto en la depuración preliminar" />
+            <Stat size="md" value={c.share} format={(n) => fmtPct(n, 1)} label={`de la conversación; ${fmt(c.otherRecords)} publicaciones no lo mencionan`} />
           </Reveal>
         </div>
 
@@ -173,21 +170,11 @@ export default function Ciro({ s }: { s: Story }) {
       </div>
       <Dialog open={open} onClose={() => setOpen(false)} title="Qué no alcanza a medir esta muestra">
         <ul className="list-disc space-y-2 pl-5">
-          <li>
-            Cuentas propias identificadas: {s.resumen.ciro.cuentas.join(' y ')}. Sus publicaciones no lo nombran en el texto; por eso la depuración preliminar las marcó como «no
-            menciona a Ciro». Aquí cuentan como publicaciones propias.
-          </li>
-          <li>
-            {fmt(c.ownWithoutText)} publicaciones de @CiroFernandezN se excluyeron en la depuración preliminar y su texto no está en los archivos entregados. Si son pertinentes,
-            su voz propia sería mayor.
-          </li>
-          <li>
-            De los {fmt(s.resumen.ciro.mencionesAuditoria.length)} registros marcados con «Ciro en el contenido», {fmt(c.homonyms)} son homónimos de otros países, {fmt(c.historic)} es una
-            nota antigua sobre su paso por el Congreso, {fmt(c.unverifiable)} de Facebook no traen texto para verificarlos y {fmt(c.third)} es la mención incluida.
-          </li>
-          <li>Se capturaron sus publicaciones, pero no los comentarios que reciben: la respuesta de la ciudadanía a sus mensajes queda fuera de la muestra.</li>
+          <li>Cuentas propias identificadas: {s.resumen.ciro.cuentas.join(' y ')}. Sus publicaciones no suelen nombrarlo en el texto; cuentan como propias.</li>
+          <li>Solo {fmt(c.third)} {c.third === 1 ? 'publicación de un tercero lo nombra' : 'publicaciones de terceros lo nombran'}: es muy poco para medir cómo lo percibe la ciudadanía.</li>
+          <li>Se analizan sus publicaciones, pero no los comentarios que reciben: la respuesta de la ciudadanía a sus mensajes no está en la base.</li>
         </ul>
-        <p className="text-ink-muted">Recuperar el texto de esas publicaciones y capturar los comentarios de sus cuentas permitiría medir su conversación con más certeza.</p>
+        <p className="text-ink-muted">Incluir los comentarios que reciben sus cuentas permitiría medir su conversación con más certeza.</p>
       </Dialog>
     </Slide>
   );

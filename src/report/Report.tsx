@@ -163,7 +163,7 @@ export default function Report() {
             })}
           </nav>
           <div className="mt-auto space-y-3 text-[12px] leading-snug text-ink-faint">
-            <p>Fuente: Sentione. Conversación digital registrada; no mide audiencias de medios ni intención de voto.</p>
+            <p>Conversación pública digital en redes y medios, enero a octubre de 2026. No mide audiencias ni intención de voto.</p>
             <a href={AUDIT_URL} download className="inline-flex items-center gap-1.5 font-medium text-ink-muted hover:text-navy-900">
               <Download size={14} aria-hidden /> Auditoría de depuración
             </a>

@@ -135,7 +135,7 @@ function Targets({ s }: { s: Story }) {
       <p className="mb-3 text-[14px] font-semibold text-navy-900">¿Hacia quién va la crítica?</p>
       <ul className="flex flex-col gap-2">
         {TARGET_ORDER.map((k, i) => (
-          <li key={k} className="grid grid-cols-[minmax(150px,190px)_1fr_auto] items-center gap-3" title={`${TARGET_LABEL[k]}: ${fmt(t[k])} registros negativos`}>
+          <li key={k} className="grid grid-cols-[minmax(150px,190px)_1fr_auto] items-center gap-3" title={`${TARGET_LABEL[k]}: ${fmt(t[k])} publicaciones negativas`}>
             <span className={`text-[14px] ${k === 'ciro' ? 'font-semibold text-accent' : 'text-ink'}`}>{TARGET_LABEL[k]}</span>
             <div className="relative h-[14px]">
               <motion.div
@@ -160,11 +160,11 @@ function Tono({ s }: { s: Story }) {
     <Slide
       headline={
         <>
-          {cap(WORDS[neutralTenths] ?? fmt(neutralTenths))} de cada diez registros informan sin tomar partido; la crítica apunta a la ciudad y a la Alcaldía,{' '}
+          {cap(WORDS[neutralTenths] ?? fmt(neutralTenths))} de cada diez publicaciones informan sin tomar partido; la crítica apunta a la ciudad y a la Alcaldía,{' '}
           {st.negToCiro === 0 ? 'ninguna a Ciro' : `y ${fmt(st.negToCiro)} a Ciro`}
         </>
       }
-      lead={`Los ${fmt(st.total)} registros de la escucha, revisados uno por uno sin copiar el sentimiento de Sentione: se leyeron negaciones, ironía y a quién se dirige cada crítica.`}
+      lead={`Las ${fmt(st.total)} publicaciones, leídas una por una: se tuvieron en cuenta negaciones, ironía y a quién se dirige cada crítica.`}
     >
       <div className="flex min-h-0 flex-1 flex-col gap-[clamp(1rem,3vh,1.75rem)]">
         <Reveal>
@@ -188,13 +188,6 @@ function Tono({ s }: { s: Story }) {
               {fmt(st.positiveFrom.medio + st.positiveFrom.institucional)}) y de las cuentas de Ciro ({fmt(st.positiveFrom.ciro)}). {fmt(st.counts.no_determinable)}{' '}
               {st.counts.no_determinable === 1 ? 'comentario irónico queda' : 'comentarios ambiguos quedan'} como no determinable.
             </Takeaway>
-            <Reveal>
-              <p className="text-[12.5px] leading-snug text-ink-muted">
-                Aparte, las {fmt(s.web.total)} notas de investigación web, leídas solo por su titular: {fmt(s.web.counts.neutral)} neutrales, {fmt(s.web.counts.negativo)}{' '}
-                negativas y {fmt(s.web.counts.positivo)} positiva{s.web.counts.positivo === 1 ? '' : 's'}. {s.web.ciro === 0 ? 'Ninguna menciona a Ciro.' : `${fmt(s.web.ciro)} mencionan a Ciro.`} Sus
-                resúmenes editoriales no se tratan como opinión ciudadana.
-              </p>
-            </Reveal>
           </div>
         </div>
       </div>
@@ -222,7 +215,7 @@ function Cards({ group, lead }: { group: Story['evidence']['ciudad']; lead: stri
 
 export default function Voces({ s, step }: { s: Story; step: number }) {
   if (step === 1)
-    return <Cards group={s.evidence.ciudad} lead={`Quejas sobre la ciudad tomadas de comentarios y cuentas personales. Son ${fmt(s.sentiment.citizens.total)} de ${fmt(s.analyzed)} registros: pocas, pero concretas.`} />;
+    return <Cards group={s.evidence.ciudad} lead={`Quejas sobre la ciudad tomadas de comentarios y cuentas personales. Son ${fmt(s.sentiment.citizens.total)} de ${fmt(s.analyzed)} publicaciones: pocas, pero concretas.`} />;
   if (step === 2) return <Cards group={s.evidence.ciro} lead={`${fmt(s.ciro.own)} publicaciones propias y ${fmt(s.ciro.third)} ${s.ciro.third === 1 ? 'mención' : 'menciones'} de terceros: lo que se dice de Ciro Fernández sale casi siempre de sus cuentas.`} />;
   return <Tono s={s} />;
 }

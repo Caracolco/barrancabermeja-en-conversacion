@@ -13,7 +13,7 @@
     "sentione": 1,
     "comoFuncionario": 0,
     "web": 0,
-    "nota": "La publicación de Santander Se Conecta (@SanSeConecta) que lo menciona sí está en la escucha de Sentione, con enlace permanente y fecha (2026-09-15): lo ubica como posible precandidato, sin candidatura confirmada.",
+    "nota": "Una publicación de Santander Se Conecta (@SanSeConecta) del 15/09/2026 lo ubica como posible precandidato a la Alcaldía de Barrancabermeja. No hay candidatura confirmada.",
     "propias": 16
   },
   {
@@ -30,7 +30,7 @@
     "sentione": 0,
     "comoFuncionario": 0,
     "web": 1,
-    "nota": "Solo aparece en una nota web; ningún registro de la escucha lo nombra."
+    "nota": "Solo una publicación lo nombra."
   },
   {
     "figura": "Kellin Baeza",
@@ -46,7 +46,7 @@
     "sentione": 0,
     "comoFuncionario": 0,
     "web": 1,
-    "nota": "Solo aparece en una nota web; ningún registro de la escucha lo nombra."
+    "nota": "Solo una publicación lo nombra."
   },
   {
     "figura": "Fabián Arias",
@@ -62,7 +62,7 @@
     "sentione": 0,
     "comoFuncionario": 0,
     "web": 1,
-    "nota": "Solo aparece en una nota web; ningún registro de la escucha lo nombra."
+    "nota": "Solo una publicación lo nombra."
   },
   {
     "figura": "Rafael Leonardo Granados Cárdenas",
@@ -78,7 +78,7 @@
     "sentione": 40,
     "comoFuncionario": 39,
     "web": 2,
-    "nota": "En la escucha aparece como funcionario de la administración (39 de 40 registros lo citan con su cargo), no como aspirante."
+    "nota": "En la conversación aparece como funcionario de la administración (39 de 42 publicaciones lo citan con su cargo), no como aspirante."
   },
   {
     "figura": "Alexis Guerrero",
@@ -94,7 +94,7 @@
     "sentione": 0,
     "comoFuncionario": 0,
     "web": 1,
-    "nota": "Solo aparece en una nota web; ningún registro de la escucha lo nombra."
+    "nota": "Solo una publicación lo nombra."
   },
   {
     "figura": "Eduardo Ramírez Alipio",
@@ -110,7 +110,7 @@
     "sentione": 41,
     "comoFuncionario": 39,
     "web": 1,
-    "nota": "En la escucha aparece como funcionario de la administración (39 de 41 registros lo citan con su cargo), no como aspirante."
+    "nota": "En la conversación aparece como funcionario de la administración (39 de 42 publicaciones lo citan con su cargo), no como aspirante."
   },
   {
     "figura": "Randy Jiménez",
@@ -126,7 +126,7 @@
     "sentione": 0,
     "comoFuncionario": 0,
     "web": 1,
-    "nota": "Solo aparece en una nota web; ningún registro de la escucha lo nombra."
+    "nota": "Solo una publicación lo nombra."
   },
   {
     "figura": "Fabián Oviedo Pinzón",
@@ -158,6 +158,6 @@
     "sentione": 0,
     "comoFuncionario": 0,
     "web": 1,
-    "nota": "Solo aparece en una nota web; ningún registro de la escucha lo nombra."
+    "nota": "Solo una publicación lo nombra."
   }
 ]

@@ -23,18 +23,18 @@ export function buildConclusions(s: Omit<Story, 'conclusions'>): Conclusion[] {
   const crit = s.topics.critical[0];
   const st = s.sentiment;
   const negTotal = st.counts.negativo;
-  const r = s.resumen;
   const out: Conclusion[] = [];
 
   out.push({
     id: 'visibilidad',
     title: 'Ciro Fernández ocupa un lugar pequeño y el tablero 2027 apenas asoma',
     figure: `${fmt(c.direct)} de ${fmt(s.analyzed)}`,
-    figureLabel: `registros de la escucha lo mencionan o salen de sus cuentas (${fmtPct(c.share, 1)})`,
+    figureLabel: `publicaciones lo mencionan o salen de sus cuentas (${fmtPct(c.share, 1)})`,
     text:
-      `Los otros ${fmt(c.otherRecords)} hablan de la ciudad sin nombrarlo; ${s.web.ciro === 0 ? 'ninguna' : fmt(s.web.ciro)} de las ${fmt(s.web.total)} notas web lo menciona. ` +
-      `De los ${fmt(s.figures.alcaldia.length)} nombres que suenan para la Alcaldía, ${listJoin(s.figures.soloWeb.map((f) => f.nombre))} solo aparecen en una nota web` +
-      (s.figures.funcionarios.length ? ` y ${listJoin(s.figures.funcionarios.map((f) => f.nombre))} figura en la escucha como funcionario` : '') +
+      `Las otras ${fmt(c.otherRecords)} hablan de la ciudad sin nombrarlo. ` +
+      `De los ${fmt(s.figures.alcaldia.length)} nombres que suenan para la Alcaldía, ${listJoin(s.figures.soloWeb.map((f) => f.nombre))} solo aparecen en una nota` +
+      (s.web.tablero ? ` de ${s.web.tablero.autor}` : '') +
+      (s.figures.funcionarios.length ? ` y ${listJoin(s.figures.funcionarios.map((f) => f.nombre))} figura en la conversación como funcionario` : '') +
       '. Ninguna candidatura está confirmada.',
   });
 
@@ -45,24 +45,24 @@ export function buildConclusions(s: Omit<Story, 'conclusions'>): Conclusion[] {
     figureLabel: 'de su presencia son publicaciones propias',
     text:
       `${plural(c.own, 'publicación de sus cuentas', 'publicaciones de sus cuentas')} frente a ${plural(c.third, 'mención de un tercero', 'menciones de terceros')}, ` +
-      `que lo ubica como posible precandidato a la Alcaldía. Otras ${fmt(c.ownWithoutText)} publicaciones suyas en X quedaron fuera de la depuración preliminar sin texto disponible.`,
+      'que lo ubica como posible precandidato a la Alcaldía.',
   });
 
   out.push({
     id: 'temas',
     title: `${t1.label} es la principal preocupación registrada`,
     figure: fmt(t1.total),
-    figureLabel: `registros sobre ${t1.label.toLowerCase()} (${fmtPct(t1.share)} del total)`,
+    figureLabel: `publicaciones sobre ${t1.label.toLowerCase()} (${fmtPct(t1.share)} del total)`,
     text:
       `Le siguen ${t2.label.toLowerCase()} (${fmt(t2.total)}) y ${t3.label.toLowerCase()} (${fmt(t3.total)}). ` +
-      (crit ? `Entre los temas con al menos ${s.topics.minForCritical} registros, ${crit.label.toLowerCase()} tiene la mayor carga crítica: ${fmtPct(crit.negRate)} negativos.` : ''),
+      (crit ? `Entre los temas con al menos ${s.topics.minForCritical} publicaciones, ${crit.label.toLowerCase()} tiene la mayor carga crítica: ${fmtPct(crit.negRate)} negativos.` : ''),
   });
 
   out.push({
     id: 'percepcion',
     title: st.negToCiro === 0 ? 'La crítica se dirige a la ciudad y a la Alcaldía, no a Ciro' : 'La crítica se dirige sobre todo a la ciudad y a la Alcaldía',
     figure: fmtPct(pct(negTotal, st.total)),
-    figureLabel: `de los registros son negativos (${fmt(negTotal)}); el ${fmtPct(pct(st.counts.neutral, st.total))} es informativo`,
+    figureLabel: `de las publicaciones son negativas (${fmt(negTotal)}); el ${fmtPct(pct(st.counts.neutral, st.total))} es informativo`,
     text:
       `${fmt(st.negTargets.ciudad)} críticas apuntan a problemáticas de la ciudad y ${fmt(st.negTargets.alcaldia)} a la Alcaldía; ${st.negToCiro === 0 ? 'ninguna' : fmt(st.negToCiro)} se dirige a Ciro. ` +
       `De ${fmt(st.citizens.total)} voces ciudadanas, ${fmt(st.citizens.negative)} son negativas y ${fmt(st.citizens.toAlcaldia)} señalan a la administración.`,
@@ -71,12 +71,10 @@ export function buildConclusions(s: Omit<Story, 'conclusions'>): Conclusion[] {
   out.push({
     id: 'cobertura',
     title: 'Vacíos de cobertura que conviene cerrar',
-    figure: fmtPct(pct(s.conversation.voices.medio, s.analyzed)),
-    figureLabel: 'de los registros provienen de medios y portales',
+    figure: fmtPct(pct(s.conversation.voices.medio + s.conversation.voices.institucional, s.analyzed)),
+    figureLabel: 'de las publicaciones provienen de medios e instituciones',
     text:
-      `Solo ${fmt(st.citizens.total)} son de personas. Las ${fmt(s.web.total)} notas web (${fmt(s.web.medios.length)} medios) no traen texto completo ni interacciones: complementan la escucha, no son comparables. ` +
-      `La depuración preliminar excluyó ${fmt(r.excluidosSinTexto.total)} registros cuyo texto no se entregó, ` +
-      `entre ellos ${fmt(r.excluidosSinTexto.comentariosFacebook)} comentarios de Facebook. Sentione no clasificó el sentimiento del ${fmtPct(pct(r.sentione.sinClasificar, s.analyzed))}. ` +
+      `Solo ${fmt(st.citizens.total)} son de personas. No hay en la base respuestas ciudadanas a las publicaciones de Ciro ni publicaciones de los demás posibles aspirantes sobre el tema. ` +
       'El volumen de conversación no equivale a intención de voto.',
   });
 

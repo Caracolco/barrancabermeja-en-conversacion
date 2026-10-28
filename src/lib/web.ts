@@ -163,8 +163,8 @@ export function buildFiguras(fuentes: FiguraFuente[], sentioneTexts: { id: strin
     let nota = '';
     if (rule.grupo === 'otro_municipio') nota = 'Vinculado a la Alcaldía de Bucaramanga; no se cuenta como aspirante en Barrancabermeja.';
     else if (hits.length && official / hits.length >= 0.8)
-      nota = `En la escucha aparece como funcionario de la administración (${official} de ${hits.length} registros lo citan con su cargo), no como aspirante.`;
-    else if (!hits.length && webHits.length) nota = `Solo aparece en ${webHits.length === 1 ? 'una nota web' : `${webHits.length} notas web`}; ningún registro de la escucha lo nombra.`;
+      nota = `En la conversación aparece como funcionario de la administración (${official} de ${hits.length + webHits.length} publicaciones lo citan con su cargo), no como aspirante.`;
+    else if (!hits.length && webHits.length) nota = `Solo ${webHits.length === 1 ? 'una publicación lo nombra' : `${webHits.length} publicaciones lo nombran`}.`;
     return { ...f, id: rule.id, nombre: rule.nombre, grupo: rule.grupo, sentione: hits.length, comoFuncionario: official, web: webHits.length, nota };
   });
 }
