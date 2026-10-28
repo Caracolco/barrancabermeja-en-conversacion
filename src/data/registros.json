@@ -3064,6 +3064,22 @@
   "extracto": "la Alcaldía de Barrancabermeja advirtió sobre la disminución en el nivel de la Ciénaga San Silvestre, principal fuente de abastecimiento de…"
  },
  {
+  "id": "twitter_2090195197942509730",
+  "fuente": "sentione",
+  "fecha": "2026-08-19",
+  "plataforma": "X",
+  "formato": "Publicación",
+  "autor": "Ciro Fernández (@CiroFernandezN)",
+  "url": "https://twitter.com/CiroFernandezN/status/2090195197942509730",
+  "tema": "eco",
+  "sentimiento": "neutral",
+  "objetivo": "ciudad",
+  "voz": "ciro",
+  "ciro": "propia",
+  "sentione": "sin_clasificar",
+  "extracto": "Sostuvimos un encuentro con @luisfelipehenao presidente de la junta de Ecopetrol, en el que analizamos aspectos estratégicos del sector de…"
+ },
+ {
   "id": "ae6417181772d10acd58640e1dd29d35",
   "fuente": "sentione",
   "fecha": "2026-08-20",
@@ -3129,7 +3145,8 @@
   "sentione": "no_aplica",
   "extracto": "Procuraduría media para superar emergencia sanitaria y ambiental en Barrancabermeja",
   "resumen": "La Procuraduría interviene ante protesta de Patio Bonito por acceso al agua, bloqueo del relleno y problemas de recolección de residuos.",
-  "actores": []
+  "actores": [],
+  "revisar": "El enlace no abrió en la verificación del 28 oct 2026 (certificado TLS del sitio); confirmar antes de citar."
  },
  {
   "id": "twitter_2093054579092918312",
@@ -3146,6 +3163,22 @@
   "ciro": "propia",
   "sentione": "neutral",
   "extracto": "Más importante que discutir quién gestionó la granja solar, es unirnos para que las granjas solares avancen. #Barrancabermeja necesita menos…"
+ },
+ {
+  "id": "twitter_2093058847367639445",
+  "fuente": "sentione",
+  "fecha": "2026-08-27",
+  "plataforma": "X",
+  "formato": "Publicación",
+  "autor": "Ciro Fernández (@CiroFernandezN)",
+  "url": "https://twitter.com/CiroFernandezN/status/2093058847367639445",
+  "tema": "agua",
+  "sentimiento": "neutral",
+  "objetivo": "ciudad",
+  "voz": "ciro",
+  "ciro": "propia",
+  "sentione": "sin_clasificar",
+  "extracto": "El río Magdalena ha sido el corazón de #Barrancabermeja y del Magdalena Medio. Hoy, los bajos niveles de sus aguas y las dificultades para…"
  },
  {
   "id": "twitter_2093500765025321014",
@@ -3404,6 +3437,22 @@
   "extracto": "#Santander I La Gobernación de Santander convocó un consejo extraordinario de seguridad de la mujer tras el feminicidio de Génesis Rojas…"
  },
  {
+  "id": "twitter_2095594182559596652",
+  "fuente": "sentione",
+  "fecha": "2026-09-03",
+  "plataforma": "X",
+  "formato": "Publicación",
+  "autor": "Ciro Fernández (@CiroFernandezN)",
+  "url": "https://twitter.com/CiroFernandezN/status/2095594182559596652",
+  "tema": "seg",
+  "sentimiento": "neutral",
+  "objetivo": "ciudad",
+  "voz": "ciro",
+  "ciro": "propia",
+  "sentione": "sin_clasificar",
+  "extracto": "Mi solidaridad con las víctimas y sus familias. La verdad y la justicia son importantes, pero también el compromiso de construir una…"
+ },
+ {
   "id": "7fdb5b34dffdcf5270e820de349c4ad3",
   "fuente": "sentione",
   "fecha": "2026-09-04",
@@ -3617,6 +3666,22 @@
   "extracto": "Buscan destrabar obras de protección del río Magdalena en Barrancabermeja. Las obras llevan más de un año paralizadas. Se requieren ajustes…"
  },
  {
+  "id": "twitter_2098095722641989713",
+  "fuente": "sentione",
+  "fecha": "2026-09-10",
+  "plataforma": "X",
+  "formato": "Publicación",
+  "autor": "Ciro Fernández (@CiroFernandezN)",
+  "url": "https://twitter.com/CiroFernandezN/status/2098095722641989713",
+  "tema": "obras",
+  "sentimiento": "negativo",
+  "objetivo": "ciudad",
+  "voz": "ciro",
+  "ciro": "propia",
+  "sentione": "sin_clasificar",
+  "extracto": "Las granjas solares deben ser una realidad para Barrancabermeja. Más allá de disputas, lo urgente es que se terminen, se conecten y…"
+ },
+ {
   "id": "twitter_2098195613489717346",
   "fuente": "sentione",
   "fecha": "2026-09-10",
@@ -3647,6 +3712,22 @@
   "ciro": null,
   "sentione": "neutral",
   "extracto": "#Noticia 🔴 | La Alcaldía de Barrancabermeja convocó un Puesto de Mando Unificado para reforzar las medidas de seguridad y atención ante la…"
+ },
+ {
+  "id": "twitter_2098433797758824764",
+  "fuente": "sentione",
+  "fecha": "2026-09-11",
+  "plataforma": "X",
+  "formato": "Publicación",
+  "autor": "Ciro Fernández (@CiroFernandezN)",
+  "url": "https://twitter.com/CiroFernandezN/status/2098433797758824764",
+  "tema": "obras",
+  "sentimiento": "negativo",
+  "objetivo": "ciudad",
+  "voz": "ciro",
+  "ciro": "propia",
+  "sentione": "sin_clasificar",
+  "extracto": "El río Magdalena es clave para Barrancabermeja. No más obras paralizadas, urge gestión y soluciones para terminar lo que ya empezó.…"
  },
  {
   "id": "twitter_2098479185241026631",
@@ -3729,6 +3810,22 @@
   "extracto": "¡Alerta en Barrancabermeja! Piden al Gobierno retirar hipopótamos por riesgo para la comunidad La presencia de hipopótamos en zonas cercanas…"
  },
  {
+  "id": "twitter_2099559503930831287",
+  "fuente": "sentione",
+  "fecha": "2026-09-14",
+  "plataforma": "X",
+  "formato": "Publicación",
+  "autor": "Ciro Fernández (@CiroFernandezN)",
+  "url": "https://twitter.com/CiroFernandezN/status/2099559503930831287",
+  "tema": "agua",
+  "sentimiento": "negativo",
+  "objetivo": "ciudad",
+  "voz": "ciro",
+  "ciro": "propia",
+  "sentione": "sin_clasificar",
+  "extracto": "La PTAR San Silvestre no puede seguir acumulando años de retrasos. Barrancabermeja necesita respuestas, decisiones y una ruta clara para…"
+ },
+ {
   "id": "5965cbc3654e18cc034110a9f2e747d2",
   "fuente": "sentione",
   "fecha": "2026-09-15",
@@ -3762,6 +3859,22 @@
   "texto": "#ATENCION 💥🗳 𝙑𝙪𝙚𝙡𝙫𝙚𝙣 𝙖𝙡 𝙧𝙪𝙚𝙙𝙤. Fabián Oviedo y Ciro Fernández regresarían a la contienda electoral en las territoriales de 2027. El exconcejal de Bucaramanga estaría contemplando la posibilidad de aspirar nuevamente a la alcaldía de la capital santandereana, mientras que el excongresista entraría en la baraja de precandidatos para disputar la alcaldía de Barrancabermeja. Dos nombres, dos ciudades y una coincidencia política: Oviedo y Fernández, iniciaron su recorrido electoral en las filas de Cambio Radical."
  },
  {
+  "id": "twitter_2099874461847621901",
+  "fuente": "sentione",
+  "fecha": "2026-09-15",
+  "plataforma": "X",
+  "formato": "Publicación",
+  "autor": "Ciro Fernández (@CiroFernandezN)",
+  "url": "https://twitter.com/CiroFernandezN/status/2099874461847621901",
+  "tema": "agua",
+  "sentimiento": "negativo",
+  "objetivo": "ciudad",
+  "voz": "ciro",
+  "ciro": "propia",
+  "sentione": "sin_clasificar",
+  "extracto": "Con el río Magdalena en niveles críticos, quienes sienten primero sus efectos son nuestros pescadores, sus asociaciones, las familias que…"
+ },
+ {
   "id": "f94335a6d9e7930f8ebe1063eebd5a4",
   "fuente": "sentione",
   "fecha": "2026-09-16",
@@ -3792,6 +3905,22 @@
   "ciro": null,
   "sentione": "neutral",
   "extracto": "La Alcaldía de Barrancabermeja volvió a pedir al Gobierno Nacional y a la CAS avanzar en el protocolo para retirar los hipopótamos presentes…"
+ },
+ {
+  "id": "twitter_2100313040482652393",
+  "fuente": "sentione",
+  "fecha": "2026-09-16",
+  "plataforma": "X",
+  "formato": "Publicación",
+  "autor": "Ciro Fernández (@CiroFernandezN)",
+  "url": "https://twitter.com/CiroFernandezN/status/2100313040482652393",
+  "tema": "edu",
+  "sentimiento": "positivo",
+  "objetivo": "ciudad",
+  "voz": "ciro",
+  "ciro": "propia",
+  "sentione": "sin_clasificar",
+  "extracto": "Barrancabermeja es una ciudad energética y nuestros jóvenes deben tener oportunidades para prepararse para los nuevos empleos del sector. 40…"
  },
  {
   "id": "youtube_vHZJtdPktPM",
@@ -4102,6 +4231,22 @@
   "texto": "Investigan muerte de cuatro manatíes en el caño San Silvestre de Barrancabermeja. La Corporación Autónoma Regional de Santander, CAS, inició una investigación para establecer las causas de la muerte de cuatro manatíes, una especie catalogada como vulnerable y amenazada, hallados en las últimas horas en el caño San Silvestre, en Barrancabermeja. La emergencia también estaría relacionada con la muerte de peces y aves, situación que generó preocupación entre los pescadores de la zonaque generó preocupación entre los pescadores de la zona y que llevó a las autoridades ambientales a realizar monitoreos para identificar qué estaría afectando la fauna de este ecosistema. Leonardo Granados, secretario de Ambiente de Barrancabermeja, señaló que se adelantan análisis físico-químicos de agua, sedimentos y macrófitas, con el propósito de determinar la presencia y concentración de sustancias contaminantes. “Muerte de peces, cuatro manatíes, aves, como lo denunciaron los pescadores. Un tema muy triste”, indicó el funcionario. Le puede interesar: Ciénaga El Llanito registra bajos niveles de agua y crece preocupación por los manatíesCiénaga El Llanito registra bajos niveles de agua y crece preocupación por los manatíes Entre las hipótesis que serán evaluadas está una posible contaminación por hidrocarburos, grasas y aceites, además de otros compuestos como hidrocarburos aromáticos policíclicos. Sin embargo, las autoridades deberán esperar los resultados de los estudios técnicos antes de establecer qué provocó la mortandad. Granados recordó que el pasado 22 de julio ya se había registrado una mortandad de peces en este sector y aseguró que el municipio ha solicitado a la autoridad ambiental investigar y adoptar las medidas correspondientes. El funcionario también advirtió que la disminución de los niveles del agua podría estar agravando las condiciones ambientales, al favorecer la concentración de posibles contaminantes. Según la Alcaldía de Barrancabermeja, con estos cuatro nuevos casos serían 21 los manatíes muertos en los últimos siete años en esta zona, una situación que calificó como preocupante para la conservación de esta especie. La Alcaldía informó además que mantiene acciones en coordinación con la Fiscalía General de la Nación por posibles delitos ambientales y pidió avanzar en medidas de protección de largo plazo para el caño San Silvestre y su biodiversidad. Publicidad Publicidad"
  },
  {
+  "id": "twitter_2103143881705676909",
+  "fuente": "sentione",
+  "fecha": "2026-09-24",
+  "plataforma": "X",
+  "formato": "Publicación",
+  "autor": "Ciro Fernández (@CiroFernandezN)",
+  "url": "https://twitter.com/CiroFernandezN/status/2103143881705676909",
+  "tema": "amb",
+  "sentimiento": "negativo",
+  "objetivo": "ciudad",
+  "voz": "ciro",
+  "ciro": "propia",
+  "sentione": "sin_clasificar",
+  "extracto": "Los cuatro manatíes hallados muertos en Barrancabermeja nos duelen. Son parte de nuestra riqueza natural. Urge esclarecer las causas y…"
+ },
+ {
   "id": "810301545696609_1676287447191564",
   "fuente": "sentione",
   "fecha": "2026-09-25",
@@ -4116,6 +4261,22 @@
   "ciro": "propia",
   "sentione": "neutral",
   "extracto": "A veces una persona está pasando por un momento difícil y no sabe cómo decirlo. Puede ser alguien de nuestra familia, un amigo, un vecino o…"
+ },
+ {
+  "id": "twitter_2103522841346150476",
+  "fuente": "sentione",
+  "fecha": "2026-09-25",
+  "plataforma": "X",
+  "formato": "Publicación",
+  "autor": "Ciro Fernández (@CiroFernandezN)",
+  "url": "https://twitter.com/CiroFernandezN/status/2103522841346150476",
+  "tema": "salud",
+  "sentimiento": "negativo",
+  "objetivo": "ciudad",
+  "voz": "ciro",
+  "ciro": "propia",
+  "sentione": "sin_clasificar",
+  "extracto": "Si estás pasando días difíciles, mereces ser escuchado y recibir ayuda. En Barrancabermeja necesitamos citas de salud mental a tiempo y…"
  },
  {
   "id": "twitter_2103862100476985494",
@@ -4164,6 +4325,22 @@
   "ciro": "propia",
   "sentione": "neutral",
   "extracto": "Me preocupa nuestro Hospital Regional del Magdalena Medio. Según la alerta publicada por @vanguardiacom, sin recursos adicionales podría…"
+ },
+ {
+  "id": "twitter_2104261306429948079",
+  "fuente": "sentione",
+  "fecha": "2026-09-27",
+  "plataforma": "X",
+  "formato": "Publicación",
+  "autor": "Ciro Fernández (@CiroFernandezN)",
+  "url": "https://twitter.com/CiroFernandezN/status/2104261306429948079",
+  "tema": "salud",
+  "sentimiento": "neutral",
+  "objetivo": "ciudad",
+  "voz": "ciro",
+  "ciro": "propia",
+  "sentione": "sin_clasificar",
+  "extracto": "Propongo que Gobernación, Supersalud y hospital acuerden recursos, fechas y responsables, con cuentas claras. Cuidar nuestro hospital es…"
  },
  {
   "id": "twitter_2104578731582881809",
@@ -4792,6 +4969,22 @@
   "extracto": "Hasta $50 millones ofrecen la Alcaldía de Barrancabermeja y la Gobernación de Santander por información que permita identificar a los…"
  },
  {
+  "id": "twitter_2111241115944796262",
+  "fuente": "sentione",
+  "fecha": "2026-10-16",
+  "plataforma": "X",
+  "formato": "Publicación",
+  "autor": "Ciro Fernández (@CiroFernandezN)",
+  "url": "https://twitter.com/CiroFernandezN/status/2111241115944796262",
+  "tema": "agua",
+  "sentimiento": "positivo",
+  "objetivo": "ciudad",
+  "voz": "ciro",
+  "ciro": "propia",
+  "sentione": "sin_clasificar",
+  "extracto": "Que 3.200 familias puedan ahorrar en la luz es una buena noticia para #Barrancabermeja. Ahora, que las obras se terminen y cada hogar sepa…"
+ },
+ {
   "id": "104632211417011_1758688792922827",
   "fuente": "sentione",
   "fecha": "2026-10-17",
@@ -4855,6 +5048,22 @@
   "ciro": "propia",
   "sentione": "negativo",
   "extracto": "¡UNA MEDIDA DESCABELLADA QUE GOLPEA EL BOLSILLO DE NUESTRAS FAMILIAS! La ESSA Grupo EPM anuncia cobros adicionales por superar las metas de…"
+ },
+ {
+  "id": "twitter_2112218882048233557",
+  "fuente": "sentione",
+  "fecha": "2026-10-19",
+  "plataforma": "X",
+  "formato": "Publicación",
+  "autor": "Ciro Fernández (@CiroFernandezN)",
+  "url": "https://twitter.com/CiroFernandezN/status/2112218882048233557",
+  "tema": "eco",
+  "sentimiento": "neutral",
+  "objetivo": "ciudad",
+  "voz": "ciro",
+  "ciro": "propia",
+  "sentione": "sin_clasificar",
+  "extracto": "250 vacantes anunciadas por el SENA para Barrancabermeja este jueves 22 de octubre, de 8 a. m. a 4 p. m. Actualicen su hoja de vida y…"
  },
  {
   "id": "twitter_2112305538016936420",

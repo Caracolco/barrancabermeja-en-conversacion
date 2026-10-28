@@ -1,0 +1,244 @@
+{
+ "consultado": "2026-10-28",
+ "descripcion": "Consulta en línea de cada URL de investigación web: código HTTP, título y fecha de publicación que declara la página.",
+ "notas": [
+  {
+   "id": "WEB26_0effc9b466cc2d",
+   "code": "200",
+   "fecha": "2026-10-26",
+   "fecha_pagina": "2026-10-26",
+   "titulo": "Renuncias mueven el tablero político de Barrancabermeja",
+   "titulo_pagina": "Renuncias mueven el tablero político de Barrancabermeja",
+   "url": "https://enlacetelevision.com/2026/10/26/renuncias-mueven-el-tablero-politico-de-barrancabermeja/"
+  },
+  {
+   "id": "WEB26_ad5d19b69877e6",
+   "code": "200",
+   "fecha": "2026-10-08",
+   "fecha_pagina": "2026-10-08",
+   "titulo": "Alexis Guerrero deja la Secretaría de Cultura",
+   "titulo_pagina": "Alexis Guerrero deja la Secretaría de Cultura",
+   "url": "https://enlacetelevision.com/2026/10/08/alexis-guerrero-deja-la-secretaria-de-cultura/"
+  },
+  {
+   "id": "WEB26_e728d00552b59e",
+   "code": "200",
+   "fecha": "2026-03-06",
+   "fecha_pagina": "2026-03-06",
+   "titulo": "Barrancabermeja busca mayor representación en el Congreso",
+   "titulo_pagina": "Barrancabermeja busca mayor representación en el Congreso",
+   "url": "https://enlacetelevision.com/2026/03/06/barrancabermeja-busca-mayor-representacion-en-el-congreso/"
+  },
+  {
+   "id": "WEB26_f14353ca32207f",
+   "code": "200",
+   "fecha": "2026-07-15",
+   "fecha_pagina": "2026-07-15",
+   "titulo": "Barrancabermeja tendrá dos voces en el Senado de la República",
+   "titulo_pagina": "Barrancabermeja tendrá dos voces en el Senado de la República",
+   "url": "https://enlacetelevision.com/2026/07/15/barrancabermeja-tendra-dos-voces-en-el-senado-de-la-republica/"
+  },
+  {
+   "id": "WEB26_b89f5dee2fd9c0",
+   "code": "200",
+   "fecha": "2026-01-19",
+   "fecha_pagina": "2026-01-19",
+   "titulo": "Procuraduría anuncia vigilancia estricta a campañas en 2026",
+   "titulo_pagina": "Procuraduría anuncia vigilancia estricta a campañas en 2026",
+   "url": "https://enlacetelevision.com/2026/01/19/procuraduria-anuncia-vigilancia-estricta-a-campanas-en-2026/"
+  },
+  {
+   "id": "WEB26_9b2fd002c2ceff",
+   "code": "200",
+   "fecha": "2026-05-27",
+   "fecha_pagina": "2026-05-27",
+   "titulo": "Inspeccionan 67 puestos de votación en Barrancabermeja",
+   "titulo_pagina": "Inspeccionan 67 puestos de votación en Barrancabermeja",
+   "url": "https://enlacetelevision.com/2026/05/27/inspeccionan-67-puestos-de-votacion-en-barrancabermeja/"
+  },
+  {
+   "id": "WEB26_9c3b61f52c1425",
+   "code": "200",
+   "fecha": "2026-09-18",
+   "fecha_pagina": "2026-09-18",
+   "titulo": "La Virgen volverá a votar por su Junta de Acción Comunal",
+   "titulo_pagina": "La Virgen volverá a votar por su Junta de Acción Comunal",
+   "url": "https://enlacetelevision.com/2026/09/18/la-virgen-volvera-a-votar-por-su-junta-de-accion-comunal/"
+  },
+  {
+   "id": "WEB26_2affdf4779e60c",
+   "code": "200",
+   "fecha": "2026-03-25",
+   "fecha_pagina": "2026-03-25",
+   "titulo": "Inician capacitaciones para elecciones comunales en Barrancabermeja",
+   "titulo_pagina": "Inician capacitaciones para elecciones comunales en Barrancabermeja",
+   "url": "https://enlacetelevision.com/2026/03/25/inician-capacitaciones-para-elecciones-comunales-en-barrancabermeja/"
+  },
+  {
+   "id": "WEB26_819361708df2f4",
+   "code": "200",
+   "fecha": "2026-09-21",
+   "fecha_pagina": "2026-09-21",
+   "titulo": "Vecinos de La Península piden atención a sus necesidades",
+   "titulo_pagina": "Vecinos de La Península piden atención a sus necesidades",
+   "url": "https://enlacetelevision.com/2026/09/21/vecinos-de-la-peninsula-piden-atencion-a-sus-necesidades/"
+  },
+  {
+   "id": "WEB26_553d5aba4da64f",
+   "code": "200",
+   "fecha": "2026-10-19",
+   "fecha_pagina": "2026-10-19",
+   "titulo": "¿Qué pasa con el puente elevado de Barrancabermeja?",
+   "titulo_pagina": "¿Qué pasa con el puente elevado de Barrancabermeja?",
+   "url": "https://enlacetelevision.com/2026/10/19/que-pasa-con-el-puente-elevado-de-barrancabermeja/"
+  },
+  {
+   "id": "WEB26_d266c683172856",
+   "code": "200",
+   "fecha": "2026-10-05",
+   "fecha_pagina": "2026-10-05",
+   "titulo": "Cierre del puente elevado se mantendrá hasta el 17 de octubre",
+   "titulo_pagina": "Cierre del puente elevado se mantendrá hasta el 17 de octubre",
+   "url": "https://enlacetelevision.com/2026/10/05/cierre-del-puente-elevado-se-mantendra-hasta-el-17-de-octubre/"
+  },
+  {
+   "id": "WEB26_25946633668dd3",
+   "code": "200",
+   "fecha": "2026-10-27",
+   "fecha_pagina": "2026-10-27",
+   "titulo": "Ciénaga del Opón recibirá agua potable y ayudas alimentarias",
+   "titulo_pagina": "Ciénaga del Opón recibirá agua potable y ayudas alimentarias",
+   "url": "https://enlacetelevision.com/2026/10/27/cienaga-del-opon-recibira-agua-potable-y-ayudas-alimentarias/"
+  },
+  {
+   "id": "WEB26_c5f5866dbf4654",
+   "code": "200",
+   "fecha": "2026-10-26",
+   "fecha_pagina": "2026-10-26",
+   "titulo": "Dos homicidios en menos de tres horas en Barrancabermeja",
+   "titulo_pagina": "Dos homicidios en menos de tres horas en Barrancabermeja",
+   "url": "https://enlacetelevision.com/2026/10/26/dos-homicidios-en-menos-de-tres-horas-en-barrancabermeja/"
+  },
+  {
+   "id": "WEB26_3e81c4c30bb7e2",
+   "code": "200",
+   "fecha": "2026-10-11",
+   "fecha_pagina": "2026-10-11",
+   "titulo": "Una tubería averiada tiene sin agua a barrios de Barrancabermeja desde hace más de 60 horas",
+   "titulo_pagina": "Una tubería averiada tiene sin agua a barrios de Barrancabermeja desde hace más de 60 horas",
+   "url": "https://www.bluradio.com/regiones/santanderes/una-tuberia-averiada-tiene-sin-agua-a-barrios-de-barrancabermeja-desde-hace-mas-de-60-horas-rg10"
+  },
+  {
+   "id": "WEB26_9a4d16fd1b92c5",
+   "code": "200",
+   "fecha": "2026-10-08",
+   "fecha_pagina": "2026-10-08",
+   "titulo": "Más de 1.000 familias afectadas por falta de agua en zona rural de Barrancabermeja, Santander",
+   "titulo_pagina": "Más de 1.000 familias afectadas por falta de agua en zona rural de Barrancabermeja, Santander",
+   "url": "https://caracol.com.co/2026/10/08/mas-de-1000-familias-afectadas-por-falta-de-agua-en-zona-rural-de-barrancabermeja-santander/"
+  },
+  {
+   "id": "WEB26_43da3044e6bfa6",
+   "code": "200",
+   "fecha": "2026-09-07",
+   "fecha_pagina": "2026-09-07",
+   "titulo": "Comunidades rurales protestaron por el mal estado de las vías terciarias en Barrancabermeja",
+   "titulo_pagina": "Comunidades rurales protestaron por el mal estado de las vías terciarias en  Barrancabermeja",
+   "url": "https://www.vanguardia.com/santander/barrancabermeja/2026/09/07/comunidades-rurales-protestaron-por-el-mal-estado-de-las-vias-terciarias-en-barrancabermeja/"
+  },
+  {
+   "id": "WEB26_5050648f44fba0",
+   "code": "000",
+   "fecha": "2026-08-26",
+   "fecha_pagina": "",
+   "titulo": "Procuraduría media para superar emergencia sanitaria y ambiental en Barrancabermeja",
+   "titulo_pagina": "",
+   "url": "https://www.procuraduria.gov.co/Pages/procuraduria-media-para-superar-emergencia-sanitaria-ambiental-barrancabermeja.aspx",
+   "nota": "No se pudo abrir: el sitio presenta un certificado TLS incompleto; no se desactivó la verificación."
+  },
+  {
+   "id": "WEB26_2168a11994b017",
+   "code": "200",
+   "fecha": "2026-08-25",
+   "fecha_pagina": "2026-08-25",
+   "titulo": "Alerta por cobros irregulares para acceder a citas en el Hospital Regional del Magdalena Medio",
+   "titulo_pagina": "Alerta por cobros irregulares para acceder a citas en el Hospital Regional del Magdalena Medio",
+   "url": "https://www.vanguardia.com/santander/barrancabermeja/2026/08/25/alerta-por-cobros-irregulares-para-acceder-a-citas-en-el-hospital-regional-del-magdalena-medio/"
+  },
+  {
+   "id": "WEB26_e4d9ef91985f69",
+   "code": "200",
+   "fecha": "2026-02-23",
+   "fecha_pagina": "2026-02-23",
+   "titulo": "Lluvias dejan viviendas destechadas y familias afectadas en Barrancabermeja",
+   "titulo_pagina": "Lluvias dejan viviendas destechadas y familias afectadas en Barrancabermeja",
+   "url": "https://www.vanguardia.com/santander/barrancabermeja/2026/02/23/lluvias-dejan-viviendas-destechadas-y-familias-afectadas-en-barrancabermeja/"
+  },
+  {
+   "id": "WEB26_215cef64784dfc",
+   "code": "200",
+   "fecha": "2026-10-13",
+   "fecha_pagina": "2026-10-13",
+   "titulo": "Denuncian amenazas contra defensores ambientales en Barrancabermeja",
+   "titulo_pagina": "Denuncian amenazas contra defensores ambientales en Barrancabermeja",
+   "url": "https://enlacetelevision.com/2026/10/13/denuncian-amenazas-contra-defensores-ambientales-en-barrancabermeja/"
+  },
+  {
+   "id": "WEB26_4b8ecb2a593a1b",
+   "code": "200",
+   "fecha": "2026-07-26",
+   "fecha_pagina": "2026-07-27",
+   "titulo": "Comunidad exige acciones urgentes frente a problemática de habitantes en condición de calle en la avenida 36 de Barrancabermeja",
+   "titulo_pagina": "Comunidad exige acciones urgentes frente a problemática de habitantes en condición de calle en la avenida 36 de Barrancabermeja",
+   "url": "https://yariguies.com/comunidad-exige-acciones-urgentes-frente-a-problematica-de-habitantes-en-condicion-de-calle-en-la-avenida-36-de-barrancabermeja/",
+   "nota": "La página publica la hora en UTC; en hora de Colombia corresponde a la fecha de la base."
+  },
+  {
+   "id": "WEB26_4aa1e92188d57b",
+   "code": "000",
+   "fecha": "2026-06-02",
+   "fecha_pagina": "",
+   "titulo": "USO declara paro de 24 horas en Ecopetrol y denuncia estancamiento en negociación laboral",
+   "titulo_pagina": "",
+   "url": "https://www.com.elcolombiano.com/negocios/uso-paro-nacional-ecopetrol-estancamiento-negociaciones-BD37253075",
+   "nota": "El dominio www.com.elcolombiano.com no existe (sin DNS): la URL aportada es errónea."
+  },
+  {
+   "id": "WEB26_a0f953d331d83f",
+   "code": "200",
+   "fecha": "2026-04-22",
+   "fecha_pagina": "2026-04-22",
+   "titulo": "Juez falla demanda sobre el Malecón del Río en Barrancabermeja; 'violó derechos fundamentales'",
+   "titulo_pagina": "Juez falla demanda sobre el Malecón del Río en Barrancabermeja; “violó derechos fundamentales”",
+   "url": "https://caracol.com.co/2026/04/22/juez-falla-demanda-sobre-el-malecon-del-rio-en-barrancabermeja-violo-derechos-fundamentales/?outputType=amp"
+  },
+  {
+   "id": "WEB26_403f264aff79fe",
+   "code": "200",
+   "fecha": "2026-09-04",
+   "fecha_pagina": "",
+   "titulo": "Policía Nacional frena extorsión en Barrancabermeja: dos capturados y 4 millones de pesos incautados",
+   "titulo_pagina": "Policía Nacional frena extorsión en Barrancabermeja: dos capturados y 4 millones de pesos incautados",
+   "url": "https://chat.policia.gov.co/noticia/policia-nacional-frena-extorsion-en-barrancabermeja-dos-capturados-4-millones-pesos"
+  },
+  {
+   "id": "WEB26_dfdee080303f59",
+   "code": "200",
+   "fecha": "2026-10-06",
+   "fecha_pagina": "2026-10-07",
+   "titulo": "Consejo de Seguridad analizará violencia en el Magdalena Medio",
+   "titulo_pagina": "Consejo de Seguridad analizará violencia en el Magdalena Medio",
+   "url": "https://enlacetelevision.com/2026/10/06/consejo-de-seguridad-analizara-violencia-en-el-magdalena-medio/",
+   "nota": "La página publica la hora en UTC; en hora de Colombia corresponde a la fecha de la base."
+  },
+  {
+   "id": "WEB26_d6880fba7d8c38",
+   "code": "200",
+   "fecha": "2026-10-10",
+   "fecha_pagina": "2026-10-10",
+   "titulo": "Daño en una tubería dejó sin agua a barrios de las comunas 4 y 7 de Barrancabermeja",
+   "titulo_pagina": "Daño en una tubería dejó sin agua a barrios de las comunas 4 y 7 de Barrancabermeja",
+   "url": "https://www.vanguardia.com/santander/barrancabermeja/2026/10/10/dano-en-una-tuberia-dejo-sin-agua-a-barrios-de-las-comunas-4-y-7-de-barrancabermeja/"
+  }
+ ]
+}
